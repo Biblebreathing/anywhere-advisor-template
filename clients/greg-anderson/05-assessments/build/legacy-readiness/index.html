@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Is Your Family Ready? The Legacy Readiness Check</title>
+<meta name="description" content="Ten questions, about three minutes. See what would happen to your spouse and family if something happened to you, and what's missing from your plan.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;700&display=swap">
+<style>
+:root{--primary-strong:#4B4C4D;--primary-tint:#EDEDED;--accent:#C8963E;--ink:#212122;--body-text:#444546;--surface:#F9F9F9;--head-font:'Playfair Display';--body-font:'Source Sans 3';}
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface);color:var(--body-text);font-family:var(--body-font),system-ui,sans-serif;font-size:18px;line-height:1.55}
+h1,h2,h3{font-family:var(--head-font),Georgia,serif;color:var(--ink);line-height:1.2;margin:0 0 12px}
+.wrap{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0 20px}
+header img.logo{max-height:44px;max-width:60%}
+header .firm{font-family:var(--head-font),serif;font-weight:700;color:var(--ink);font-size:20px}
+.card{background:#fff;border-radius:16px;padding:28px 24px;box-shadow:0 2px 14px rgba(0,0,0,.06)}
+.btn{display:inline-block;border:0;cursor:pointer;background:var(--primary-strong);color:#fff;font:inherit;font-weight:700;padding:15px 28px;border-radius:10px;text-decoration:none;text-align:center}
+.btn:hover{filter:brightness(1.1)} .btn:focus-visible,.opt:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.btn.secondary{background:transparent;color:var(--primary-strong);border:2px solid var(--primary-strong)}
+.btn.block{display:block;width:100%}
+.muted{color:var(--body-text);opacity:.85;font-size:15px}
+.intro-grid{display:flex;gap:24px;align-items:center}
+.headshot{width:120px;height:120px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);flex:none}
+ul.checks{padding:0;list-style:none;margin:16px 0 24px} ul.checks li{padding-left:30px;position:relative;margin:8px 0}
+ul.checks li:before{content:"✓";position:absolute;left:0;color:var(--primary-strong);font-weight:700}
+.progress{height:8px;background:var(--primary-tint);border-radius:8px;overflow:hidden;margin-bottom:8px}
+.progress div{height:100%;background:var(--primary-strong);transition:width .3s}
+.qmeta{font-size:14px;color:var(--body-text);margin-bottom:18px;display:flex;justify-content:space-between}
+.opts{display:grid;gap:12px;margin-top:20px}
+.opt{text-align:left;background:#fff;border:2px solid var(--primary-tint);border-radius:12px;padding:16px 18px;font:inherit;color:var(--ink);cursor:pointer}
+.opt:hover,.opt.sel{border-color:var(--primary-strong);background:var(--primary-tint)}
+.back{background:none;border:0;color:var(--primary-strong);font:inherit;font-size:15px;cursor:pointer;margin-top:18px;padding:0}
+label{display:block;font-weight:700;color:var(--ink);margin:14px 0 6px;font-size:16px}
+input[type=text],input[type=email],input[type=tel]{width:100%;font:inherit;padding:13px 14px;border:2px solid var(--primary-tint);border-radius:10px}
+input:focus{outline:none;border-color:var(--primary-strong)}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin:16px 0;font-weight:400;color:var(--body-text)}
+.consent input{margin-top:4px;flex:none}
+.err{color:#B42318;font-size:14px;margin-top:8px;min-height:20px}
+.score-hero{text-align:center;padding:8px 0 20px}
+.dial{width:180px;height:180px;margin:0 auto 12px;position:relative}
+.dial span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--head-font),serif;font-size:48px;font-weight:700;color:var(--ink)}
+.band{display:inline-block;background:var(--primary-tint);color:var(--ink);font-weight:700;padding:6px 14px;border-radius:999px;font-size:15px;margin-bottom:12px}
+.steps{margin:28px 0}
+.step{display:grid;grid-template-columns:36px 1fr auto;gap:12px;align-items:center;padding:14px 0;border-bottom:1px solid var(--primary-tint)}
+.step .num{width:36px;height:36px;border-radius:50%;background:var(--primary-strong);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:var(--head-font),serif}
+.step.focus .num{background:var(--accent);color:var(--ink)}
+.step b{color:var(--ink)} .step .pct{font-weight:700;color:var(--ink)}
+.bar{grid-column:2/4;height:8px;background:var(--primary-tint);border-radius:8px;overflow:hidden}
+.bar div{height:100%;background:var(--primary-strong)} .step.focus .bar div{background:var(--accent)}
+.tag{font-size:12px;font-weight:700;background:var(--accent);color:var(--ink);padding:2px 8px;border-radius:999px;margin-left:8px;vertical-align:middle}
+.fb{grid-column:2/4;font-size:16px;margin:4px 0 0}
+.cta{background:var(--ink);color:#fff;border-radius:16px;padding:28px 24px;margin-top:28px}
+.cta h2{color:#fff} .cta p{color:#fff;opacity:.92} .cta .btn{background:var(--accent);color:var(--ink)}
+.cta .deliver{border-left:4px solid var(--accent);padding-left:14px;margin:16px 0}
+footer{font-size:12px;color:var(--body-text);margin-top:36px;line-height:1.5}
+footer a{color:var(--primary-strong)}
+.hidden{display:none}
+@media (max-width:600px){.intro-grid{flex-direction:column-reverse;align-items:flex-start}.card{padding:22px 18px}body{font-size:17px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header id="hdr"></header>
+  <main id="app" class="card" aria-live="polite"></main>
+  <footer id="ftr"></footer>
+</div>
+<script>
+const C = {"advisor": {"name": "Greg W. Anderson", "firm": "Balanced Financial, Inc.", "logo": "logo.jpg", "headshot": "headshot.jpg", "privacyUrl": "https://balancedfinancialinc.com/privacy-policy"}, "assessment": {"id": "legacy-readiness", "title": "Is Your Family Ready? The Legacy Readiness Check", "subtitle": "Ten questions, about three minutes. See what would happen to your spouse and family if something happened to you, and what's missing from your plan.", "bullets": ["Your Legacy Readiness Score (0–100)", "A score for documents, beneficiaries, incapacity, probate, and family readiness", "A short list of what's missing, and what to do first"], "minutes": 3, "startButton": "Check My Family's Readiness", "scoreName": "Legacy Readiness Score"}, "mechanism": {"name": "your family's readiness", "steps": [{"id": "documents", "name": "Documents", "deliverable": "Legacy Document Checklist"}, {"id": "beneficiaries", "name": "Beneficiaries", "deliverable": "Beneficiary Audit"}, {"id": "incapacity", "name": "Incapacity", "deliverable": "Power of Attorney Check"}, {"id": "court", "name": "Court & Probate", "deliverable": "Probate Exposure Review"}, {"id": "family", "name": "Family Readiness", "deliverable": "Family Legacy Binder"}]}, "questions": [{"id": "q1", "step": "documents", "text": "Do you have a will or a living trust?", "options": [{"label": "A living trust, reviewed in the last 5 years", "points": 3}, {"label": "A will, or a trust older than 5 years", "points": 1}, {"label": "Neither", "points": 0}]}, {"id": "q2", "step": "documents", "text": "Have your documents been updated since your last big life change (move, retirement, marriage, a death, a new grandchild)?", "options": [{"label": "Yes", "points": 3}, {"label": "Not sure", "points": 1}, {"label": "No", "points": 0}]}, {"id": "q3", "step": "beneficiaries", "text": "Are the beneficiaries on your IRAs, 401(k)s and life insurance up to date?", "options": [{"label": "Yes, I checked this year", "points": 3}, {"label": "I think so", "points": 1}, {"label": "I'm not sure", "points": 0}]}, {"id": "q4", "step": "beneficiaries", "text": "Do your beneficiary choices match what your will or trust says?", "options": [{"label": "Yes, we checked", "points": 3}, {"label": "I assume so", "points": 1}, {"label": "I don't know", "points": 0}]}, {"id": "q5", "step": "incapacity", "text": "Have you each named someone to handle finances if you can't (a durable financial power of attorney)?", "options": [{"label": "Yes, both of us", "points": 3}, {"label": "One of us", "points": 1}, {"label": "No", "points": 0}]}, {"id": "q6", "step": "incapacity", "text": "Have you each named someone to make medical decisions, and written down your wishes?", "options": [{"label": "Yes, both of us", "points": 3}, {"label": "One of us", "points": 1}, {"label": "No", "points": 0}]}, {"id": "q7", "step": "court", "text": "If you died today, which of these would your home and main accounts go through?", "options": [{"label": "A trust or beneficiary designations (no court)", "points": 3}, {"label": "A mix", "points": 1}, {"label": "Probate court, or I don't know", "points": 0}], "help": "Probate is the court process for settling an estate."}, {"id": "q8", "step": "court", "text": "Do you own real estate, including rentals or property in another state?", "options": [{"label": "No", "points": 3}, {"label": "Yes, and it's titled to avoid probate", "points": 3}, {"label": "Yes, and I'm not sure how it's titled", "points": 0}]}, {"id": "q9", "step": "family", "text": "Is there anyone in your family who would need special care or protection: a child with special needs, a blended family, a family member who struggles with money?", "options": [{"label": "No", "points": 3}, {"label": "Yes, and our plan addresses it", "points": 3}, {"label": "Yes, and our plan doesn't address it yet", "points": 0}]}, {"id": "q10", "step": "family", "text": "If one of you died tomorrow, would the other know where everything is and who to call first?", "options": [{"label": "Yes, it's organized in one place", "points": 3}, {"label": "Mostly", "points": 1}, {"label": "No", "points": 0}]}], "qualifiers": [{"id": "stage", "text": "Where are you in retirement?", "options": [{"label": "Already retired", "qualified": true}, {"label": "Retiring within 5 years", "qualified": true}, {"label": "5–10 years away", "qualified": true}, {"label": "More than 10 years away", "qualified": false}]}, {"id": "assets", "text": "Roughly how much do you have saved for retirement, not counting your home?", "help": "A range is fine. It helps us point you to the right next step.", "options": [{"label": "Under $500,000", "qualified": false}, {"label": "$500,000 – $1 million", "qualified": true}, {"label": "$1 million – $4 million", "qualified": true}, {"label": "Over $4 million", "qualified": true}, {"label": "Prefer not to say", "qualified": true}]}], "focusSteps": 2, "bands": [{"min": 0, "max": 39, "label": "Exposed", "headline": "Your family isn't protected on paper yet.", "message": "You're not alone. Most families put this off. The good news is that this is usually the fastest part of a plan to fix."}, {"min": 40, "max": 69, "label": "Partly Protected", "headline": "You've started, and there are gaps that could land on your family.", "message": "Your focus areas below are where a gap could mean court time, delays, or hard decisions for the people you love."}, {"min": 70, "max": 89, "label": "Mostly Ready", "headline": "You're ahead of most families. A few gaps are worth closing.", "message": "Tightening your focus areas keeps your wishes in force and your family out of the middle of it."}, {"min": 90, "max": 100, "label": "Family Ready", "headline": "Excellent. Your family is well protected on paper.", "message": "Review your documents and beneficiaries whenever life changes, and at least every few years."}], "stepFeedback": {"documents": {"low": "Without a current will or trust, state law and a court decide much of what happens next.", "mid": "You have documents. Make sure they still match your life today.", "high": "Strong. Your core documents are in place and current."}, "beneficiaries": {"low": "Beneficiary forms usually override a will. An old form can send money to the wrong person.", "mid": "Worth a check. A beneficiary audit takes minutes and prevents expensive surprises.", "high": "Strong. Your beneficiaries are current and consistent."}, "incapacity": {"low": "If you can't make decisions and no one has legal authority, your family may need a court to appoint someone.", "mid": "You're partly covered. Both spouses need both kinds of powers of attorney.", "high": "Strong. Someone you trust can act for you."}, "court": {"low": "Your home and accounts may have to go through probate, which takes months at minimum and is public [ATTORNEY REVIEW].", "mid": "Some assets avoid court and some may not. Titling and beneficiary deeds can close the gap.", "high": "Strong. Your assets are set up to pass without court."}, "family": {"low": "A special-needs child, a blended family, or a scattered paper trail can turn a loss into a crisis. These can be planned for.", "mid": "You've thought about it. Write it down and put everything in one place your family can find.", "high": "Strong. Your family knows what to do and where to look."}}, "capture": {"headline": "Your score is ready. Where should we send it?", "text": "Enter your name and email to see your score and your focus areas. We'll email you a copy too.", "askPhone": true, "phoneRequired": false, "smsConsent": "Yes, Balanced Financial may text me about my results and upcoming classes. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.", "button": "Show My Score", "privacyNote": "We respect your privacy. We never sell your information."}, "appointment": {"name": "PATH Review: Family Legacy Edition", "headline": "Close the gaps before your family has to.", "text": "In a complimentary 60-minute PATH Review, Greg goes through your documents, beneficiaries and family situation with you, then shows how they fit with your income and taxes.", "deliverable": "Your Legacy Document Checklist and one-page PATH Map. They're yours to keep.", "buttonText": "Reserve My PATH Review", "secondaryText": "Or reserve a PATH Review", "scarcity": "Greg holds a limited number of PATH Reviews each month. No cost, no obligation.", "url": "https://balancedfinancialinc.com/path-review", "urlParams": {"firstName": "name", "email": "email"}}, "nurture": {"headline": "Your next step: the free family protection class.", "text": "Join Greg's free online class on what happens to your family, your home and your accounts if something happens to you, and how to keep it out of court.", "buttonText": "Save My Seat", "url": "https://balancedfinancialinc.com/estate-class"}, "webhookUrl": "", "resultsNote": "This assessment is for educational purposes only. It is not legal advice. Your score is based solely on your answers and is not a recommendation to buy or sell any product.", "disclosure": "Balanced Financial, Inc. (insurance and legacy services), Fort Collins Tax Advisory Group, LLC (tax services), and Balanced Wealth Partners (investment advisory services) are affiliated companies owned by Greg W. Anderson. [COMPLIANCE: replace with the exact registration and affiliation disclosures approved by Greg's compliance approver(s).] This assessment is educational and is not tax, legal, or investment advice. Balanced Financial does not provide legal advice; legal documents are prepared by or reviewed with a licensed attorney [VERIFY: Greg's actual document process]."};
+
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const app = $("#app");
+const items = [...C.questions.map(q => ({...q, kind: "q"})), ...(C.qualifiers || []).map(q => ({...q, kind: "qual"}))];
+const answers = {};
+let idx = 0;
+let contact = {};
+const params = new URLSearchParams(location.search);
+const utm = {};
+["utm_source","utm_medium","utm_campaign","utm_content","utm_term","src"].forEach(k => { if (params.get(k)) utm[k] = params.get(k); });
+
+function header() {
+  const a = C.advisor;
+  $("#hdr").innerHTML = a.logo ? `<img class="logo" src="${esc(a.logo)}" alt="${esc(a.firm)}">` : `<span class="firm">${esc(a.firm)}</span>`;
+  $("#ftr").innerHTML = `<p>${esc(C.disclosure)}</p>` +
+    (a.privacyUrl ? `<p><a href="${esc(a.privacyUrl)}" target="_blank" rel="noopener">Privacy Policy</a></p>` : "");
+}
+
+function intro() {
+  const a = C.assessment, adv = C.advisor;
+  app.innerHTML = `
+    <div class="intro-grid">
+      <div>
+        <h1>${esc(a.title)}</h1>
+        <p>${esc(a.subtitle)}</p>
+      </div>
+      ${adv.headshot ? `<img class="headshot" src="${esc(adv.headshot)}" alt="${esc(adv.name)}">` : ""}
+    </div>
+    <ul class="checks">${a.bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>
+    <button class="btn block" id="start">${esc(a.startButton || "Start My Free Assessment")}</button>
+    <p class="muted" style="text-align:center;margin-top:12px">${esc(items.length)} questions · about ${esc(a.minutes || 3)} minutes · free</p>`;
+  $("#start").onclick = () => { idx = 0; question(); };
+}
+
+function question() {
+  const q = items[idx];
+  const step = C.mechanism.steps.find(s => s.id === q.step);
+  const pct = Math.round((idx / items.length) * 100);
+  app.innerHTML = `
+    <div class="progress" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
+    <div class="qmeta"><span>Question ${idx + 1} of ${items.length}</span><span>${esc(step ? step.name : (q.kind === "qual" ? "About you" : ""))}</span></div>
+    <h2>${esc(q.text)}</h2>
+    ${q.help ? `<p class="muted">${esc(q.help)}</p>` : ""}
+    <div class="opts">${q.options.map((o, i) =>
+      `<button class="opt ${answers[q.id] === i ? "sel" : ""}" data-i="${i}">${esc(o.label)}</button>`).join("")}</div>
+    ${idx > 0 ? `<button class="back" id="back">← Back</button>` : ""}`;
+  app.querySelectorAll(".opt").forEach(b => b.onclick = () => {
+    answers[q.id] = +b.dataset.i;
+    idx++;
+    idx < items.length ? question() : capture();
+  });
+  if (idx > 0) $("#back").onclick = () => { idx--; question(); };
+  app.querySelector(".opt").focus({preventScroll: true});
+}
+
+function capture() {
+  const g = C.capture;
+  app.innerHTML = `
+    <div class="progress"><div style="width:100%"></div></div>
+    <h2>${esc(g.headline)}</h2>
+    <p>${esc(g.text)}</p>
+    <form id="f" novalidate>
+      <label for="fn">First name</label><input id="fn" type="text" autocomplete="given-name" required>
+      <label for="em">Email</label><input id="em" type="email" autocomplete="email" required>
+      ${g.askPhone ? `<label for="ph">Mobile phone ${g.phoneRequired ? "" : '<span class="muted">(optional)</span>'}</label><input id="ph" type="tel" autocomplete="tel">` : ""}
+      ${g.askPhone ? `<label class="consent"><input type="checkbox" id="sms"> <span>${esc(g.smsConsent)}</span></label>` : ""}
+      <button class="btn block" type="submit">${esc(g.button || "Show My Results")}</button>
+      <div class="err" id="err"></div>
+      <p class="muted">${esc(g.privacyNote)}</p>
+    </form>
+    <button class="back" id="back">← Back</button>`;
+  $("#back").onclick = () => { idx = items.length - 1; question(); };
+  $("#f").onsubmit = (e) => {
+    e.preventDefault();
+    const fn = $("#fn").value.trim(), em = $("#em").value.trim(), ph = $("#ph") ? $("#ph").value.trim() : "";
+    if (!fn) return $("#err").textContent = "Please enter your first name.";
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)) return $("#err").textContent = "Please enter a valid email address.";
+    if (g.askPhone && g.phoneRequired && ph.replace(/\D/g, "").length < 10) return $("#err").textContent = "Please enter a valid phone number.";
+    contact = {firstName: fn, email: em, phone: ph, smsConsent: $("#sms") ? $("#sms").checked : false};
+    results();
+  };
+}
+
+function score() {
+  const steps = C.mechanism.steps.map(s => {
+    const qs = C.questions.filter(q => q.step === s.id);
+    const got = qs.reduce((t, q) => t + q.options[answers[q.id]].points, 0);
+    const max = qs.reduce((t, q) => t + Math.max(...q.options.map(o => o.points)), 0);
+    return {...s, pct: max ? Math.round(got / max * 100) : null};
+  }).filter(s => s.pct !== null);
+  const overall = Math.round(steps.reduce((t, s) => t + s.pct, 0) / steps.length);
+  const band = C.bands.find(b => overall >= b.min && overall <= b.max) || C.bands[C.bands.length - 1];
+  const qualified = (C.qualifiers || []).every(q => q.options[answers[q.id]].qualified !== false);
+  const focusCount = C.focusSteps || 2;
+  const focus = [...steps].filter(s => s.pct < 80).sort((a, b) => a.pct - b.pct).slice(0, focusCount).map(s => s.id);
+  return {steps, overall, band, qualified, focus};
+}
+
+function feedback(stepId, pct) {
+  const f = (C.stepFeedback || {})[stepId] || {};
+  return pct < 50 ? f.low : pct < 80 ? f.mid : f.high;
+}
+
+function dial(pct) {
+  const r = 80, c = 2 * Math.PI * r, off = c * (1 - pct / 100);
+  return `<div class="dial"><svg viewBox="0 0 180 180" width="180" height="180" aria-hidden="true">
+    <circle cx="90" cy="90" r="${r}" fill="none" stroke="var(--primary-tint)" stroke-width="14"/>
+    <circle cx="90" cy="90" r="${r}" fill="none" stroke="var(--primary-strong)" stroke-width="14" stroke-linecap="round"
+      stroke-dasharray="${c}" stroke-dashoffset="${off}" transform="rotate(-90 90 90)"/></svg><span>${pct}</span></div>`;
+}
+
+function bookingUrl() {
+  const ap = C.appointment, p = ap.urlParams || {};
+  try {
+    const u = new URL(ap.url);
+    if (p.firstName) u.searchParams.set(p.firstName, contact.firstName);
+    if (p.email) u.searchParams.set(p.email, contact.email);
+    if (p.phone && contact.phone) u.searchParams.set(p.phone, contact.phone);
+    return u.toString();
+  } catch (e) { return ap.url; }
+}
+
+function send(r) {
+  const payload = {
+    event: "assessment_completed", assessment: C.assessment.id || C.assessment.title, advisor: C.advisor.name,
+    contact, utm, page: location.href.split("?")[0], completedAt: new Date().toISOString(),
+    overallScore: r.overall, band: r.band.label, qualified: r.qualified, focusSteps: r.focus,
+    stepScores: Object.fromEntries(r.steps.map(s => [s.id, s.pct])),
+    answers: Object.fromEntries(items.map(q => [q.id, q.options[answers[q.id]].label])),
+  };
+  if (C.webhookUrl) {
+    // text/plain avoids a CORS preflight; most webhook receivers (Zapier, Make, GoHighLevel, HubSpot workflows) still parse the JSON body
+    fetch(C.webhookUrl, {method: "POST", mode: "no-cors", keepalive: true,
+      headers: {"Content-Type": "text/plain;charset=UTF-8"}, body: JSON.stringify(payload)}).catch(() => {});
+  }
+  window.dataLayer && window.dataLayer.push({event: "assessment_completed", score: r.overall, qualified: r.qualified});
+  window.__lastAssessment = payload;
+}
+
+function results() {
+  const r = score(), ap = C.appointment, nu = C.nurture;
+  send(r);
+  const primary = r.qualified || !nu
+    ? `<a class="btn block" href="${esc(bookingUrl())}" target="_blank" rel="noopener">${esc(ap.buttonText)}</a>`
+    : `<a class="btn block" href="${esc(nu.url)}" target="_blank" rel="noopener">${esc(nu.buttonText)}</a>
+       <p style="text-align:center;margin:14px 0 0"><a style="color:#fff" href="${esc(bookingUrl())}" target="_blank" rel="noopener">${esc(ap.secondaryText || "Or request a " + ap.name)}</a></p>`;
+  app.innerHTML = `
+    <div class="score-hero">
+      <p class="muted" style="margin:0 0 8px">${esc(contact.firstName)}, your ${esc(C.assessment.scoreName || "score")}</p>
+      ${dial(r.overall)}
+      <div class="band">${esc(r.band.label)}</div>
+      <h1>${esc(r.band.headline)}</h1>
+      <p>${esc(r.band.message)}</p>
+    </div>
+    <h2>Your results on ${esc(C.mechanism.name)}</h2>
+    <div class="steps">${r.steps.map((s, i) => {
+      const f = r.focus.includes(s.id);
+      return `<div class="step ${f ? "focus" : ""}">
+        <div class="num">${C.mechanism.steps.findIndex(x => x.id === s.id) + 1}</div>
+        <div><b>${esc(s.name)}</b>${f ? `<span class="tag">Focus area</span>` : ""}</div>
+        <div class="pct">${s.pct}%</div>
+        <div class="bar"><div style="width:${s.pct}%"></div></div>
+        <p class="fb">${esc(feedback(s.id, s.pct) || "")}</p>
+      </div>`;}).join("")}</div>
+    <div class="cta">
+      <h2>${esc(r.qualified ? ap.headline : (nu ? nu.headline : ap.headline))}</h2>
+      <p>${esc(r.qualified ? ap.text : (nu ? nu.text : ap.text))}</p>
+      ${r.qualified ? `<div class="deliver"><b>You'll walk away with:</b><br>${esc(ap.deliverable)}</div>` : ""}
+      ${primary}
+      ${ap.scarcity && r.qualified ? `<p class="muted" style="color:#fff;text-align:center;margin-top:12px">${esc(ap.scarcity)}</p>` : ""}
+    </div>
+    <p class="muted" style="margin-top:20px">${esc(C.resultsNote || "")}</p>`;
+  window.scrollTo({top: 0, behavior: "smooth"});
+}
+
+header();
+intro();
+</script>
+</body>
+</html>

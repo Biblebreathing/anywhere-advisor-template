@@ -1,0 +1,386 @@
+{
+  "advisor": {
+    "name": "Greg W. Anderson",
+    "firm": "Balanced Financial, Inc.",
+    "logo": "../02-knowledge-base/assets/logo.jpg",
+    "headshot": "../02-knowledge-base/assets/headshot-1.jpg",
+    "privacyUrl": "https://balancedfinancialinc.com/privacy-policy"
+  },
+  "assessment": {
+    "id": "legacy-readiness",
+    "title": "Is Your Family Ready? The Legacy Readiness Check",
+    "subtitle": "Ten questions, about three minutes. See what would happen to your spouse and family if something happened to you, and what's missing from your plan.",
+    "bullets": [
+      "Your Legacy Readiness Score (0\u2013100)",
+      "A score for documents, beneficiaries, incapacity, probate, and family readiness",
+      "A short list of what's missing, and what to do first"
+    ],
+    "minutes": 3,
+    "startButton": "Check My Family's Readiness",
+    "scoreName": "Legacy Readiness Score"
+  },
+  "mechanism": {
+    "name": "your family's readiness",
+    "steps": [
+      {
+        "id": "documents",
+        "name": "Documents",
+        "deliverable": "Legacy Document Checklist"
+      },
+      {
+        "id": "beneficiaries",
+        "name": "Beneficiaries",
+        "deliverable": "Beneficiary Audit"
+      },
+      {
+        "id": "incapacity",
+        "name": "Incapacity",
+        "deliverable": "Power of Attorney Check"
+      },
+      {
+        "id": "court",
+        "name": "Court & Probate",
+        "deliverable": "Probate Exposure Review"
+      },
+      {
+        "id": "family",
+        "name": "Family Readiness",
+        "deliverable": "Family Legacy Binder"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "step": "documents",
+      "text": "Do you have a will or a living trust?",
+      "options": [
+        {
+          "label": "A living trust, reviewed in the last 5 years",
+          "points": 3
+        },
+        {
+          "label": "A will, or a trust older than 5 years",
+          "points": 1
+        },
+        {
+          "label": "Neither",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "step": "documents",
+      "text": "Have your documents been updated since your last big life change (move, retirement, marriage, a death, a new grandchild)?",
+      "options": [
+        {
+          "label": "Yes",
+          "points": 3
+        },
+        {
+          "label": "Not sure",
+          "points": 1
+        },
+        {
+          "label": "No",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "step": "beneficiaries",
+      "text": "Are the beneficiaries on your IRAs, 401(k)s and life insurance up to date?",
+      "options": [
+        {
+          "label": "Yes, I checked this year",
+          "points": 3
+        },
+        {
+          "label": "I think so",
+          "points": 1
+        },
+        {
+          "label": "I'm not sure",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "step": "beneficiaries",
+      "text": "Do your beneficiary choices match what your will or trust says?",
+      "options": [
+        {
+          "label": "Yes, we checked",
+          "points": 3
+        },
+        {
+          "label": "I assume so",
+          "points": 1
+        },
+        {
+          "label": "I don't know",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "step": "incapacity",
+      "text": "Have you each named someone to handle finances if you can't (a durable financial power of attorney)?",
+      "options": [
+        {
+          "label": "Yes, both of us",
+          "points": 3
+        },
+        {
+          "label": "One of us",
+          "points": 1
+        },
+        {
+          "label": "No",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "step": "incapacity",
+      "text": "Have you each named someone to make medical decisions, and written down your wishes?",
+      "options": [
+        {
+          "label": "Yes, both of us",
+          "points": 3
+        },
+        {
+          "label": "One of us",
+          "points": 1
+        },
+        {
+          "label": "No",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "step": "court",
+      "text": "If you died today, which of these would your home and main accounts go through?",
+      "options": [
+        {
+          "label": "A trust or beneficiary designations (no court)",
+          "points": 3
+        },
+        {
+          "label": "A mix",
+          "points": 1
+        },
+        {
+          "label": "Probate court, or I don't know",
+          "points": 0
+        }
+      ],
+      "help": "Probate is the court process for settling an estate."
+    },
+    {
+      "id": "q8",
+      "step": "court",
+      "text": "Do you own real estate, including rentals or property in another state?",
+      "options": [
+        {
+          "label": "No",
+          "points": 3
+        },
+        {
+          "label": "Yes, and it's titled to avoid probate",
+          "points": 3
+        },
+        {
+          "label": "Yes, and I'm not sure how it's titled",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "step": "family",
+      "text": "Is there anyone in your family who would need special care or protection: a child with special needs, a blended family, a family member who struggles with money?",
+      "options": [
+        {
+          "label": "No",
+          "points": 3
+        },
+        {
+          "label": "Yes, and our plan addresses it",
+          "points": 3
+        },
+        {
+          "label": "Yes, and our plan doesn't address it yet",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "step": "family",
+      "text": "If one of you died tomorrow, would the other know where everything is and who to call first?",
+      "options": [
+        {
+          "label": "Yes, it's organized in one place",
+          "points": 3
+        },
+        {
+          "label": "Mostly",
+          "points": 1
+        },
+        {
+          "label": "No",
+          "points": 0
+        }
+      ]
+    }
+  ],
+  "qualifiers": [
+    {
+      "id": "stage",
+      "text": "Where are you in retirement?",
+      "options": [
+        {
+          "label": "Already retired",
+          "qualified": true
+        },
+        {
+          "label": "Retiring within 5 years",
+          "qualified": true
+        },
+        {
+          "label": "5\u201310 years away",
+          "qualified": true
+        },
+        {
+          "label": "More than 10 years away",
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "id": "assets",
+      "text": "Roughly how much do you have saved for retirement, not counting your home?",
+      "help": "A range is fine. It helps us point you to the right next step.",
+      "options": [
+        {
+          "label": "Under $500,000",
+          "qualified": false
+        },
+        {
+          "label": "$500,000 \u2013 $1 million",
+          "qualified": true
+        },
+        {
+          "label": "$1 million \u2013 $4 million",
+          "qualified": true
+        },
+        {
+          "label": "Over $4 million",
+          "qualified": true
+        },
+        {
+          "label": "Prefer not to say",
+          "qualified": true
+        }
+      ]
+    }
+  ],
+  "focusSteps": 2,
+  "bands": [
+    {
+      "min": 0,
+      "max": 39,
+      "label": "Exposed",
+      "headline": "Your family isn't protected on paper yet.",
+      "message": "You're not alone. Most families put this off. The good news is that this is usually the fastest part of a plan to fix."
+    },
+    {
+      "min": 40,
+      "max": 69,
+      "label": "Partly Protected",
+      "headline": "You've started, and there are gaps that could land on your family.",
+      "message": "Your focus areas below are where a gap could mean court time, delays, or hard decisions for the people you love."
+    },
+    {
+      "min": 70,
+      "max": 89,
+      "label": "Mostly Ready",
+      "headline": "You're ahead of most families. A few gaps are worth closing.",
+      "message": "Tightening your focus areas keeps your wishes in force and your family out of the middle of it."
+    },
+    {
+      "min": 90,
+      "max": 100,
+      "label": "Family Ready",
+      "headline": "Excellent. Your family is well protected on paper.",
+      "message": "Review your documents and beneficiaries whenever life changes, and at least every few years."
+    }
+  ],
+  "stepFeedback": {
+    "documents": {
+      "low": "Without a current will or trust, state law and a court decide much of what happens next.",
+      "mid": "You have documents. Make sure they still match your life today.",
+      "high": "Strong. Your core documents are in place and current."
+    },
+    "beneficiaries": {
+      "low": "Beneficiary forms usually override a will. An old form can send money to the wrong person.",
+      "mid": "Worth a check. A beneficiary audit takes minutes and prevents expensive surprises.",
+      "high": "Strong. Your beneficiaries are current and consistent."
+    },
+    "incapacity": {
+      "low": "If you can't make decisions and no one has legal authority, your family may need a court to appoint someone.",
+      "mid": "You're partly covered. Both spouses need both kinds of powers of attorney.",
+      "high": "Strong. Someone you trust can act for you."
+    },
+    "court": {
+      "low": "Your home and accounts may have to go through probate, which takes months at minimum and is public [ATTORNEY REVIEW].",
+      "mid": "Some assets avoid court and some may not. Titling and beneficiary deeds can close the gap.",
+      "high": "Strong. Your assets are set up to pass without court."
+    },
+    "family": {
+      "low": "A special-needs child, a blended family, or a scattered paper trail can turn a loss into a crisis. These can be planned for.",
+      "mid": "You've thought about it. Write it down and put everything in one place your family can find.",
+      "high": "Strong. Your family knows what to do and where to look."
+    }
+  },
+  "capture": {
+    "headline": "Your score is ready. Where should we send it?",
+    "text": "Enter your name and email to see your score and your focus areas. We'll email you a copy too.",
+    "askPhone": true,
+    "phoneRequired": false,
+    "smsConsent": "Yes, Balanced Financial may text me about my results and upcoming classes. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.",
+    "button": "Show My Score",
+    "privacyNote": "We respect your privacy. We never sell your information."
+  },
+  "appointment": {
+    "name": "PATH Review: Family Legacy Edition",
+    "headline": "Close the gaps before your family has to.",
+    "text": "In a complimentary 60-minute PATH Review, Greg goes through your documents, beneficiaries and family situation with you, then shows how they fit with your income and taxes.",
+    "deliverable": "Your Legacy Document Checklist and one-page PATH Map. They're yours to keep.",
+    "buttonText": "Reserve My PATH Review",
+    "secondaryText": "Or reserve a PATH Review",
+    "scarcity": "Greg holds a limited number of PATH Reviews each month. No cost, no obligation.",
+    "url": "https://balancedfinancialinc.com/path-review",
+    "urlParams": {
+      "firstName": "name",
+      "email": "email"
+    }
+  },
+  "nurture": {
+    "headline": "Your next step: the free family protection class.",
+    "text": "Join Greg's free online class on what happens to your family, your home and your accounts if something happens to you, and how to keep it out of court.",
+    "buttonText": "Save My Seat",
+    "url": "https://balancedfinancialinc.com/estate-class"
+  },
+  "webhookUrl": "",
+  "resultsNote": "This assessment is for educational purposes only. It is not legal advice. Your score is based solely on your answers and is not a recommendation to buy or sell any product.",
+  "disclosure": "Balanced Financial, Inc. (insurance and legacy services), Fort Collins Tax Advisory Group, LLC (tax services), and Balanced Wealth Partners (investment advisory services) are affiliated companies owned by Greg W. Anderson. [COMPLIANCE: replace with the exact registration and affiliation disclosures approved by Greg's compliance approver(s).] This assessment is educational and is not tax, legal, or investment advice. Balanced Financial does not provide legal advice; legal documents are prepared by or reviewed with a licensed attorney [VERIFY: Greg's actual document process]."
+}

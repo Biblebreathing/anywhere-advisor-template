@@ -1,6 +1,6 @@
 # Unique Mechanism — Greg W. Anderson
 
-**Status:** Options for Greg's choice (Oct 19, 2026). **Recommended: The PATH Plan.** Then compliance approval.
+**Status:** **WORKING NAME LOCKED: The PATH Plan** (placeholder, set by Terrance Oct 19, 2026 so Stages 05–11 can proceed). Greg's final choice and compliance approval are still open. If the name changes, find-and-replace "PATH" across `clients/greg-anderson/` and rebuild.
 
 ## 1. Problem mechanism
 Three options. Each is backed by Greg's experience; F-IDs are added from the Stage 03 registry.
@@ -69,4 +69,4 @@ Four steps in the order Greg actually works **[INFERRED from KB §5; Greg must c
 | Upmarket campaigns | Landlord exit and business sale enter at **T** and **A** |
 
 ## 6. Diagrams
-`options/1-path-plan/`, `options/2-balanced-blueprint/`, `options/3-one-office/` (row + stack SVGs) · side-by-side preview: `options/options-preview.png`. The final `mechanism-row.svg` and `mechanism-stack.svg` are generated here after Greg chooses.
+`options/1-path-plan/`, `options/2-balanced-blueprint/`, `options/3-one-office/` (row + stack SVGs) · side-by-side preview: `options/options-preview.png`. Working diagrams: `mechanism-row.svg`, `mechanism-stack.svg` (PATH Plan).
