@@ -1,0 +1,64 @@
+[
+  {
+    "label": "Brand Kit (from your logo)",
+    "feel": "Built from the advisor's existing brand colors.",
+    "name": "Balanced Financial, Inc.",
+    "palette": {
+      "primary": "#4B4C4D",
+      "primary-strong": "#4B4C4D",
+      "primary-tint": "#EDEDED",
+      "accent": "#C8963E",
+      "ink": "#212122",
+      "body-text": "#444546",
+      "surface": "#F9F9F9",
+      "white": "#FFFFFF"
+    },
+    "fonts": [
+      "Playfair Display",
+      "Source Sans 3"
+    ],
+    "checks": [
+      {
+        "use": "Body text on page background",
+        "fg": "#444546",
+        "bg": "#F9F9F9",
+        "ratio": 9.13,
+        "needs": 4.5,
+        "pass": true
+      },
+      {
+        "use": "Headlines on page background",
+        "fg": "#212122",
+        "bg": "#F9F9F9",
+        "ratio": 15.28,
+        "needs": 4.5,
+        "pass": true
+      },
+      {
+        "use": "White text on buttons",
+        "fg": "#FFFFFF",
+        "bg": "#4B4C4D",
+        "ratio": 8.61,
+        "needs": 4.5,
+        "pass": true
+      },
+      {
+        "use": "Accent on dark sections",
+        "fg": "#C8963E",
+        "bg": "#212122",
+        "ratio": 6.04,
+        "needs": 3.0,
+        "pass": true
+      },
+      {
+        "use": "Primary on white (links, headings)",
+        "fg": "#4B4C4D",
+        "bg": "#FFFFFF",
+        "ratio": 8.61,
+        "needs": 4.5,
+        "pass": true
+      }
+    ],
+    "extracted": null
+  }
+]
