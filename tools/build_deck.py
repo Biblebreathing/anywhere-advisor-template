@@ -329,7 +329,7 @@ def write_script(d, total, out):
 def write_run_of_show(d, out):
     t = 0
     rows = ["# Run of Show", "", "| Clock | Slide | Act | What happens | Notes |", "|---|---|---|---|---|"]
-    rows.append("| -0:10 | — | — | Doors open; music; welcome slide up; greet people by name in chat | Start 2 minutes after the hour |")
+    rows.append("| -0:10 | (pre-show) | | Doors open; music; welcome slide up; greet people by name in chat | Start 2 minutes after the hour |")
     for sl in d["slides"]:
         secs = sl.get("timing_seconds") or round(words(sl.get("speaker_script", "")) / 140 * 60)
         notes = []
@@ -341,7 +341,7 @@ def write_run_of_show(d, out):
             notes.append(f"workbook p{sl['workbook_cue'].get('page')}")
         rows.append(f"| {t // 60}:{t % 60:02d} | {sl.get('number')} | {sl.get('act')} | {sl.get('headline', '')} | {'; '.join(notes)} |")
         t += secs
-    rows.append(f"| {t // 60}:{t % 60:02d} | — | — | End; booking link pinned in chat; replay notice | |")
+    rows.append(f"| {t // 60}:{t % 60:02d} | (close) | | End; booking link pinned in chat; replay notice | |")
     with open(os.path.join(out, "run-of-show.md"), "w") as f:
         f.write("\n".join(rows) + "\n")
 

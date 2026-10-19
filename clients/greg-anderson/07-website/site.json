@@ -409,12 +409,12 @@
     "lead": "Learn one step of the PATH Plan at a time, from home.",
     "events": [
       {
-        "when": "Weekly \u00b7 Online [PLACEHOLDER: day and time]",
-        "title": "The Tax Trap [working title]",
+        "when": "Tuesdays \u00b7 11:00am Mountain \u00b7 Online [PLACEHOLDER: confirm schedule]",
+        "title": "The Tax Trap",
         "promises": [
-          "Why your 401(k) and IRA aren't all yours, and when the IRS collects",
-          "How required withdrawals and Medicare's two-year look-back can raise your taxes later",
-          "How a CPA What-If review of your own return shows your options"
+          "Why \"I'll be in a lower bracket when I retire\" can backfire, and the 2026 numbers that show it",
+          "How RMDs, Social Security, Medicare surcharges, and RSUs stack up on the same tax return",
+          "The planning window before your RMDs begin, and the questions to bring to your advisor and CPA before it closes"
         ],
         "url": "https://balancedfinancialinc.com/tax-trap",
         "button": "Save My Seat"

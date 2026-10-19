@@ -2,7 +2,7 @@
 
 | Clock | Slide | Act | What happens | Notes |
 |---|---|---|---|---|
-| -0:10 | — | — | Doors open; music; welcome slide up; greet people by name in chat | Start 2 minutes after the hour |
+| -0:10 | (pre-show) | | Doors open; music; welcome slide up; greet people by name in chat | Start 2 minutes after the hour |
 | 0:00 | 1 | 1 | Who Decides When You Can't? | chat: Type where you're watching from today |
 | 1:15 | 2 | 1 | You're in the Right Place If... |  |
 | 2:15 | 3 | 1 | Before We Start | chat: Poll: What brought you here today? |
@@ -48,4 +48,4 @@
 | 54:00 | 43 | 3 | "Our Kids Will Figure It Out" |  |
 | 54:30 | 44 | 3 | "We Already Have a Will" |  |
 | 55:15 | 45 | 3 | Your Questions | chat: Type your questions in the chat |
-| 56:15 | — | — | End; booking link pinned in chat; replay notice | |
+| 56:15 | (close) | | End; booking link pinned in chat; replay notice | |

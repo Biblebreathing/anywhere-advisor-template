@@ -190,8 +190,11 @@
       "subhead": "It's a reasonable belief. For a lot of big savers, it's wrong.",
       "speaker_script": "\"Here's the belief almost everybody on this call has been told, and I want to say it out loud.\"\n\n\"I'll be in a lower bracket when I retire.\"\n\n[PAUSE.]\n\n\"That's a reasonable thing to believe. You've heard it for thirty years: take the deduction now, pay less later, because you won't have a paycheck.\"\n\n\"For some people it's true. If you saved a modest amount, your bracket may well go down.\"\n\n\"But a lot of you didn't save a modest amount. You saved a million, two million, four million dollars in pre-tax accounts. You did exactly what you were told, and you did it well. And that's the trap. The bigger the pre-tax pile, the more the IRS eventually requires you to take out, and the less likely it is that your bracket goes down very much, if at all.\"\n\n\"So the question isn't whether you'll pay tax on that money. You will. The question is when, and at what rate, and whether you pick the timing or the rules pick it for you.\"\n\nTiming: about one minute.",
       "timing_seconds": 75,
-      "number": 10,
-      "claims_used": []
+      "claims_used": [
+        "F-014",
+        "F-105"
+      ],
+      "number": 10
     },
     {
       "act": 2,
@@ -331,8 +334,11 @@
       "subhead": "The mix matters more than the total.",
       "speaker_script": "\"Big Idea number one. Not all dollars are equal.\"\n\n[PAUSE.]\n\n\"When you look at your statement, you see one number. Two million, three million. But to the IRS, those dollars are not the same. A dollar in your 401(k), a dollar in a Roth, and a dollar in your brokerage account are taxed three completely different ways when they come out.\"\n\n\"So the mix matters more than the total. Let me show you the three buckets.\"\n\nTiming: about thirty seconds.",
       "timing_seconds": 35,
-      "number": 19,
-      "claims_used": []
+      "claims_used": [
+        "F-016",
+        "F-006"
+      ],
+      "number": 19
     },
     {
       "act": 2,

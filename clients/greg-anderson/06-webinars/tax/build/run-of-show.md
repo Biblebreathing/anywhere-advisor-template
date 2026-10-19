@@ -2,7 +2,7 @@
 
 | Clock | Slide | Act | What happens | Notes |
 |---|---|---|---|---|
-| -0:10 | — | — | Doors open; music; welcome slide up; greet people by name in chat | Start 2 minutes after the hour |
+| -0:10 | (pre-show) | | Doors open; music; welcome slide up; greet people by name in chat | Start 2 minutes after the hour |
 | 0:00 | 1 | 1 | The Tax Trap | chat: Type where you're watching from, then what brought you here: Roth, RSUs, RMDs, Medicare, or side business |
 | 1:10 | 2 | 1 | You're in the Right Place If |  |
 | 2:10 | 3 | 1 | Before We Start |  |
@@ -48,4 +48,4 @@
 | 50:15 | 43 | 3 | 'I'm Not Ready to Share My Tax Return' |  |
 | 51:05 | 44 | 3 | 'I Already Have an Advisor' or 'I'm Not in Colorado' |  |
 | 51:55 | 45 | 3 | Your Questions |  |
-| 60:55 | — | — | End; booking link pinned in chat; replay notice | |
+| 60:55 | (close) | | End; booking link pinned in chat; replay notice | |

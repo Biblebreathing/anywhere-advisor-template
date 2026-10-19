@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Tax Trap | Balanced Financial, Inc.</title>
+<meta name="description" content="A free class for engineers and long-time employees with $1 million or more in 401(k)s and IRAs">
+<meta name="robots" content="index,follow">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+.funnel-top{background:#fff;border-bottom:1px solid var(--primary-tint)} .funnel-top .bar{min-height:68px}
+.reg-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:start}
+.formcard{background:#fff;border-radius:18px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.08);border-top:6px solid var(--accent)}
+.formcard label{display:block;font-weight:700;color:var(--ink);margin:14px 0 6px;font-size:17px}
+.formcard input[type=text],.formcard input[type=email],.formcard input[type=tel],.formcard select{width:100%;font:inherit;padding:13px 14px;border:2px solid var(--primary-tint);border-radius:10px;background:#fff}
+.formcard input:focus,.formcard select:focus{outline:none;border-color:var(--primary-strong)}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:14px;font-weight:400!important;color:var(--body-text)!important}
+.consent input{margin-top:5px;flex:none}
+.when{background:var(--primary-tint);border-radius:12px;padding:14px 16px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.err{color:#B42318;font-size:15px;min-height:22px;margin-top:8px}
+.advisor-mini{display:flex;gap:16px;align-items:center;margin-top:26px}
+.advisor-mini img{width:84px;height:84px;border-radius:50%;object-fit:cover;border:3px solid var(--accent)}
+.steps-list{counter-reset:n;list-style:none;padding:0}
+.steps-list li{counter-increment:n;position:relative;padding:18px 18px 18px 70px;background:#fff;border-radius:14px;margin:14px 0;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.steps-list li:before{content:counter(n);position:absolute;left:18px;top:18px;width:38px;height:38px;border-radius:50%;background:var(--primary-strong);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.video{position:relative;padding-top:56.25%;border-radius:14px;overflow:hidden;background:#000;margin:20px 0}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
+@media (max-width:900px){.reg-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="funnel-top"><div class="wrap bar"><span class="brand"><img src="logo.jpg" alt="Balanced Financial, Inc."></span><a class="phone" href="tel:(970) 204-1500" style="font-weight:700;text-decoration:none">(970) 204-1500</a></div></header>
+<main id="main">
+<section class="hero" style="padding-top:56px"><div class="wrap reg-grid">
+  <div>
+    <p class="eyebrow">Free online class · Tuesdays</p>
+    <h1>The Tax Trap</h1>
+    <p class="lead">A free class for engineers and long-time employees with $1 million or more in 401(k)s and IRAs</p>
+    <h2 style="font-size:24px;margin-top:28px">In this class you'll learn:</h2>
+    <ul class="checks"><li>Why &#34;I&#39;ll be in a lower bracket when I retire&#34; can backfire, and the 2026 numbers that show it</li><li>How RMDs, Social Security, Medicare surcharges, and RSUs stack up on the same tax return</li><li>The planning window before your RMDs begin, and the questions to bring to your advisor and CPA before it closes</li></ul>
+    <h2 style="font-size:24px;margin-top:22px">This class is for you if:</h2><ul class="checks"><li>Most of your savings is in a 401(k) or IRA</li><li>You&#39;re 58 to 68 and retiring within five years, or just retired</li><li>You have RSUs, a side business, or a rental</li><li>No one has ever shown you a multi-year tax projection</li></ul>
+    <div class="advisor-mini"><img src="headshot-1.jpg" alt="Greg W. Anderson"><div><strong style="color:var(--ink)">Your host: Greg W. Anderson</strong><br><span class="small">Retirement income, tax and estate planner in Fort Collins, Colorado · RICP®</span></div></div>
+  </div>
+  <div class="formcard" id="reg">
+    <h2 style="font-size:26px">Save your free seat</h2>
+    <div class="when" id="when">Loading the next class…</div>
+    <p class="small" style="margin:0 0 4px">60 minutes · online · free · phone dial-in available</p>
+    <form id="f" novalidate>
+      <label for="fn">First name</label><input id="fn" type="text" autocomplete="given-name">
+      <label for="em">Email</label><input id="em" type="email" autocomplete="email">
+      <label for="ph">Mobile phone <span class="small" style="font-weight:400">(for reminders, optional)</span></label><input id="ph" type="tel" autocomplete="tel">
+      <label class="consent"><input type="checkbox" id="sms"> <span>Yes, Balanced Financial may text me reminders about this class and my appointments. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.</span></label>
+      <label for="q">What&#39;s your biggest tax question about retirement? <span class="small" style="font-weight:400">(optional)</span></label><input id="q" type="text">
+      <button class="btn big" style="width:100%;margin-top:16px" type="submit">Save My Seat</button>
+      <div class="err" id="err"></div>
+      <p class="small" style="margin:0">Educational class. Includes an invitation to meet one-on-one. Insurance and investment products may be discussed.</p>
+    </form>
+  </div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="wrap disclosure" style="border:0;margin-top:0"><p>Balanced Financial, Inc. (insurance and legacy services), Fort Collins Tax Advisory Group, LLC (tax services) and Balanced Wealth Partners (investment advisory services) are affiliated companies owned by Greg W. Anderson. [COMPLIANCE: replace with the exact registration, affiliation and insurance disclosures approved by Greg&#39;s compliance approver(s); his current site carries only an insurance disclosure.] Content is educational and is not tax, legal or investment advice.</p><p><a href="https://balancedfinancialinc.com/privacy.html">Privacy Policy</a></p><p>© 2026 Balanced Financial, Inc.</p></div></footer>
+<script>
+const W = {"title": "The Tax Trap", "track": "tax", "sessions": ["2026-10-27T11:00:00-06:00", "2026-11-03T11:00:00-07:00", "2026-11-10T11:00:00-07:00", "2026-11-17T11:00:00-07:00", "2026-12-01T11:00:00-07:00", "2026-12-08T11:00:00-07:00"], "duration": 60, "join": "https://zoom.us/j/0000000000", "dial": "[PLACEHOLDER dial-in]", "webhookUrl": ""};
+const fmt = (iso) => { const d = new Date(iso); return d.toLocaleString(undefined, {weekday:'long', month:'long', day:'numeric', hour:'numeric', minute:'2-digit', timeZoneName:'short'}); };
+const nextSession = () => { const now = Date.now(); return (W.sessions || []).find(s => new Date(s).getTime() - now > -15 * 60000) || null; };
+const params = new URLSearchParams(location.search);
+</script>
+
+<script>
+const s = nextSession();
+document.getElementById('when').textContent = s ? fmt(s) : 'New dates coming soon';
+document.getElementById('f').onsubmit = (e) => {
+  e.preventDefault();
+  const v = id => (document.getElementById(id) || {}).value?.trim() || '';
+  const err = document.getElementById('err');
+  if (!v('fn')) return err.textContent = 'Please enter your first name.';
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('em'))) return err.textContent = 'Please enter a valid email address.';
+  if (!s) return err.textContent = 'Registration opens when the next date is posted.';
+  const utm = {}; ['utm_source','utm_medium','utm_campaign','utm_content','src'].forEach(k => { if (params.get(k)) utm[k] = params.get(k); });
+  const payload = {event: 'webinar_registered', track: W.track, webinar: W.title, session: s,
+    contact: {firstName: v('fn'), email: v('em'), phone: v('ph'), smsConsent: document.getElementById('sms').checked},
+    question: v('q'), utm, page: location.href.split('?')[0], registeredAt: new Date().toISOString()};
+  window.__lastRegistration = payload;
+  const go = () => location.href = 'thank-you.html?s=' + encodeURIComponent(s) + '&n=' + encodeURIComponent(v('fn'));
+  if (W.webhookUrl) {
+    fetch(W.webhookUrl, {method: 'POST', mode: 'no-cors', keepalive: true, headers: {'Content-Type': 'text/plain;charset=UTF-8'}, body: JSON.stringify(payload)}).catch(() => {}).finally(go);
+  } else go();
+  window.dataLayer && window.dataLayer.push({event: 'webinar_registered'});
+};
+</script>
+
+</body>
+</html>
