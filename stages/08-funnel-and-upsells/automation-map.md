@@ -23,6 +23,7 @@ The blueprint for setting up the funnel in GoHighLevel, HubSpot, ActiveCampaign,
 - **Track interest:** `track:retirement-paycheck`, `track:tax`, `track:estate`, `track:asset-protection`, `track:ltc`
 - **Webinar behavior:** `web:registered`, `web:attended`, `web:stayed-20min`, `web:no-show`, `web:replay-watched`
 - **Assessment:** `assess:completed`, `assess:qualified`, `assess:not-qualified`, `focus:<step>`
+- **Book:** `book:requested`, `book:reader`, `book:qr-<chapter>`, `src:book-<channel>` (partner, mailer, webinar-gift)
 - **Booking:** `booked:meeting-1`, `showed:meeting-1`, `no-show:meeting-1`, `rescheduled`
 - **Status:** `client`, `do-not-contact`, `sms-opted-out`
 
@@ -39,6 +40,8 @@ The blueprint for setting up the funnel in GoHighLevel, HubSpot, ActiveCampaign,
 | Meeting status: no-show | Tag `no-show:meeting-1` · start **S3** · task for staff: call within 2 hours |
 | Meeting status: held | Tag `showed:meeting-1` · stage **Meeting 1 held** · advisor task: notes plus next meeting |
 | Became a client | Tag `client` · stop all marketing sequences · start **S9** |
+| `book_requested` webhook (Stage 10) | Tag `book:requested` + source · fulfillment task for mailed copies · start **S10** reader sequence |
+| `book_reader_registered` webhook (Stage 10) | Tag `book:reader`, `book:qr-<chapter>` · start **S10** if not already in it |
 | Any sequence ends without booking | Stage **Nurture** · start **S8** |
 | SMS reply STOP | Tag `sms-opted-out` · no further SMS (email continues if allowed) |
 | Unsubscribe | Tag `do-not-contact` · stop everything |

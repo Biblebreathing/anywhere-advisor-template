@@ -1,0 +1,47 @@
+{
+  "_note": "FICTIONAL EXAMPLE, paired with stages/09-book/examples/sample-book. Replace every field from the client's files.",
+  "site": {
+    "firm": "Ellis Retirement Partners", "logo": "",
+    "advisor": {"name": "Jordan Ellis", "photo": "headshot-placeholder.jpg", "phone": "(555) 555-0123"},
+    "appointment": {
+      "name": "Retirement Paycheck Blueprint Session",
+      "deliverable": "Your one-page Retirement Paycheck Map: your income, your gap, and your options.",
+      "deliverable_short": "your one-page Retirement Paycheck Map",
+      "button": "Reserve My Blueprint Session",
+      "url": "https://calendly.com/example/blueprint-session"
+    },
+    "disclosure": "Ellis Retirement Partners is a fictional firm used for demonstration. [Advisor's required disclosures.] Educational only; not tax, legal, or investment advice.",
+    "privacy_url": "https://ellisretirement.example/privacy.html"
+  },
+  "book": {"title": "The Paycheck Gap", "subtitle": "How to Turn Your Savings Into a Retirement Paycheck You Can Count On", "cover": ""},
+  "hub_url": "https://ellisretirement.example/book-bonus",
+  "offer": {
+    "type": "mailed",
+    "eyebrow": "Free signed copy for Ohio families",
+    "headline": "The Paycheck Gap",
+    "bullets": ["Why saving a big number isn't the same as having a retirement paycheck", "The three risks that can quietly shrink your income", "A one-page worksheet to find your own Paycheck Gap", "The five steps of the Retirement Paycheck Blueprint", "The questions to ask any advisor before you hire them"],
+    "who": ["You're within 10 years of retiring, or recently retired", "You've saved, but aren't sure what you can safely spend"],
+    "author_line": "Retirement income planner in Columbus, Ohio · [credential/years from the Knowledge Base]",
+    "form_headline": "Get your free signed copy",
+    "form_text": "Jordan will sign it and mail it to you. No cost, no obligation.",
+    "button": "Send Me My Free Copy",
+    "states": ["OH"],
+    "out_of_area_message": "Signed copies are available to Ohio residents. You can still find the book on Amazon below.",
+    "limit_note": "Limit one per household. Available to Ohio residents.",
+    "done_headline": "Your signed copy is on its way.",
+    "done_text": "Look for it in your mailbox within about a week. While you wait, the reader bonus page has every worksheet from the book.",
+    "amazon_url": "https://www.amazon.com/",
+    "faq": [{"q": "Is it really free?", "a": "Yes. There's no cost and no obligation. Jordan wrote it to help families plan."}, {"q": "Will someone call me?", "a": "Only if you ask us to. You may receive a few emails with the book's worksheets, and you can unsubscribe anytime."}]
+  },
+  "hub": {
+    "gate": true,
+    "headline": "The Paycheck Gap: Reader Resources",
+    "lead": "Every worksheet from the book, ready to print, plus a short video for each chapter.",
+    "chapters": [
+      {"anchor": "intro", "label": "Introduction", "title": "The Number and the Paycheck", "text": "Start here: a two-minute welcome from Jordan.", "video_embed_url": ""},
+      {"anchor": "ch1", "label": "Chapter 1", "title": "Your Paycheck, Not Your Pile", "worksheet": "my-paycheck-gap", "next": {"label": "Take the Paycheck Score", "url": "https://score.ellisretirement.example"}}
+    ]
+  },
+  "sms_consent": "Yes, Ellis Retirement Partners may text me about my book and appointments. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.",
+  "webhookUrl": ""
+}

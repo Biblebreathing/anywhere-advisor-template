@@ -1,0 +1,82 @@
+{% extends "funnel_base.html" %}
+{% block content %}{% set bk = c.book %}{% set h = c.hub %}
+<section class="page-hero" style="padding-bottom:30px"><div class="wrap narrow center">
+  <p class="eyebrow">Reader resources</p>
+  <h1>{{ h.headline or "Your " ~ bk.title ~ " bonus page" }}</h1>
+  <p class="lead">{{ h.lead }}</p>
+</div></section>
+{% if h.gate %}
+<section id="gate" style="padding:0 0 30px"><div class="wrap narrow"><div class="formcard">
+  <h2 style="font-size:24px" id="gate-title">Unlock your printable worksheets</h2>
+  <p class="small">Enter your name and email once. This device will remember you, so next time you scan a code you'll go straight to your worksheet.</p>
+  <form id="gf" novalidate>
+    <label for="gfn">First name</label><input id="gfn" type="text" autocomplete="given-name">
+    <label for="gem">Email</label><input id="gem" type="email" autocomplete="email">
+    <label for="gph">Mobile phone <span class="small" style="font-weight:400">(optional)</span></label><input id="gph" type="tel" autocomplete="tel">
+    <label class="consent"><input type="checkbox" id="gsms"> <span>{{ c.sms_consent }}</span></label>
+    <button class="btn big" style="width:100%;margin-top:14px" type="submit">Unlock My Worksheets</button>
+    <div class="err" id="gerr"></div>
+  </form>
+</div></div></section>
+{% endif %}
+<section style="padding-top:10px"><div class="wrap narrow">
+{% for ch in h.chapters %}
+  <article id="{{ ch.anchor }}" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">{{ ch.label }}</p>
+    <h2 style="font-size:26px">{{ ch.title }}</h2>
+    {% if ch.text %}<p>{{ ch.text }}</p>{% endif %}
+    {% if ch.video_embed_url %}<div class="video"><iframe src="{{ ch.video_embed_url }}" title="{{ ch.title }} video" allowfullscreen></iframe></div>{% endif %}
+    <div class="btn-row">
+      {% if ch.worksheet %}<a class="btn small ws" href="worksheets/{{ ch.worksheet }}.html" data-ws>Open the printable worksheet</a>{% endif %}
+      {% if ch.next %}<a class="btn small secondary" href="{{ ch.next.url }}">{{ ch.next.label }}</a>{% endif %}
+    </div>
+  </article>
+{% endfor %}
+</div></section>
+<section class="cta-band"><div class="wrap narrow center">
+  <h2>Bring your book and worksheets to a conversation.</h2>
+  <p>In a free {{ s.appointment.name }}, we'll turn what you've written down into {{ s.appointment.deliverable_short or s.appointment.deliverable }}.</p>
+  <a class="btn big accent" href="{{ s.appointment.url }}">{{ s.appointment.button }}</a>
+</div></section>
+{% endblock %}
+{% block script %}
+<script>
+const H = {{ hjson | safe }};
+const key = 'reader:' + H.slug;
+const unlocked = () => { if (!H.gate) return true; try { return localStorage.getItem(key) === '1'; } catch (x) { return false; } };
+const gate = document.getElementById('gate');
+const sync = () => {
+  const u = unlocked();
+  if (gate) gate.style.display = u ? 'none' : 'block';
+  document.querySelectorAll('[data-ws]').forEach(a => a.classList.toggle('secondary', !u));
+};
+sync();
+if (!unlocked() && location.hash) {
+  const t = document.querySelector(location.hash + ' h2');
+  if (t) document.getElementById('gate-title').textContent = 'Unlock your worksheet for: ' + t.textContent;
+  const top = () => window.scrollTo(0, 0);
+  top(); window.addEventListener('load', () => setTimeout(top, 0));
+}
+document.querySelectorAll('[data-ws]').forEach(a => a.addEventListener('click', (e) => {
+  if (!unlocked()) { e.preventDefault(); gate.scrollIntoView({behavior: 'smooth'}); document.getElementById('gfn').focus(); }
+}));
+const gf = document.getElementById('gf');
+if (gf) gf.onsubmit = (e) => {
+  e.preventDefault();
+  const v = id => document.getElementById(id).value.trim();
+  const err = document.getElementById('gerr');
+  if (!v('gfn')) return err.textContent = 'Please enter your first name.';
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('gem'))) return err.textContent = 'Please enter a valid email address.';
+  const utm = {}; ['utm_source','utm_medium','utm_campaign','utm_content'].forEach(k => { if (params.get(k)) utm[k] = params.get(k); });
+  const payload = {event: 'book_reader_registered', book: H.title, chapter: location.hash.replace('#', ''),
+    contact: {firstName: v('gfn'), email: v('gem'), phone: v('gph'), smsConsent: document.getElementById('gsms').checked},
+    utm, page: location.href.split('?')[0], registeredAt: new Date().toISOString()};
+  window.__lastReader = payload;
+  if (W.webhookUrl) fetch(W.webhookUrl, {method: 'POST', mode: 'no-cors', keepalive: true, headers: {'Content-Type': 'text/plain;charset=UTF-8'}, body: JSON.stringify(payload)}).catch(() => {});
+  try { localStorage.setItem(key, '1'); } catch (x) { H.gate = false; }
+  sync();
+  const target = location.hash && document.querySelector(location.hash);
+  if (target) target.scrollIntoView({behavior: 'smooth'});
+};
+</script>
+{% endblock %}

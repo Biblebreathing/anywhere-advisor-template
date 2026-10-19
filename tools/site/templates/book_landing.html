@@ -1,0 +1,78 @@
+{% extends "funnel_base.html" %}
+{% block content %}{% set bk = c.book %}{% set o = c.offer %}
+<section class="hero" style="padding-top:56px"><div class="wrap reg-grid">
+  <div>
+    <p class="eyebrow">{{ o.eyebrow or "The new book by " ~ s.advisor.name }}</p>
+    <h1>{{ o.headline or bk.title }}</h1>
+    <p class="lead">{{ bk.subtitle }}</p>
+    {% if bk.cover %}<img src="{{ bk.cover }}" alt="Cover of {{ bk.title }}" style="max-width:280px;margin:18px 0;box-shadow:0 18px 40px rgba(0,0,0,.25);border-radius:4px">{% endif %}
+    <h2 style="font-size:24px;margin-top:20px">Inside, you'll discover:</h2>
+    <ul class="checks">{% for x in o.bullets %}<li>{{ x }}</li>{% endfor %}</ul>
+    {% if o.who %}<h2 style="font-size:24px">This book is for you if:</h2><ul class="checks">{% for x in o.who %}<li>{{ x }}</li>{% endfor %}</ul>{% endif %}
+    <div class="advisor-mini">{% if s.advisor.photo %}<img src="{{ s.advisor.photo }}" alt="{{ s.advisor.name }}">{% endif %}<div><strong style="color:var(--ink)">About the author: {{ s.advisor.name }}</strong><br><span class="small">{{ o.author_line }}</span></div></div>
+  </div>
+  <div class="formcard" id="offer">
+    <div id="formwrap">
+      <h2 style="font-size:26px">{{ o.form_headline }}</h2>
+      <p class="small">{{ o.form_text }}</p>
+      <form id="f" novalidate>
+        <label for="fn">First name</label><input id="fn" type="text" autocomplete="given-name">
+        <label for="ln">Last name</label><input id="ln" type="text" autocomplete="family-name">
+        <label for="em">Email</label><input id="em" type="email" autocomplete="email">
+        {% if o.type == "mailed" %}
+        <label for="st">Street address</label><input id="st" type="text" autocomplete="street-address">
+        <div style="display:grid;grid-template-columns:2fr 1fr 1.2fr;gap:10px">
+          <div><label for="ci">City</label><input id="ci" type="text" autocomplete="address-level2"></div>
+          <div><label for="sa">State</label><input id="sa" type="text" autocomplete="address-level1" maxlength="2" style="text-transform:uppercase"></div>
+          <div><label for="zp">ZIP</label><input id="zp" type="text" autocomplete="postal-code" inputmode="numeric"></div>
+        </div>
+        {% endif %}
+        <label for="ph">Mobile phone <span class="small" style="font-weight:400">(optional)</span></label><input id="ph" type="tel" autocomplete="tel">
+        <label class="consent"><input type="checkbox" id="sms"> <span>{{ c.sms_consent }}</span></label>
+        <button class="btn big" style="width:100%;margin-top:16px" type="submit">{{ o.button }}</button>
+        <div class="err" id="err"></div>
+        {% if o.limit_note %}<p class="small" style="margin:0">{{ o.limit_note }}</p>{% endif %}
+      </form>
+    </div>
+    <div id="done" class="hidden" style="display:none">
+      <h2 style="font-size:26px">{{ o.done_headline }}</h2>
+      <p>{{ o.done_text }}</p>
+      {% if o.type == "download" and o.download_url %}<p><a class="btn" href="{{ o.download_url }}">Download the book</a></p>{% endif %}
+      <p><a class="link" href="{{ c.hub_url }}">Visit the reader bonus page →</a></p>
+      <hr style="border:0;border-top:1px solid var(--primary-tint);margin:20px 0">
+      <p><strong style="color:var(--ink)">Want to talk it through?</strong> Book your free {{ s.appointment.name }}.</p>
+      <a class="btn secondary" href="{{ s.appointment.url }}">{{ s.appointment.button }}</a>
+    </div>
+  </div>
+</div></section>
+{% if o.faq %}<section class="faq"><div class="wrap narrow"><h2>Questions</h2>{% for f in o.faq %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}</div></section>{% endif %}
+{% if o.amazon_url %}<section style="padding:30px 0"><div class="wrap center"><p>Prefer to buy it? <a class="link" href="{{ o.amazon_url }}">Get it on Amazon →</a></p></div></section>{% endif %}
+{% endblock %}
+{% block script %}
+<script>
+const O = {{ ojson | safe }};
+document.getElementById('f').onsubmit = (e) => {
+  e.preventDefault();
+  const v = id => (document.getElementById(id) || {}).value?.trim() || '';
+  const err = document.getElementById('err');
+  if (!v('fn')) return err.textContent = 'Please enter your first name.';
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('em'))) return err.textContent = 'Please enter a valid email address.';
+  let address = null;
+  if (O.type === 'mailed') {
+    if (!v('ln') || !v('st') || !v('ci') || !/^[A-Za-z]{2}$/.test(v('sa')) || !/^\d{5}(-\d{4})?$/.test(v('zp'))) return err.textContent = 'Please enter your full name and mailing address (2-letter state, 5-digit ZIP).';
+    if (O.states && O.states.length && !O.states.includes(v('sa').toUpperCase())) return err.textContent = O.outOfAreaMessage || 'Sorry, signed copies are only available in our service area. Try the free download instead.';
+    address = {street: v('st'), city: v('ci'), state: v('sa').toUpperCase(), zip: v('zp')};
+  }
+  const utm = {}; ['utm_source','utm_medium','utm_campaign','utm_content','src'].forEach(k => { if (params.get(k)) utm[k] = params.get(k); });
+  const payload = {event: 'book_requested', offer: O.type, book: O.title,
+    contact: {firstName: v('fn'), lastName: v('ln'), email: v('em'), phone: v('ph'), smsConsent: document.getElementById('sms').checked},
+    address, utm, page: location.href.split('?')[0], requestedAt: new Date().toISOString()};
+  window.__lastBookRequest = payload;
+  if (W.webhookUrl) fetch(W.webhookUrl, {method: 'POST', mode: 'no-cors', keepalive: true, headers: {'Content-Type': 'text/plain;charset=UTF-8'}, body: JSON.stringify(payload)}).catch(() => {});
+  try { localStorage.setItem('reader:' + O.slug, '1'); } catch (x) {}
+  document.getElementById('formwrap').style.display = 'none';
+  document.getElementById('done').style.display = 'block';
+  window.dataLayer && window.dataLayer.push({event: 'book_requested'});
+};
+</script>
+{% endblock %}
