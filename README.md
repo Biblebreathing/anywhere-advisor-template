@@ -20,7 +20,7 @@ Every asset points to one place: **a booked appointment on the advisor's calenda
 | `stages/` | The **master template**: instructions, question banks, and frameworks for each stage. Write these once, reuse them for every advisor. |
 | `clients/<advisor-slug>/` | **One folder per advisor.** Each stage writes its outputs into the matching subfolder. Copy `clients/_example/` to start a new advisor. |
 | `compliance/` | Review checklist that every public-facing asset must pass. |
-| `tools/` | Helper scripts. `brand_kit.py` builds color palettes from a logo (or offers preset options for new firms) and checks color contrast. `mechanism_diagram.py` draws the Unique Mechanism as a branded diagram. `build_assessment.py` turns an assessment config into a finished, branded scorecard page. `build_deck.py` turns a webinar script file into a branded PowerPoint with the speaker script in the notes. `build_site.py` generates the advisor's full website from one content file. `build_funnel.py` generates the registration, thank-you, replay, and booking-confirmation pages. |
+| `tools/` | Helper scripts. `brand_kit.py` builds color palettes from a logo (or offers preset options for new firms) and checks color contrast. `mechanism_diagram.py` draws the Unique Mechanism as a branded diagram. `build_assessment.py` turns an assessment config into a finished, branded scorecard page. `build_deck.py` turns a webinar script file into a branded PowerPoint with the speaker script in the notes. `build_site.py` generates the advisor's full website from one content file. `build_funnel.py` generates the registration, thank-you, replay, and booking-confirmation pages. `book_lint.py` enforces the book house rules; `make_qr.py` makes print-ready QR codes plus editable redirects; `assemble_book.py` builds the manuscript (.md + .docx). |
 | `.claude/skills/advisor-launch/` | The Claude skill that runs the pipeline for a client, one stage at a time. |
 
 ## Stages
@@ -35,8 +35,8 @@ Every asset points to one place: **a booked appointment on the advisor's calenda
 | 06 | Webinars: framework + 5 track templates + deck builder | ✅ Built |
 | 07 | Website: guide + site generator | ✅ Built |
 | 08 | Funnel, sequences, CRM map + funnel page generator | ✅ Built |
-| 09 | Book (manuscript, worksheets, QR codes) | ⏳ Next |
-| 10 | Book Website + Funnel | ⏳ |
+| 09 | Book: Quill pipeline edition + book checker, QR and assembly tools | ✅ Built |
+| 10 | Book Website + Funnel | ⏳ Next |
 | 11 | KDP Publishing (formatting, cover, listing) | ⏳ |
 
 ## Starting a new advisor

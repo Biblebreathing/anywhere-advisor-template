@@ -1,0 +1,9 @@
+{
+  "domain": "ellisretirement.example",
+  "book_slug": "paycheck-gap",
+  "codes": [
+    {"id": "hub", "path": "go/book", "destination": "https://ellisretirement.example/book-bonus", "caption": "Scan for every worksheet in this book"},
+    {"id": "ch01-paycheck-gap", "path": "go/ch1", "destination": "https://ellisretirement.example/book-bonus#ch1", "caption": "Scan to download this worksheet"},
+    {"id": "appointment", "path": "go/session", "destination": "https://calendly.com/example/blueprint-session", "caption": "Scan to book your Blueprint Session"}
+  ]
+}

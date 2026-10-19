@@ -1,0 +1,14 @@
+{
+  "_note": "FICTIONAL, ABBREVIATED SAMPLE: an introduction and one chapter, to show the file format and test the tools. A real book has 12-15 chapters and 25,000-35,000 words.",
+  "title": "The Paycheck Gap",
+  "subtitle": "How to Turn Your Savings Into a Retirement Paycheck You Can Count On",
+  "author": "Jordan Ellis",
+  "model": "C. Mechanism Field Guide",
+  "mechanism": "Retirement Paycheck Blueprint",
+  "villain": "the Paycheck Gap",
+  "compliance_line": "This book provides general educational information only. It is not individualized legal, tax, investment, insurance, or financial advice.",
+  "front_matter": "front-matter.md",
+  "back_matter": "back-matter.md",
+  "chapters": ["00-introduction.md", "01-your-paycheck-not-your-pile.md"],
+  "targets": {"chapter": [1800, 2400], "intro": [1500, 2500], "closing": [1500, 2500]}
+}
