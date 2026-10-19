@@ -3,7 +3,7 @@
 One repeatable system that takes a financial advisor from **a single interview** to a full set of **appointment-generating assets**:
 
 ```
-Interview ─► Knowledge Base ─► (Deep Research) ─► Offer + Unique Mechanism
+Intake + Interview ─► Knowledge Base ─► (Deep Research) ─► Offer + Unique Mechanism
     │
     ├─► Assessments (lead magnets / tools)
     ├─► Webinars (Estate · Tax · Retirement Paycheck · Asset Protection · LTC)
@@ -26,8 +26,8 @@ Every asset points to one place: **a booked appointment on the advisor's calenda
 
 | # | Stage | Status |
 |---|---|---|
-| 01 | Interview | ✅ Built |
-| 02 | Knowledge Base | ⏳ Next |
+| 01 | Intake + Interview → Knowledge Base | ✅ Built |
+| 02 | Knowledge Base Review + Gap-Fill | ⏳ Next |
 | 03 | Deep Research (optional) | ⏳ |
 | 04 | Offer + Unique Mechanism | ⏳ |
 | 05 | Assessments | ⏳ |
@@ -41,6 +41,6 @@ Every asset points to one place: **a booked appointment on the advisor's calenda
 ## Starting a new advisor
 
 1. `cp -r clients/_example clients/jane-smith`
-2. Run the interview using `stages/01-interview/interview-guide.md` (live, on Zoom, or as a form).
-3. Drop the transcript in `clients/jane-smith/01-interview/transcript.md`.
+2. Send the advisor `stages/01-interview/intake-form.md` (5–10 min) and `stages/01-interview/interview-prompt.md` (30–45 min, run in any AI tool).
+3. Save what comes back in `clients/jane-smith/01-interview/` as `intake.md`, `transcript.md`, and `knowledge-base.md`.
 4. In Claude Code, say: **"Run advisor-launch for jane-smith"**. Claude checks which stages are done and builds the next one.
