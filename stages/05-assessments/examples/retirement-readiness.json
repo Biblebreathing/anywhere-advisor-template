@@ -1,0 +1,114 @@
+{
+  "_note": "FICTIONAL EXAMPLE. Advisor, firm, links, and mechanism are made up to show the format.",
+  "advisor": {
+    "name": "Jordan Ellis",
+    "firm": "Ellis Retirement Partners",
+    "logo": "",
+    "headshot": "",
+    "privacyUrl": "https://example.com/privacy"
+  },
+  "assessment": {
+    "id": "retirement-paycheck-score",
+    "title": "What's Your Retirement Paycheck Score?",
+    "subtitle": "Answer a few quick questions to see how ready your savings are to become a dependable monthly paycheck, and which areas to focus on first.",
+    "bullets": [
+      "Your overall Retirement Paycheck Score (0–100)",
+      "A score for each of the 5 steps of the Retirement Paycheck Blueprint",
+      "Your top 2 focus areas, and what to do about them"
+    ],
+    "minutes": 3,
+    "startButton": "Get My Free Score",
+    "scoreName": "Retirement Paycheck Score"
+  },
+  "mechanism": {
+    "name": "The Retirement Paycheck Blueprint",
+    "steps": [
+      {"id": "income", "name": "Income Map", "deliverable": "Retirement Paycheck Map"},
+      {"id": "tax", "name": "Tax Plan", "deliverable": "Tax Timeline"},
+      {"id": "protect", "name": "Protection Plan", "deliverable": "Risk Checklist"},
+      {"id": "legacy", "name": "Legacy Plan", "deliverable": "Family Legacy Summary"},
+      {"id": "review", "name": "Annual Review", "deliverable": "Annual Review Agenda"}
+    ]
+  },
+  "questions": [
+    {"id": "q1", "step": "income", "text": "Do you know how much monthly income you'll need in retirement?",
+     "options": [{"label": "Yes, I have a written monthly budget for retirement", "points": 3}, {"label": "I have a rough idea", "points": 2}, {"label": "Not really", "points": 0}]},
+    {"id": "q2", "step": "income", "text": "Do you know how much of that income will come from Social Security, pensions, or other dependable sources?",
+     "options": [{"label": "Yes, I know the numbers", "points": 3}, {"label": "Roughly", "points": 1}, {"label": "No", "points": 0}]},
+    {"id": "q3", "step": "income", "text": "Do you have a plan for which accounts you'll draw from first, and how much each year?",
+     "options": [{"label": "Yes, it's written down", "points": 3}, {"label": "I've thought about it", "points": 1}, {"label": "No plan yet", "points": 0}]},
+    {"id": "q4", "step": "tax", "text": "Do you know roughly how much of your savings is in pre-tax accounts (like a traditional IRA or 401(k)) versus Roth or taxable accounts?",
+     "options": [{"label": "Yes", "points": 3}, {"label": "Somewhat", "points": 1}, {"label": "No", "points": 0}]},
+    {"id": "q5", "step": "tax", "text": "Have you looked at how taxes, including required minimum distributions, could affect your retirement income?",
+     "options": [{"label": "Yes, with a professional", "points": 3}, {"label": "On my own", "points": 2}, {"label": "Not yet", "points": 0}]},
+    {"id": "q6", "step": "tax", "text": "Has anyone reviewed your situation for opportunities like Roth conversions or tax-smart withdrawal order?",
+     "options": [{"label": "Yes, in the last 2 years", "points": 3}, {"label": "Years ago", "points": 1}, {"label": "Never", "points": 0}]},
+    {"id": "q7", "step": "protect", "text": "If the market dropped 25% in your first year of retirement, do you know how it would affect your income?",
+     "options": [{"label": "Yes, I have a plan for that", "points": 3}, {"label": "I'd probably be okay", "points": 1}, {"label": "I don't know", "points": 0}]},
+    {"id": "q8", "step": "protect", "text": "Do you have a plan to pay for long-term care if you or your spouse ever need it?",
+     "help": "Home care, assisted living, or nursing care.",
+     "options": [{"label": "Yes, it's in place", "points": 3}, {"label": "I've looked into it", "points": 1}, {"label": "No", "points": 0}]},
+    {"id": "q9", "step": "protect", "text": "If you passed away first, does your spouse or partner know what income they'd have?",
+     "options": [{"label": "Yes, we've planned for it", "points": 3}, {"label": "Somewhat", "points": 1}, {"label": "No / not applicable", "points": 0}]},
+    {"id": "q10", "step": "legacy", "text": "Do you have an up-to-date will or trust (reviewed in the last 5 years)?",
+     "options": [{"label": "Yes", "points": 3}, {"label": "It's older than 5 years", "points": 1}, {"label": "No", "points": 0}]},
+    {"id": "q11", "step": "legacy", "text": "Are the beneficiaries on your retirement accounts and insurance policies current?",
+     "options": [{"label": "Yes, I checked recently", "points": 3}, {"label": "I think so", "points": 1}, {"label": "I'm not sure", "points": 0}]},
+    {"id": "q12", "step": "legacy", "text": "Have you named someone to make financial and medical decisions if you can't (power of attorney, health care directive)?",
+     "options": [{"label": "Yes, both", "points": 3}, {"label": "One of them", "points": 1}, {"label": "No", "points": 0}]},
+    {"id": "q13", "step": "review", "text": "How often do you review your whole retirement plan, not just your investments?",
+     "options": [{"label": "Every year", "points": 3}, {"label": "Every few years", "points": 1}, {"label": "Rarely or never", "points": 0}]},
+    {"id": "q14", "step": "review", "text": "Do all your financial documents and accounts live in one organized place your family could find?",
+     "options": [{"label": "Yes", "points": 3}, {"label": "Mostly", "points": 1}, {"label": "No", "points": 0}]}
+  ],
+  "qualifiers": [
+    {"id": "age", "text": "When do you plan to retire (or did you)?",
+     "options": [{"label": "Already retired", "qualified": true}, {"label": "Within 5 years", "qualified": true}, {"label": "In 5–10 years", "qualified": true}, {"label": "More than 10 years away", "qualified": false}]},
+    {"id": "assets", "text": "Roughly how much have you saved for retirement (not counting your home)?",
+     "help": "A range is fine. This helps us point you to the right next step.",
+     "options": [{"label": "Under $250,000", "qualified": false}, {"label": "$250,000 – $500,000", "qualified": true}, {"label": "$500,000 – $1 million", "qualified": true}, {"label": "Over $1 million", "qualified": true}, {"label": "Prefer not to say", "qualified": true}]}
+  ],
+  "focusSteps": 2,
+  "bands": [
+    {"min": 0, "max": 39, "label": "Getting Started", "headline": "You've got some important gaps, and that's exactly why you're here.", "message": "Most people we meet start here. The good news: a few decisions made now can make a big difference in how confident you feel about retirement."},
+    {"min": 40, "max": 69, "label": "Building Momentum", "headline": "You've done some things right, but there are gaps that could cost you.", "message": "You have a foundation. Your focus areas below show where a plan could make the biggest difference."},
+    {"min": 70, "max": 89, "label": "On Solid Ground", "headline": "You're ahead of most people. A few refinements could matter a lot.", "message": "Your plan is in good shape. Fine-tuning your focus areas could help your income last and keep more of it in your pocket."},
+    {"min": 90, "max": 100, "label": "Retirement Ready", "headline": "Excellent. You've covered the big pieces.", "message": "An annual review keeps a strong plan strong as laws, markets, and your life change."}
+  ],
+  "stepFeedback": {
+    "income": {"low": "You don't yet have a clear picture of your retirement paycheck: what you need, what's coming in, and the gap between them. This is the foundation everything else builds on.", "mid": "You have a rough picture. Turning it into a written monthly income plan shows exactly where your paycheck comes from each year.", "high": "Strong. You know your numbers and your income sources."},
+    "tax": {"low": "Taxes could take a bigger bite of your retirement income than you expect. A tax plan looks at when and how to draw from each account.", "mid": "You've thought about taxes. A year-by-year tax timeline can reveal opportunities you may be missing.", "high": "Strong. You're managing retirement taxes deliberately."},
+    "protect": {"low": "A market drop, a long-term care need, or the loss of a spouse could disrupt your income. These risks can be planned for.", "mid": "Some protections are in place. Check the gaps, especially long-term care and survivor income.", "high": "Strong. You've planned for the major risks."},
+    "legacy": {"low": "Without current documents and beneficiaries, your family could face delays, costs, and hard decisions. This is often the quickest area to improve.", "mid": "You've started. Updating documents and beneficiaries keeps your wishes in force.", "high": "Strong. Your legacy documents look current."},
+    "review": {"low": "Plans drift as laws, markets, and life change. A yearly review keeps everything working together.", "mid": "Reviewing more regularly, and getting organized, helps your family as much as it helps you.", "high": "Strong. You keep your plan current and organized."}
+  },
+  "capture": {
+    "headline": "Your score is ready. Where should we send it?",
+    "text": "Enter your name and email to see your Retirement Paycheck Score and focus areas. We'll also email you a copy.",
+    "askPhone": true,
+    "phoneRequired": false,
+    "smsConsent": "Yes, Ellis Retirement Partners may text me about my results and upcoming events. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.",
+    "button": "Show My Score",
+    "privacyNote": "We respect your privacy. We never sell your information."
+  },
+  "appointment": {
+    "name": "Retirement Paycheck Blueprint Session",
+    "headline": "Turn your score into a plan.",
+    "text": "In a complimentary 45-minute Retirement Paycheck Blueprint Session, Jordan will walk through your focus areas with you, step by step.",
+    "deliverable": "Your personal Retirement Paycheck Map: your monthly income, your gap, and your options, on one page. It's yours to keep.",
+    "buttonText": "Reserve My Blueprint Session",
+    "secondaryText": "Or reserve a Blueprint Session",
+    "scarcity": "Jordan holds a limited number of Blueprint Sessions each month. No cost, no obligation.",
+    "url": "https://calendly.com/example/blueprint-session",
+    "urlParams": {"firstName": "name", "email": "email"}
+  },
+  "nurture": {
+    "headline": "Your next step: learn the Blueprint.",
+    "text": "Join our free online class, where Jordan walks through all 5 steps of the Retirement Paycheck Blueprint, with time for questions.",
+    "buttonText": "Save My Seat in the Free Class",
+    "url": "https://example.com/webinar"
+  },
+  "webhookUrl": "",
+  "resultsNote": "This assessment is for educational purposes only. Your score is based solely on your answers and is not a recommendation to buy or sell any product.",
+  "disclosure": "Ellis Retirement Partners is a fictional firm used for demonstration. [Replace with the advisor's required registration and firm disclosures, as approved by their compliance department.] This assessment is educational and is not tax, legal, or investment advice."
+}
