@@ -1,0 +1,53 @@
+{% extends "funnel_base.html" %}
+{% block content %}{% set w = c.webinar %}
+<section class="hero" style="padding-top:56px"><div class="wrap reg-grid">
+  <div>
+    <p class="eyebrow">{{ w.eyebrow or "Free online class" }}</p>
+    <h1>{{ w.title }}</h1>
+    <p class="lead">{{ w.subtitle }}</p>
+    <h2 style="font-size:24px;margin-top:28px">In this class you'll learn:</h2>
+    <ul class="checks">{% for p in w.promises %}<li>{{ p }}</li>{% endfor %}</ul>
+    {% if w.who %}<h2 style="font-size:24px;margin-top:22px">This class is for you if:</h2><ul class="checks">{% for x in w.who %}<li>{{ x }}</li>{% endfor %}</ul>{% endif %}
+    <div class="advisor-mini">{% if s.advisor.photo %}<img src="{{ s.advisor.photo }}" alt="{{ s.advisor.name }}">{% endif %}<div><strong style="color:var(--ink)">Your host: {{ s.advisor.name }}</strong><br><span class="small">{{ w.credibility }}</span></div></div>
+  </div>
+  <div class="formcard" id="reg">
+    <h2 style="font-size:26px">Save your free seat</h2>
+    <div class="when" id="when">Loading the next class…</div>
+    <p class="small" style="margin:0 0 4px">{{ w.duration_minutes or 60 }} minutes · online · free{% if w.dial_in %} · phone dial-in available{% endif %}</p>
+    <form id="f" novalidate>
+      <label for="fn">First name</label><input id="fn" type="text" autocomplete="given-name">
+      <label for="em">Email</label><input id="em" type="email" autocomplete="email">
+      <label for="ph">Mobile phone <span class="small" style="font-weight:400">(for reminders, optional)</span></label><input id="ph" type="tel" autocomplete="tel">
+      <label class="consent"><input type="checkbox" id="sms"> <span>{{ c.sms_consent }}</span></label>
+      {% if w.question %}<label for="q">{{ w.question }} <span class="small" style="font-weight:400">(optional)</span></label><input id="q" type="text">{% endif %}
+      <button class="btn big" style="width:100%;margin-top:16px" type="submit">{{ w.button or "Save My Seat" }}</button>
+      <div class="err" id="err"></div>
+      <p class="small" style="margin:0">{{ w.note or "Educational session. Includes an invitation to meet one-on-one." }}</p>
+    </form>
+  </div>
+</div></section>
+{% endblock %}
+{% block script %}
+<script>
+const s = nextSession();
+document.getElementById('when').textContent = s ? fmt(s) : 'New dates coming soon';
+document.getElementById('f').onsubmit = (e) => {
+  e.preventDefault();
+  const v = id => (document.getElementById(id) || {}).value?.trim() || '';
+  const err = document.getElementById('err');
+  if (!v('fn')) return err.textContent = 'Please enter your first name.';
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('em'))) return err.textContent = 'Please enter a valid email address.';
+  if (!s) return err.textContent = 'Registration opens when the next date is posted.';
+  const utm = {}; ['utm_source','utm_medium','utm_campaign','utm_content','src'].forEach(k => { if (params.get(k)) utm[k] = params.get(k); });
+  const payload = {event: 'webinar_registered', track: W.track, webinar: W.title, session: s,
+    contact: {firstName: v('fn'), email: v('em'), phone: v('ph'), smsConsent: document.getElementById('sms').checked},
+    question: v('q'), utm, page: location.href.split('?')[0], registeredAt: new Date().toISOString()};
+  window.__lastRegistration = payload;
+  const go = () => location.href = 'thank-you.html?s=' + encodeURIComponent(s) + '&n=' + encodeURIComponent(v('fn'));
+  if (W.webhookUrl) {
+    fetch(W.webhookUrl, {method: 'POST', mode: 'no-cors', keepalive: true, headers: {'Content-Type': 'text/plain;charset=UTF-8'}, body: JSON.stringify(payload)}).catch(() => {}).finally(go);
+  } else go();
+  window.dataLayer && window.dataLayer.push({event: 'webinar_registered'});
+};
+</script>
+{% endblock %}

@@ -1,0 +1,48 @@
+{
+  "_note": "FICTIONAL EXAMPLE. Replace every field from the client's Stage 04-07 files. Sessions use ISO dates with a time zone offset; the page shows the next one in the visitor's local time.",
+  "site": {
+    "firm": "Ellis Retirement Partners",
+    "logo": "",
+    "advisor": {"name": "Jordan Ellis", "title": "Retirement Income Planner", "photo": "headshot-placeholder.jpg", "phone": "(555) 555-0123"},
+    "appointment": {
+      "name": "Retirement Paycheck Blueprint Session",
+      "headline": "Find out if your retirement paycheck will last.",
+      "text": "In a complimentary 45-minute Blueprint Session, Jordan will walk through your situation with you, step by step.",
+      "deliverable": "Your one-page Retirement Paycheck Map: your income, your gap, and your options. It's yours to keep.",
+      "deliverable_short": "your one-page Retirement Paycheck Map",
+      "button": "Reserve My Blueprint Session",
+      "url": "https://calendly.com/example/blueprint-session"
+    },
+    "disclosure": "Ellis Retirement Partners is a fictional firm used for demonstration. [Advisor's required disclosures.] Educational only; not tax, legal, or investment advice.",
+    "privacy_url": "https://ellisretirement.example/privacy.html"
+  },
+  "webinar": {
+    "track": "retirement-paycheck",
+    "eyebrow": "Free online class · Every Tuesday",
+    "title": "Will Your Retirement Paycheck Last as Long as You Do?",
+    "subtitle": "A free 60-minute class on turning your savings into a dependable monthly paycheck.",
+    "promises": ["Why saving a big number isn't the same as having a retirement paycheck", "The three risks that can shrink your income, and how planners address them", "How to map your own monthly paycheck: what you need, what's covered, and the gap"],
+    "who": ["You're within 10 years of retiring, or just retired", "You've saved, but don't know how much you can safely spend", "You haven't decided when to take Social Security"],
+    "credibility": "Retirement income planner in Columbus, Ohio · [credential/years from the Knowledge Base]",
+    "question": "What's your biggest question about retirement income?",
+    "sessions": ["2026-10-27T11:00:00-04:00", "2026-11-03T11:00:00-05:00", "2026-11-10T11:00:00-05:00", "2026-11-17T11:00:00-05:00", "2026-11-24T11:00:00-05:00", "2026-12-01T11:00:00-05:00"],
+    "duration_minutes": 60,
+    "join_link": "https://zoom.us/j/0000000000",
+    "dial_in": "(555) 555-0199, meeting ID 000 000 0000",
+    "workbook_url": "https://ellisretirement.example/workbook.pdf",
+    "assessment_url": "https://score.ellisretirement.example",
+    "button": "Save My Seat",
+    "note": "Educational session. Includes an invitation to meet one-on-one. Insurance and investment products may be discussed.",
+    "replay": {"video_embed_url": "", "expires_text": "Replay available until Friday at midnight"}
+  },
+  "booked": {
+    "what_happens": ["We'll talk about what matters most to you in retirement", "We'll map your monthly income: what you need, what's coming in, and the gap", "You'll see the five steps of the Blueprint applied to your situation"],
+    "bring": ["Recent statements for retirement and investment accounts", "Your Social Security estimate (ssa.gov/myaccount), if you have it", "Any pension information"],
+    "questionnaire_url": "https://forms.example.com/blueprint-questionnaire",
+    "video_embed_url": "",
+    "reschedule_text": "Need to change the time? Use the reschedule link in your confirmation email, or call us. Rescheduling is always better than missing it."
+  },
+  "sms_consent": "Yes, Ellis Retirement Partners may text me reminders about this class and my appointments. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.",
+  "thanks": {"video_embed_url": ""},
+  "webhookUrl": ""
+}

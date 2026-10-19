@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_description }}">
+<meta name="robots" content="{{ robots or 'index,follow' }}">
+<link rel="stylesheet" href="{{ fonts_url }}">
+<link rel="stylesheet" href="style.css">
+<style>
+.funnel-top{background:#fff;border-bottom:1px solid var(--primary-tint)} .funnel-top .bar{min-height:68px}
+.reg-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:start}
+.formcard{background:#fff;border-radius:18px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.08);border-top:6px solid var(--accent)}
+.formcard label{display:block;font-weight:700;color:var(--ink);margin:14px 0 6px;font-size:17px}
+.formcard input[type=text],.formcard input[type=email],.formcard input[type=tel],.formcard select{width:100%;font:inherit;padding:13px 14px;border:2px solid var(--primary-tint);border-radius:10px;background:#fff}
+.formcard input:focus,.formcard select:focus{outline:none;border-color:var(--primary-strong)}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:14px;font-weight:400!important;color:var(--body-text)!important}
+.consent input{margin-top:5px;flex:none}
+.when{background:var(--primary-tint);border-radius:12px;padding:14px 16px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.err{color:#B42318;font-size:15px;min-height:22px;margin-top:8px}
+.advisor-mini{display:flex;gap:16px;align-items:center;margin-top:26px}
+.advisor-mini img{width:84px;height:84px;border-radius:50%;object-fit:cover;border:3px solid var(--accent)}
+.steps-list{counter-reset:n;list-style:none;padding:0}
+.steps-list li{counter-increment:n;position:relative;padding:18px 18px 18px 70px;background:#fff;border-radius:14px;margin:14px 0;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.steps-list li:before{content:counter(n);position:absolute;left:18px;top:18px;width:38px;height:38px;border-radius:50%;background:var(--primary-strong);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.video{position:relative;padding-top:56.25%;border-radius:14px;overflow:hidden;background:#000;margin:20px 0}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
+@media (max-width:900px){.reg-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="funnel-top"><div class="wrap bar"><span class="brand">{% if s.logo %}<img src="{{ s.logo }}" alt="{{ s.firm }}">{% else %}{{ s.firm }}{% endif %}</span>{% if s.advisor.phone %}<a class="phone" href="tel:{{ s.advisor.phone }}" style="font-weight:700;text-decoration:none">{{ s.advisor.phone }}</a>{% endif %}</div></header>
+<main id="main">{% block content %}{% endblock %}</main>
+<footer class="site-footer"><div class="wrap disclosure" style="border:0;margin-top:0"><p>{{ s.disclosure }}</p>{% if s.privacy_url %}<p><a href="{{ s.privacy_url }}">Privacy Policy</a></p>{% endif %}<p>© {{ year }} {{ s.firm }}</p></div></footer>
+<script>
+const W = {{ wjson | safe }};
+const fmt = (iso) => { const d = new Date(iso); return d.toLocaleString(undefined, {weekday:'long', month:'long', day:'numeric', hour:'numeric', minute:'2-digit', timeZoneName:'short'}); };
+const nextSession = () => { const now = Date.now(); return (W.sessions || []).find(s => new Date(s).getTime() - now > -15 * 60000) || null; };
+const params = new URLSearchParams(location.search);
+</script>
+{% block script %}{% endblock %}
+</body>
+</html>

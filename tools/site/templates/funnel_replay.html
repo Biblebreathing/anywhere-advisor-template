@@ -1,0 +1,17 @@
+{% extends "funnel_base.html" %}
+{% block content %}{% set w = c.webinar %}{% set r = w.replay %}
+<section class="page-hero" style="padding-bottom:20px"><div class="wrap narrow center">
+  <p class="eyebrow">Class replay</p><h1>{{ w.title }}</h1>
+  {% if r.expires_text %}<div class="when" style="display:inline-block">{{ r.expires_text }}</div>{% endif %}
+</div></section>
+<section style="padding-top:0"><div class="wrap narrow">
+  {% if r.video_embed_url %}<div class="video"><iframe src="{{ r.video_embed_url }}" title="Replay: {{ w.title }}" allowfullscreen></iframe></div>{% endif %}
+  <p class="center"><a class="btn big" href="{{ s.appointment.url }}">{{ s.appointment.button }}</a></p>
+  <h2>In this class:</h2><ul class="checks">{% for p in w.promises %}<li>{{ p }}</li>{% endfor %}</ul>
+</div></section>
+<section class="cta-band"><div class="wrap narrow center">
+  <h2>{{ s.appointment.headline }}</h2><p>{{ s.appointment.text }}</p>
+  <p class="deliver"><strong>You'll walk away with:</strong> {{ s.appointment.deliverable }}</p><br>
+  <a class="btn big accent" href="{{ s.appointment.url }}">{{ s.appointment.button }}</a>
+</div></section>
+{% endblock %}

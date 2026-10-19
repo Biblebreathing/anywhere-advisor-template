@@ -1,0 +1,41 @@
+{% extends "funnel_base.html" %}
+{% block content %}{% set w = c.webinar %}
+<section class="page-hero"><div class="wrap narrow center">
+  <p class="eyebrow">You're registered</p>
+  <h1><span id="nm"></span>your seat is saved.</h1>
+  <div class="when" id="when" style="display:inline-block"></div>
+</div></section>
+<section style="padding-top:20px"><div class="wrap narrow">
+  <h2>Three quick steps to get the most out of it</h2>
+  <ol class="steps-list">
+    <li><strong style="color:var(--ink)">Put it on your calendar.</strong><div class="btn-row"><a class="btn small" id="gcal" target="_blank" rel="noopener">Add to Google Calendar</a><a class="btn small secondary" id="ics" download="class.ics">Apple / Outlook calendar</a></div></li>
+    {% if w.workbook_url %}<li><strong style="color:var(--ink)">Print your workbook</strong> and have a pen ready. <a class="link" href="{{ w.workbook_url }}">Download the workbook →</a></li>{% endif %}
+    {% if w.assessment_url %}<li><strong style="color:var(--ink)">Take the 3-minute assessment</strong> so you'll know which part of the class matters most for you. <a class="link" href="{{ w.assessment_url }}">Get my free score →</a></li>{% endif %}
+  </ol>
+  {% if c.thanks and c.thanks.video_embed_url %}<div class="video"><iframe src="{{ c.thanks.video_embed_url }}" title="A welcome message from {{ s.advisor.name }}" allowfullscreen></iframe></div>{% endif %}
+  <p class="small">Your join link is in your email{% if w.dial_in %}. Joining by phone: {{ w.dial_in }}{% endif %}.</p>
+</div></section>
+<section class="cta-band"><div class="wrap narrow center">
+  <h2>Can't wait for the class?</h2>
+  <p>If you'd rather talk now, book your free {{ s.appointment.name }}. You'll walk away with {{ s.appointment.deliverable_short or s.appointment.deliverable }}.</p>
+  <a class="btn big accent" href="{{ s.appointment.url }}">{{ s.appointment.button }}</a>
+</div></section>
+{% endblock %}
+{% block script %}
+<script>
+const s = params.get('s') || nextSession();
+const n = params.get('n'); if (n) document.getElementById('nm').textContent = n.replace(/[<>]/g,'') + ', ';
+document.getElementById('when').textContent = s ? fmt(s) : '';
+if (s) {
+  const start = new Date(s), end = new Date(start.getTime() + (W.duration || 60) * 60000);
+  const z = d => d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+  const details = 'Join link: ' + (W.join || '(in your email)') + (W.dial ? '\nBy phone: ' + W.dial : '');
+  document.getElementById('gcal').href = 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + encodeURIComponent(W.title) +
+    '&dates=' + z(start) + '/' + z(end) + '&details=' + encodeURIComponent(details);
+  const ics = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//AnywhereAdvisor//Funnel//EN','BEGIN:VEVENT','UID:' + z(start) + '@' + location.hostname,
+    'DTSTAMP:' + z(new Date()),'DTSTART:' + z(start),'DTEND:' + z(end),'SUMMARY:' + W.title,'DESCRIPTION:' + details.replace(/\n/g, '\\n'),
+    'BEGIN:VALARM','TRIGGER:-PT60M','ACTION:DISPLAY','DESCRIPTION:Starting in 1 hour','END:VALARM','END:VEVENT','END:VCALENDAR'].join('\r\n');
+  document.getElementById('ics').href = URL.createObjectURL(new Blob([ics], {type: 'text/calendar'}));
+}
+</script>
+{% endblock %}

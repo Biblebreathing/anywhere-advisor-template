@@ -1,0 +1,19 @@
+{% extends "funnel_base.html" %}
+{% block content %}{% set b = c.booked %}
+<section class="page-hero"><div class="wrap narrow center">
+  <p class="eyebrow">You're booked</p><h1>Your {{ s.appointment.name }} is confirmed.</h1>
+  <p class="lead">A confirmation is on its way to your email. Here's how to get the most from our time together.</p>
+</div></section>
+<section style="padding-top:10px"><div class="wrap narrow">
+  {% if b.video_embed_url %}<div class="video"><iframe src="{{ b.video_embed_url }}" title="A message from {{ s.advisor.name }}" allowfullscreen></iframe></div>{% endif %}
+  <h2>What happens in your session</h2><ul class="checks">{% for x in b.what_happens %}<li>{{ x }}</li>{% endfor %}</ul>
+  <p class="deliver"><strong>You'll walk away with:</strong> {{ s.appointment.deliverable }}</p>
+  <h2 style="margin-top:36px">Before we meet</h2>
+  <ol class="steps-list">
+    {% if b.questionnaire_url %}<li><strong style="color:var(--ink)">Fill out the short questionnaire</strong> (about 5 minutes) so we can use our time well. <a class="link" href="{{ b.questionnaire_url }}">Start the questionnaire →</a></li>{% endif %}
+    <li><strong style="color:var(--ink)">Bring your spouse or partner,</strong> if you're planning together. These decisions are easier when you're both in the room.</li>
+    {% if b.bring %}<li><strong style="color:var(--ink)">Gather what to bring:</strong><ul>{% for x in b.bring %}<li>{{ x }}</li>{% endfor %}</ul></li>{% endif %}
+  </ol>
+  <p class="small">{{ b.reschedule_text or "Need to change the time? Use the link in your confirmation email, or call us." }}{% if s.advisor.phone %} <a href="tel:{{ s.advisor.phone }}">{{ s.advisor.phone }}</a>{% endif %}</p>
+</div></section>
+{% endblock %}
