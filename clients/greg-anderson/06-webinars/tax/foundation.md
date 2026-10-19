@@ -8,7 +8,7 @@
 
 - **X (current hell):** "Most of what we saved is in a 401(k) and IRAs we haven't paid tax on. My RSUs vest, my withholding says one thing and April says another, and nobody has shown me what happens when the required withdrawals start." A large pre-tax balance, no multi-year tax plan, and three advisors who never talk (the Three-Office Problem, Stage 04).
 - **Y (paradise):** A year-by-year view of when taxes hit, with deliberate decisions about withdrawals, Roth conversions, RSU sales and side-business income, made with the tax return on the table. "A path to run on."
-- **Z (what it unlocks for them):** Fewer April surprises, Medicare premiums that aren't set by accident, a surviving spouse who isn't handed a single-filer tax bill on joint-filer income, and more of the money left for the life and the people they saved it for.
+- **Z (the life it opens up):** Fewer April surprises, Medicare premiums that aren't set by accident, a surviving spouse who isn't handed a single-filer tax bill on joint-filer income, and more of the money left for the life and the people they saved it for.
 - **M (mechanism):** **The PATH Plan:** Paycheck, Assets, **Taxes**, Heirs. "Walk the PATH every year." This webinar goes deep on **Taxes**.
 
 ## 2. The Through Line

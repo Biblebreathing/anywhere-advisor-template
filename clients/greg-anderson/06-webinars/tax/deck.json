@@ -12,7 +12,7 @@
     "firm": "Balanced Financial, Inc. · Fort Collins, Colorado",
     "headshot": "../../02-knowledge-base/assets/headshot-1.jpg"
   },
-  "disclosure_short": "Educational only; not tax, legal, or investment advice. Consult your tax professional. Tax services: Fort Collins Tax Advisory Group, LLC (affiliated). Advisory: Balanced Wealth Partners. Insurance: Balanced Financial, Inc. Products may be discussed. [Approver's required language.]",
+  "disclosure_short": "Education only; not tax, legal, or investment advice. Tax services: Fort Collins Tax Advisory Group, LLC (affiliate). Products may be discussed.",
   "through_line": {
     "wrong_belief": "I'll be in a lower bracket when I retire, and my CPA handles taxes every April.",
     "true_belief": "Retirement taxes are planned in decades, not filed in April. The years before my RMDs start are the window."
@@ -45,8 +45,8 @@
       "layout": "title",
       "headline": "The Tax Trap",
       "subhead": "How Roth conversions, RSUs, and the years before your RMDs shape what you keep",
-      "speaker_script": "[Doors open ten minutes early. Greet people in the chat by first name as they arrive.]\n\n\"Welcome, everybody. I'm Greg Anderson, and I run Balanced Financial here in Fort Collins, Colorado. Thank you for giving me an hour of your day.\"\n\n\"While people are still coming in, do me a favor. Type in the chat where you're watching from today. Fort Collins, Loveland, Windsor, Denver, or somewhere a long way from here.\"\n\n[Read three or four back by first name and town.]\n\n\"Good. I see some of you are local and some of you are on Zoom from out of state. Both are welcome. The federal rules we'll cover today apply to everybody. When I get to a Colorado rule, I'll say so, and if you're somewhere else, your state has its own version.\"\n\n\"One more quick one while we wait. In the chat, tell me what brought you here. Roth conversions, RSUs, required withdrawals, Medicare costs, or a side business or rental. Just type the one word.\"\n\n[Read a few back. Note the most common answer and mention it later.]\n\n\"Great. We'll start in about a minute.\"\n\nTiming: about two minutes.",
-      "timing_seconds": 120,
+      "speaker_script": "[Doors open ten minutes early. Greet people in the chat by first name as they arrive.]\n\n\"Welcome, everybody. I'm Greg Anderson, and I run Balanced Financial here in Fort Collins, Colorado. Thank you for giving me an hour of your day.\"\n\n\"While people are still coming in, do me a favor. Type in the chat where you're watching from today. Fort Collins, Loveland, Windsor, Denver, or somewhere a long way from here.\"\n\n[Read three or four back by first name and town.]\n\n\"Some of you are local and some are on Zoom from out of state. Both are welcome. The federal rules today apply to everybody. When I get to a Colorado rule, I'll say so.\"\n\n\"One more quick one while we wait. In the chat, tell me what brought you here. Roth conversions, RSUs, required withdrawals, Medicare costs, or a side business or rental. Just type the one word.\"\n\n[Read a few back. Note the most common answer and mention it later.]\n\n\"Great. We'll start in about a minute.\"\n\nTiming: about one minute.",
+      "timing_seconds": 70,
       "chat_prompt": "Type where you're watching from, then what brought you here: Roth, RSUs, RMDs, Medicare, or side business",
       "number": 1,
       "claims_used": []
@@ -56,14 +56,14 @@
       "layout": "bullets",
       "headline": "You're in the Right Place If",
       "body": [
-        "Most of your savings is in a 401(k) or IRA",
-        "You're 58 to 68 and retiring within five years, or just retired",
-        "You have RSUs, a side business, or a rental",
-        "Nobody has shown you a multi-year tax projection",
-        "Not for you: stock tips or a quick filing fix"
+        "Most of your savings is pre-tax",
+        "You're 58 to 68, retiring soon or just retired",
+        "RSUs, a side business, or a rental",
+        "No multi-year tax plan yet",
+        "Not for: stock tips or a quick filing fix"
       ],
-      "speaker_script": "\"Let me make sure you're in the right room.\"\n\n[Read each line slowly. Pause after each one.]\n\n\"Most of your savings is in a 401(k) or an IRA. Money you haven't paid tax on yet.\"\n\n\"You're somewhere between 58 and 68, and you're retiring in the next five years, or you just did.\"\n\n\"You've got RSUs from your employer, or a consulting business on the side, or a rental property.\"\n\n\"And nobody, not your employer, not your 401(k) provider, maybe not even your tax preparer, has ever sat down and shown you a tax projection that runs more than one year.\"\n\n\"If even one of those is you, you're in the right place.\"\n\n\"Now the last line. If you came for a stock tip, I'm going to disappoint you. And if you want somebody to fix this year's return by Friday, that's not what this is either. This is about the next ten or fifteen years.\"\n\n\"A lot of the people I work with are engineers and technical folks. Two plus two equals four people. If that's you, good. Today is a numbers day.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Let me make sure you're in the right room.\"\n\n[Read each line slowly. Pause after each one.]\n\n\"Most of your savings is in a 401(k) or an IRA. Money you haven't paid tax on yet.\"\n\n\"You're somewhere between 58 and 68, and you're retiring in the next five years, or you just did.\"\n\n\"You've got RSUs, a consulting business on the side, or a rental.\"\n\n\"And nobody has ever shown you a tax projection that runs more than one year.\"\n\n\"If even one of those is you, you're in the right place.\"\n\n\"The last line: if you came for a stock tip, or a quick fix on this year's return, this isn't that. This is about the next ten or fifteen years.\"\n\n\"A lot of the people I work with are engineers. Two plus two equals four people. Today is a numbers day.\"\n\nTiming: about one minute.",
+      "timing_seconds": 60,
       "number": 2,
       "claims_used": []
     },
@@ -78,8 +78,8 @@
         "Education only, not tax advice",
         "At the end: the PATH Review"
       ],
-      "speaker_script": "\"A little housekeeping, and then we'll get going.\"\n\n\"We'll go about an hour. I'll teach for about forty-five minutes, and then I'll take your questions. If you have to leave early, there's a replay, and it stays up for seventy-two hours.\"\n\n\"You should have a workbook in your email. Go ahead and open it now. I'll tell you when to write something down, and I'll give you quiet time to do it.\"\n\n\"Use the chat. I'm reading it. If I ask you to type something, type it. It makes this better for everybody.\"\n\n\"Now the part I have to say, and I mean it. This is an educational session that includes an invitation to meet with me. Nothing today is tax, legal, or investment advice for your situation. Your situation is different from everybody else's on this call. Please talk with your own tax professional before you act on anything.\"\n\n\"And in full disclosure: I own three companies. Tax preparation and tax advice come through Fort Collins Tax Advisory Group. Investment advice comes through Balanced Wealth Partners. Insurance comes through Balanced Financial. If you decide to meet with me, insurance or investment products may be discussed. I want you to know that up front.\"\n\n\"Last thing. At the end, I'll tell you about something we call the PATH Review. It's a sixty-minute meeting where our in-house tax team does a What-If review of your actual tax return. It's free. I'll explain it later, but I didn't want it to be a surprise.\"\n\nTiming: about two minutes.",
-      "timing_seconds": 120,
+      "speaker_script": "\"A little housekeeping.\"\n\n\"We'll go about an hour, with questions at the end. If you have to leave early, the replay stays up for seventy-two hours.\"\n\n\"Open the workbook from your email now. I'll tell you when to write something down.\"\n\n\"Use the chat. I'm reading it.\"\n\n\"Now the part I have to say, and I mean it. This is an educational session that includes an invitation to meet with me. Nothing today is tax, legal, or investment advice for your situation. Please talk with your own tax professional before you act on anything.\"\n\n\"And in full disclosure: I run three companies. Tax preparation and tax advice come through Fort Collins Tax Advisory Group. Investment advice comes through Balanced Wealth Partners. Insurance comes through Balanced Financial. If you decide to meet with me, insurance or investment products may be discussed. I want you to know that up front.\"\n\n\"Last thing. At the end, I'll tell you about the PATH Review, a free sixty-minute meeting where our in-house tax team does a What-If review of your actual tax return. I didn't want it to be a surprise.\"\n\nTiming: about ninety seconds.",
+      "timing_seconds": 80,
       "number": 3,
       "claims_used": []
     },
@@ -88,8 +88,8 @@
       "layout": "story",
       "headline": "I trained to build buildings.",
       "subhead": "Then a tax law changed the math.",
-      "speaker_script": "\"I want to start with how I got into this work, because it's the reason this webinar exists.\"\n\n[Slow down. This is a story, not a lecture. Leave the numbers off the slide; say them.]\n\n\"I went to college for construction and finance. A double major. I trained to be a commercial developer. That was the plan. I was going to build things.\"\n\n\"Then, right around the time I graduated, Congress passed the Tax Reform Act of 1986.\"\n\n\"If you're an engineer, you'll appreciate this part. That law changed the inputs. It took away the accelerated write-offs on commercial buildings. Depreciation went from fifteen years, accelerated, to thirty-one and a half years, straight line. It stopped people from using real estate losses to offset their other income. And the capital gains rate went from twenty percent to twenty-eight.\"\n\n[PAUSE.]\n\n\"Money flowing into real estate partnerships was about sixteen billion dollars in 1985. By 1989, it was about a billion and a half.\"\n\n\"On top of that, there was already a lot of empty office space out there. Put the two together, and development dried up. In my memory, it was a ghost town.\"\n\n[PAUSE. Count to three. It will feel like ten.]\n\nTiming: about two minutes.",
-      "timing_seconds": 120,
+      "speaker_script": "\"Let me start with how I got into this work.\"\n\n[Slow down. This is a story, not a lecture. Leave the numbers off the slide; say them.]\n\n\"I went to college for construction and finance, a double major. I trained to be a commercial developer.\"\n\n\"Then, right around the time I graduated, Congress passed the Tax Reform Act of 1986.\"\n\n\"If you're an engineer, you'll appreciate this part. That law changed the inputs. It took away the accelerated write-offs on commercial buildings. Depreciation went from fifteen years, accelerated, to thirty-one and a half years, straight line. It stopped people from using real estate losses to offset their other income. And the capital gains rate went from twenty percent to twenty-eight.\"\n\n[PAUSE.]\n\n\"Money flowing into real estate partnerships was about sixteen billion dollars in 1985. By 1989, it was about a billion and a half.\"\n\n\"On top of that, there was already a lot of empty office space out there. Put the two together, and development dried up. In my memory, it was a ghost town.\"\n\n[PAUSE. Count to three. It will feel like ten.]\n\nTiming: about one minute.",
+      "timing_seconds": 75,
       "claims_used": [
         "F-092",
         "F-093",
@@ -102,8 +102,8 @@
       "act": 1,
       "layout": "story",
       "headline": "Tax law can empty a plan you didn't make.",
-      "speaker_script": "\"Here's what I took from that.\"\n\n\"I didn't do anything wrong. I studied hard, I had a plan, and the plan was built on the rules as they were. Then the rules changed, and a plan built on the old math stopped working.\"\n\n\"So I made some lemonade out of lemons. I moved into a brand-new field at the time, financial planning. And I've been planning around tax law ever since.\"\n\n\"Now, why am I telling you this?\"\n\n\"Because the same thing can happen to a retirement plan. Not overnight, like it did to developers. In slow motion. You save for thirty years under one set of assumptions. Then the withdrawals start, and the tax rules, the Medicare rules, and the Social Security rules all show up at the same time. And nobody ran the numbers on what happens when they collide.\"\n\n\"That's the Tax Trap. It's not a scandal. Nobody's hiding it. It's just arithmetic that nobody did for you yet.\"\n\n[Click to the next slide and let it sit.]\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Here's what I took from that.\"\n\n\"I didn't do anything wrong. I studied hard, I had a plan, and the plan was built on the rules as they were. Then the rules changed, and a plan built on the old math stopped working.\"\n\n\"So I made some lemonade out of lemons. I moved into a brand-new field at the time, financial planning. And I've been planning around tax law ever since.\"\n\n\"Now, why am I telling you this?\"\n\n\"Because the same thing can happen to a retirement plan, in slow motion. You save for thirty years under one set of assumptions. Then the withdrawals start, and the tax, Medicare, and Social Security rules all show up at once. And nobody ran the numbers on what happens when they collide.\"\n\n\"That's the Tax Trap. It's not a scandal. Nobody's hiding it. It's just arithmetic that nobody did for you yet.\"\n\n[Click to the next slide and let it sit.]\n\nTiming: about one minute.",
+      "timing_seconds": 65,
       "number": 5,
       "claims_used": []
     },
@@ -112,8 +112,8 @@
       "layout": "statement",
       "headline": "Part of your 401(k) belongs to the IRS.",
       "subhead": "The rules decide when they collect, unless you plan first.",
-      "speaker_script": "\"Here's the line the whole hour turns on.\"\n\n[Read it slowly. PAUSE. Count to three.]\n\n\"Part of your 401(k) belongs to the IRS.\"\n\n\"You haven't paid tax on that money. Every dollar you take out of a traditional 401(k) or IRA is taxed as ordinary income in the year you take it out. So when your statement says two million dollars, that's not two million of your dollars. Some of it is the government's share. You just don't know how big that share is yet.\"\n\n\"And here's the part most people miss. The size of that share isn't fixed. It depends on when you take the money out, how much you take in each year, and what else is on your tax return that year.\"\n\n\"The rules decide when they collect, unless you plan first. That's what today is about.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Here's the line the whole hour turns on.\"\n\n[Read it slowly. PAUSE. Count to three.]\n\n\"Part of your 401(k) belongs to the IRS.\"\n\n\"You haven't paid tax on that money. Every dollar you take out of a traditional 401(k) or IRA is taxed as ordinary income in the year you take it out. So when your statement says two million dollars, that's not two million of your dollars. Some of it is the government's share. You just don't know how big that share is yet.\"\n\n\"And the size of that share isn't fixed. It depends on when you take the money out, how much each year, and what else is on your return that year.\"\n\n\"The rules decide when they collect, unless you plan first. That's what today is about.\"\n\nTiming: about one minute.",
+      "timing_seconds": 55,
       "claims_used": [
         "F-016"
       ],
@@ -130,8 +130,8 @@
         "Landlord and business owner myself",
         "Not your attorney; I don't predict markets or Congress"
       ],
-      "speaker_script": "\"Now, just a minute on who I am. I share this not to impress you, but to impress upon you that I've sat where you're sitting.\"\n\n\"I hold the RICP. That's the Retirement Income Certified Professional designation from The American College of Financial Services. It's training in one thing: turning savings into income in retirement.\"\n\n\"I run three companies. One of them is Fort Collins Tax Advisory Group. That's our own tax practice. They prepare returns and give tax advice, right here in the same office. So when we talk about your taxes, the people who look at your return are in the next room, not across town.\"\n\n\"The other two handle estate documents and insurance, and investments. Tax, estate, and investments, at one table.\"\n\n\"Early in my career I decided no one could put a logo on my business card. I wanted to work for my clients, not for a brand.\"\n\n\"I've also been a landlord for a long time, and I've bought and sold businesses. So if you've got rentals or a side business, I know what tenants and toilets feel like.\"\n\n\"Here's what I'm not. I'm not your attorney. I don't predict the stock market. And I definitely don't predict Congress. Nobody can. What we can do is plan so you're not at the mercy of either one.\"\n\nTiming: about two minutes.",
-      "timing_seconds": 110,
+      "speaker_script": "\"A minute on who I am. I share this not to impress you, but to impress upon you that I've sat where you're sitting.\"\n\n\"I hold the RICP, the Retirement Income Certified Professional designation from The American College of Financial Services. It's training in turning savings into retirement income.\"\n\n\"I run three companies. One is Fort Collins Tax Advisory Group, our own tax practice, in the same office. The people who look at your return are in the next room, not across town.\"\n\n\"The other two handle estate documents and insurance, and investments. All at one table.\"\n\n\"Early in my career I decided no one could put a logo on my business card. I wanted to work for my clients, not for a brand.\"\n\n\"I've also been a landlord, and I've bought and sold businesses. So I know what tenants and toilets feel like.\"\n\n\"Here's what I'm not. I'm not your attorney. And I don't predict the stock market or Congress. Nobody can. We plan so you're not at the mercy of either one.\"\n\nTiming: about one minute.",
+      "timing_seconds": 75,
       "claims_used": [
         "F-096"
       ],
@@ -144,19 +144,19 @@
       "cards": [
         {
           "title": "The lower-bracket myth",
-          "text": "Why it can backfire, and the 2026 numbers that show it"
+          "text": "Why it can backfire, in 2026 numbers"
         },
         {
           "title": "The stack",
-          "text": "How RMDs, Social Security, Medicare surcharges, and RSUs stack up on one return"
+          "text": "RMDs, Social Security, Medicare, RSUs on one return"
         },
         {
           "title": "The window",
-          "text": "The years before RMDs begin, and the questions to bring your advisor and CPA"
+          "text": "The years before RMDs, and what to ask"
         }
       ],
-      "speaker_script": "\"Here's what I promised you when you signed up, and here's what you'll walk away with.\"\n\n[Read each card. Point at it as you go.]\n\n\"One. Why the idea that you'll be in a lower bracket when you retire can backfire, and the 2026 numbers that show it.\"\n\n\"Two. How required withdrawals, Social Security, Medicare surcharges, and RSUs stack up on the same tax return.\"\n\n\"Three. The planning window before your required withdrawals begin, and the questions to bring to your advisor and your CPA before it closes.\"\n\n\"I'll hold nothing back today. If you never talk to me again, you should still leave with a page full of notes and three or four questions you didn't know to ask. That's my goal.\"\n\n\"Let's get into it.\"\n\nTiming: about one minute.",
-      "timing_seconds": 70,
+      "speaker_script": "\"Here's what I promised you when you signed up, and here's what you'll walk away with.\"\n\n[Read each card. Point at it as you go.]\n\n\"One. Why the idea that you'll be in a lower bracket when you retire can backfire, and the 2026 numbers that show it.\"\n\n\"Two. How required withdrawals, Social Security, Medicare surcharges, and RSUs stack up on the same tax return.\"\n\n\"Three. The planning window before your required withdrawals begin, and the questions to bring to your advisor and your CPA before it closes.\"\n\n\"I'll hold nothing back. If you never talk to me again, you should still leave with a page of notes and a few questions you didn't know to ask.\"\n\n\"Let's get into it.\"\n\nTiming: about one minute.",
+      "timing_seconds": 50,
       "number": 8,
       "claims_used": []
     },
@@ -172,8 +172,8 @@
         "You've heard 'Roth conversion' but never run one",
         "You wonder what your spouse's taxes look like alone"
       ],
-      "speaker_script": "\"Let me ask you a few questions. Just nod at your screen if this is you.\"\n\n[Read each line. PAUSE after each.]\n\n\"Most of your money is in accounts you haven't paid tax on yet.\"\n\n\"You don't really know what your required withdrawals will be, or when they start.\"\n\n\"Your RSUs vest, the paycheck stub says tax was withheld, and then April comes and says something different.\"\n\n\"You've heard the words Roth conversion at a barbecue, and somebody had a strong opinion, but nobody ever ran the numbers for you.\"\n\n\"And maybe the quiet one. You've wondered what happens to your spouse's taxes if one of you passes first.\"\n\n\"Okay. Grab your workbook, page one. At the top it says My Three Buckets. Write down, roughly, what percentage of your savings is in each one. Pre-tax, meaning 401(k), 403(b), traditional IRA. Roth. And taxable, meaning a regular brokerage or savings account. Round numbers are fine.\"\n\n[Stay quiet for twenty seconds.]\n\n\"Now type in the chat: 1, 2, or 3. One if most of your savings is pre-tax. Two if most of it is Roth. Three if most of it is taxable, or you're not sure.\"\n\n[Read the results back. Expect mostly 1s.]\n\n\"That's what I see almost every time. Mostly ones. Hold onto that.\"\n\nTiming: about two and a half minutes.",
-      "timing_seconds": 150,
+      "speaker_script": "\"Let me ask you a few questions. Just nod at your screen if this is you.\"\n\n[Read each line. PAUSE after each.]\n\n\"Most of your money is in accounts you haven't paid tax on yet.\"\n\n\"You don't really know what your required withdrawals will be, or when they start.\"\n\n\"Your RSUs vest, the paycheck stub says tax was withheld, and then April comes and says something different.\"\n\n\"You've heard the words Roth conversion, but nobody ever ran the numbers for you.\"\n\n\"And maybe the quiet one. You've wondered what happens to your spouse's taxes if one of you passes first.\"\n\n\"Grab your workbook, page one. At the top it says My Three Buckets. Write down roughly what percentage of your savings is pre-tax, Roth, and taxable. Round numbers are fine.\"\n\n[Stay quiet for twenty seconds.]\n\n\"Now type in the chat: 1, 2, or 3. One if most of your savings is pre-tax. Two if most of it is Roth. Three if most of it is taxable, or you're not sure.\"\n\n[Read the results back. Expect mostly 1s.]\n\n\"Mostly ones. Hold onto that.\"\n\nTiming: about ninety seconds.",
+      "timing_seconds": 100,
       "chat_prompt": "Type 1, 2, or 3: most of my savings is (1) pre-tax, (2) Roth, (3) taxable or not sure",
       "workbook_cue": {
         "page": 1,
@@ -188,8 +188,8 @@
       "angle": "wrong belief",
       "headline": "“I'll be in a lower bracket when I retire.”",
       "subhead": "It's a reasonable belief. For a lot of big savers, it's wrong.",
-      "speaker_script": "\"Here's the belief almost everybody on this call has been told, and I want to say it out loud.\"\n\n\"I'll be in a lower bracket when I retire.\"\n\n[PAUSE.]\n\n\"That's a reasonable thing to believe. You've heard it for thirty years. Max out the pre-tax 401(k), take the deduction now, and you'll pay less later because you won't have a paycheck.\"\n\n\"And for some people it's true. If you saved a modest amount and you'll live mostly on Social Security, your bracket probably does go down.\"\n\n\"But a lot of you didn't save a modest amount. You saved a million, two million, four million dollars in pre-tax accounts. You did exactly what you were told, and you did it well. And that's the trap. The bigger the pre-tax pile, the more the IRS eventually requires you to take out, and the less likely it is that your bracket goes down very much, if at all.\"\n\n\"So the question isn't whether you'll pay tax on that money. You will. The question is when, and at what rate, and whether you pick the timing or the rules pick it for you.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Here's the belief almost everybody on this call has been told, and I want to say it out loud.\"\n\n\"I'll be in a lower bracket when I retire.\"\n\n[PAUSE.]\n\n\"That's a reasonable thing to believe. You've heard it for thirty years: take the deduction now, pay less later, because you won't have a paycheck.\"\n\n\"For some people it's true. If you saved a modest amount, your bracket may well go down.\"\n\n\"But a lot of you didn't save a modest amount. You saved a million, two million, four million dollars in pre-tax accounts. You did exactly what you were told, and you did it well. And that's the trap. The bigger the pre-tax pile, the more the IRS eventually requires you to take out, and the less likely it is that your bracket goes down very much, if at all.\"\n\n\"So the question isn't whether you'll pay tax on that money. You will. The question is when, and at what rate, and whether you pick the timing or the rules pick it for you.\"\n\nTiming: about one minute.",
+      "timing_seconds": 75,
       "number": 10,
       "claims_used": []
     },
@@ -212,8 +212,8 @@
           "label": "How much of your Social Security can be taxable"
         }
       ],
-      "speaker_script": "\"Three numbers, and then we'll put them to work.\"\n\n[Point at the first number.]\n\n\"Seventy-five. That's the age your required minimum distributions start if you were born in 1960 or later. For most people a little older than that, it's seventy-three. The IRS has proposed regulations on exactly where people born in 1959 land, so if that's your birth year, check with your tax professional. But for most of the 58 to 66-year-olds on this call, it's seventy-five. Write your RMD age on page one of your workbook.\"\n\n\"Why does that matter? Because it means you may have more years before the IRS forces money out than you thought. More years for the account to grow, which means bigger required withdrawals later. But also more years to plan.\"\n\n[Point at the second number.]\n\n\"Two years. Medicare charges extra premiums to people with higher income. It's called IRMAA. And here's the part that catches people: the income they use is from two years earlier. Your 2026 income sets your 2028 premiums.\"\n\n[Point at the third number.]\n\n\"Eighty-five percent. Up to eighty-five percent of your Social Security can be taxable. And the test that decides it counts half your benefit plus your other income, including tax-exempt municipal bond interest. A lot of people are surprised by that last part.\"\n\n[BOOKING CALLOUT]\n\n\"By the way, if you'd like to see these three numbers run against your own tax return, that's what the PATH Review is for. The link is in the chat now. No need to do anything with it yet. Let's keep going.\"\n\nTiming: about two and a half minutes.",
-      "timing_seconds": 150,
+      "speaker_script": "\"Three numbers, and then we'll put them to work.\"\n\n[Point at the first number.]\n\n\"Seventy-five. That's when required minimum distributions start if you were born in 1960 or later. For most people a little older, it's seventy-three. If you were born in 1959, the IRS has proposed a rule, so check with your tax professional. Write your RMD age on page one.\"\n\n\"That means more years for the account to grow, so bigger required withdrawals later. But also more years to plan.\"\n\n[Point at the second number.]\n\n\"Two years. Medicare charges extra premiums to people with higher income. It's called IRMAA. And here's the part that catches people: the income they use is from two years earlier. Your 2026 income sets your 2028 premiums.\"\n\n[Point at the third number.]\n\n\"Eighty-five percent. Up to eighty-five percent of your Social Security can be taxable. And the test that decides it counts half your benefit plus your other income, including tax-exempt municipal bond interest. A lot of people are surprised by that last part.\"\n\n[BOOKING CALLOUT]\n\n\"By the way, if you'd like to see these three numbers run against your own tax return, that's what the PATH Review is for. The link is in the chat now. No need to do anything with it yet. Let's keep going.\"\n\nTiming: about ninety seconds.",
+      "timing_seconds": 85,
       "workbook_cue": {
         "page": 1,
         "instruction": "Write your RMD age (73 or 75) next to your birth year"
@@ -233,8 +233,8 @@
       "angle": "story",
       "headline": "The Millers did everything right.",
       "subhead": "A hypothetical illustration, not real clients",
-      "speaker_script": "\"Let me show you what those three numbers do together. This is a hypothetical couple. They are not real clients. I'll call them the Millers, and I'm using 2026 tax figures.\"\n\n[Tell it plainly. Keep the slide clean; the numbers are spoken, not shown.]\n\n\"Both Millers were engineers. They worked for one company for thirty years. They maxed out their 401(k)s every year, they rolled them into IRAs, and they never touched the money. By the end of the year before Mr. Miller turns seventy-five, the IRA is worth three million dollars.\"\n\n\"Now the IRS steps in. The first required withdrawal is the year-end balance divided by a number from an IRS table. At seventy-five, that number is twenty-four point six. Three million divided by twenty-four point six is about one hundred twenty-two thousand dollars. That's the first year. They have to take it whether they need it or not.\"\n\n\"Next, Social Security. Let's say together they get eighty thousand dollars a year. With a hundred twenty-two thousand of IRA income on top, they're far past the threshold, so eighty-five percent of that Social Security is taxable. That's another sixty-eight thousand dollars of taxable income.\"\n\n\"Then they have a brokerage account that throws off about thirty thousand dollars a year in dividends and interest.\"\n\n\"Add it up. One twenty-two, plus sixty-eight, plus thirty. About two hundred twenty thousand dollars of income.\"\n\n[PAUSE.]\n\n\"In 2026, the first Medicare surcharge for a married couple starts above two hundred eighteen thousand dollars. So the Millers just crossed it. Their Part B premium goes from two hundred two dollars and ninety cents a month to two hundred eighty-four dollars and ten cents, each. Plus a Part D surcharge.\"\n\n\"Here's what I want you to notice. The Millers are retired. They didn't get a raise. They didn't sell a business. Most of that income is money the rules required them to take. And their tax return looks a lot like the years when they were working.\"\n\n\"Lower bracket in retirement? Not for the Millers.\"\n\nTiming: about three minutes.",
-      "timing_seconds": 180,
+      "speaker_script": "\"Let me show you what those three numbers do together. This is a hypothetical couple. They are not real clients. I'll call them the Millers, and I'm using 2026 tax figures.\"\n\n[Tell it plainly. Keep the slide clean; the numbers are spoken, not shown.]\n\n\"Both Millers were engineers. They maxed out their 401(k)s for thirty years and rolled them into IRAs. By the end of the year before Mr. Miller turns seventy-five, the IRA is worth three million dollars.\"\n\n\"The first required withdrawal is the year-end balance divided by a number from an IRS table. At seventy-five, that number is twenty-four point six. Three million divided by twenty-four point six is about one hundred twenty-two thousand dollars. That's the first year. They have to take it whether they need it or not.\"\n\n\"Next, Social Security. Let's say together they get eighty thousand dollars a year. With a hundred twenty-two thousand of IRA income on top, they're far past the threshold, so eighty-five percent of that Social Security is taxable. That's another sixty-eight thousand dollars of taxable income.\"\n\n\"Then they have a brokerage account that throws off about thirty thousand dollars a year in dividends and interest.\"\n\n\"Add it up. One twenty-two, plus sixty-eight, plus thirty. About two hundred twenty thousand dollars of income.\"\n\n[PAUSE.]\n\n\"On 2026 figures, the first Medicare surcharge for a married couple starts above two hundred eighteen thousand dollars. The Millers just crossed it. Two years later, when Medicare looks back at this year, their Part B premium goes from two hundred two dollars and ninety cents a month to two hundred eighty-four dollars and ten cents, each. Plus a Part D surcharge.\"\n\n\"Notice: the Millers are retired. They didn't get a raise. Most of that income is money the rules required them to take. Their return looks a lot like their working years.\"\n\n\"Lower bracket in retirement? Not for the Millers.\"\n\nTiming: about two minutes.",
+      "timing_seconds": 130,
       "claims_used": [
         "F-014",
         "F-105",
@@ -249,9 +249,9 @@
       "act": 2,
       "layout": "statement",
       "angle": "consequence",
-      "headline": "“What if the biggest bill of our retirement is a tax bill we didn't see coming?”",
-      "speaker_script": "\"I want to say something that a lot of people carry around and don't say out loud.\"\n\n[Lower your voice a little. PAUSE.]\n\n\"What if we did everything right? We saved for decades. We didn't blow it on boats. And the biggest bill of our retirement turns out to be a tax bill we didn't see coming?\"\n\n\"I call that head trash. It's the stuff that keeps you up at night because you don't have the numbers. And here's the thing about head trash: it usually gets smaller once you look at it. Not always. But usually. Because once you can see the bill coming, you can do something about the timing.\"\n\n\"If that worry is in your head right now, you're not behind. You're normal. And you're early enough to do something about it.\"\n\nTiming: about one minute.",
-      "timing_seconds": 60,
+      "headline": "“What if our biggest retirement bill is a tax bill?”",
+      "speaker_script": "\"I want to say something that a lot of people carry around and don't say out loud.\"\n\n[Lower your voice a little. PAUSE.]\n\n\"What if we did everything right? We saved for decades. And the biggest bill of our retirement turns out to be a tax bill we didn't see coming?\"\n\n\"I call that head trash. It's the stuff that keeps you up at night because you don't have the numbers. And here's the thing about head trash: it usually gets smaller once you look at it. Not always. But usually. Because once you can see the bill coming, you can do something about the timing.\"\n\n\"If that worry is in your head right now, you're not behind. You're normal. And you're early enough to do something about it.\"\n\nTiming: about one minute.",
+      "timing_seconds": 55,
       "number": 13,
       "claims_used": []
     },
@@ -266,8 +266,8 @@
         "Taxes get figured once a year, looking back",
         "Your advisor, CPA, and attorney never meet"
       ],
-      "speaker_script": "\"Let me be clear about something. If you're in this spot, it is not your fault.\"\n\n\"For thirty years, the advice was about one direction: money going in. Max out the pre-tax 401(k). Get the match. Take the deduction. That's good advice for the accumulation years. I'm not knocking it.\"\n\n\"But almost nobody gave you a plan for the other direction. How the money comes out. In what order. In which years.\"\n\n\"Then there's how taxes usually get handled. Once a year, in April, looking backward. Your tax preparer's job is to report what already happened, accurately. They're good at it. But by the time they see the year, the year is over.\"\n\n\"And here's the part I see most. Your investment advisor, your tax preparer, and your estate attorney have never been in the same room. Each one does a good job on their piece. Nobody owns the whole picture. I call that the Three-Office Problem.\"\n\n\"You didn't create that. The system did. But you're the one who gets the bill.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Let me be clear about something. If you're in this spot, it is not your fault.\"\n\n\"For thirty years, the advice was about money going in. Max out the pre-tax 401(k). Take the deduction. That's good advice for the saving years.\"\n\n\"But almost nobody gave you a plan for the other direction. How the money comes out. In what order. In which years.\"\n\n\"And taxes usually get handled once a year, in April, looking backward. By the time your preparer sees the year, the year is over.\"\n\n\"And here's the bigger problem. Your investment advisor, your tax preparer, and your estate attorney have never been in the same room. Each one does a good job on their piece. Nobody owns the whole picture. I call that the Three-Office Problem.\"\n\n\"You didn't create that. The system did. But you're the one who gets the bill.\"\n\nTiming: about one minute.",
+      "timing_seconds": 60,
       "number": 14,
       "claims_used": []
     },
@@ -282,8 +282,8 @@
         "From surprise bills to decisions you make on purpose",
         "From one spouse planned for to both of you"
       ],
-      "speaker_script": "\"So what does it look like when this is handled well? Let me flip each of those.\"\n\n[Read each line: the left half, PAUSE, then the right half.]\n\n\"From we'll see in April, to a view of the next ten years, so you know which years are expensive and which years are cheap before they happen.\"\n\n\"From one big pre-tax pot, to three tax buckets, so you can choose where each year's money comes from.\"\n\n\"From surprise tax bills and surprise Medicare premiums, to decisions you make on purpose, with the numbers in front of you.\"\n\n\"And from a plan that only works while you're both here, to a plan that works for the one who's left.\"\n\n\"Type in the chat which of those four you'd want most. Just type the number: 1, 2, 3, or 4.\"\n\n[Read a few back. Thank people by name.]\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"So what does it look like when this is handled well? Let me flip each of those.\"\n\n[Read each line: the left half, PAUSE, then the right half.]\n\n\"From we'll see in April, to a view of the next ten years, so you know which years are expensive and which years are cheap before they happen.\"\n\n\"From one big pre-tax pot, to three tax buckets, so you can choose where each year's money comes from.\"\n\n\"From surprise tax bills and surprise Medicare premiums, to decisions you make on purpose, with the numbers in front of you.\"\n\n\"And from a plan that only works while you're both here, to a plan that works for the one who's left.\"\n\n\"Type in the chat which of those four you'd want most. Just type the number: 1, 2, 3, or 4.\"\n\n[Read a few back. Thank people by name.]\n\nTiming: about one minute.",
+      "timing_seconds": 70,
       "chat_prompt": "Which of the four would you want most? Type 1, 2, 3, or 4",
       "number": 15,
       "claims_used": []
@@ -293,8 +293,8 @@
       "layout": "statement",
       "angle": "true belief",
       "headline": "Retirement taxes are planned in decades, not filed in April.",
-      "speaker_script": "\"Which brings us to where I think most of you already are.\"\n\n[PAUSE. Read the headline slowly.]\n\n\"Retirement taxes are planned in decades, not filed in April.\"\n\n\"Filing is important. It's the scoreboard. But you don't win a game by reading the scoreboard. You win it by deciding what to do before the play.\"\n\n\"The decisions that matter most for your retirement taxes happen in a specific window of years. Once those years pass, they don't come back. That's what the rest of today is about.\"\n\nTiming: about one minute.",
-      "timing_seconds": 60,
+      "speaker_script": "\"Which brings us to where I think most of you already are.\"\n\n[PAUSE. Read the headline slowly.]\n\n\"Retirement taxes are planned in decades, not filed in April.\"\n\n\"Filing is the scoreboard. You don't win a game by reading the scoreboard.\"\n\n\"The decisions that matter most for your retirement taxes happen in a specific window of years. Once those years pass, they don't come back. That's what the rest of today is about.\"\n\nTiming: about thirty seconds.",
+      "timing_seconds": 30,
       "number": 16,
       "claims_used": []
     },
@@ -303,8 +303,8 @@
       "layout": "story",
       "angle": "story",
       "headline": "Why I built a tax firm into my office.",
-      "speaker_script": "\"Let me go back to that story from the beginning for a minute, because it's how I learned this.\"\n\n[Keep the slide to the headline only.]\n\n\"When I came out of school, I had a good plan. A tax law changed, and the plan didn't work anymore. Nobody warned me. Nobody ran the numbers for me ahead of time.\"\n\n\"That lesson never left me. The tax law moves. And a plan that doesn't move with it eventually breaks.\"\n\n\"So when I built my practice, I didn't want taxes to be somebody else's department across town. I built Fort Collins Tax Advisory Group into the same office. Our tax team prepares returns. And because they're right here, the tax return becomes the starting point of the plan, not an afterthought in April.\"\n\n\"Here's why that matters. A tax return is the most honest financial document you own. It shows your IRA withdrawals. It shows how much of your Social Security got taxed. It shows your RSU income in your wages, your capital gains, your rental income, your side business. Everything the rules care about is right there on a few pages.\"\n\n\"When you look at last year's return and ask what if, what if we'd taken this from a different bucket, what if this RSU sale had landed in a different year, you stop guessing.\"\n\n\"That's the breakthrough for most people. Not some secret strategy. Just looking at the real return, with the real numbers, before the year is over instead of after.\"\n\nTiming: about two minutes.",
-      "timing_seconds": 120,
+      "speaker_script": "\"Let me go back to that story from the beginning for a minute, because it's how I learned this.\"\n\n[Keep the slide to the headline only.]\n\n\"When I came out of school, I had a good plan. A tax law changed, and the plan stopped working.\"\n\n\"That lesson never left me. The tax law moves. And a plan that doesn't move with it eventually breaks.\"\n\n\"So when I built my practice, I built Fort Collins Tax Advisory Group into the same office. Because our tax team is right here, the return becomes the starting point of the plan, not an afterthought in April.\"\n\n\"A tax return is the most honest financial document you own. IRA withdrawals, taxable Social Security, RSU income, capital gains, rental and business income. Everything the rules care about is on a few pages.\"\n\n\"When you look at last year's return and ask what if, what if we'd taken this from a different bucket, what if this RSU sale had landed in a different year, you stop guessing.\"\n\n\"No secret strategy. Just the real return, with real numbers, before the year is over instead of after.\"\n\nTiming: about ninety seconds.",
+      "timing_seconds": 80,
       "number": 17,
       "claims_used": []
     },
@@ -318,8 +318,8 @@
         "Walk the PATH every year",
         "Today we go deep on step 3: Taxes"
       ],
-      "speaker_script": "\"This is how I work with every family. We call it the PATH Plan. Four steps.\"\n\n[Point at each step as you name it.]\n\n\"P is Paycheck. What do you need each year, and where does it come from? Social Security timing, pensions, your portfolio, rentals, part-time work.\"\n\n\"A is Assets. How is your money positioned, so a bad market year early in retirement doesn't derail your paycheck?\"\n\n\"T is Taxes. That's today. Our tax team reviews last year's return and maps the years ahead. Roth conversions, required withdrawals, RSUs, rental and business income.\"\n\n\"H is Heirs. Your trust, your wills, your powers of attorney, and every beneficiary form, so if one of you dies, the other one is okay.\"\n\n\"And then we walk the PATH again every year, because your life changes and the tax law changes.\"\n\n\"My clients tell me what they like most is having a path to run on. Today we're going deep on T. Three big ideas.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"This is how we work. We call it the PATH Plan. Four steps.\"\n\n[Point at each step as you name it.]\n\n\"P is Paycheck. What do you need each year, and where does it come from? Social Security timing, pensions, your portfolio, rentals, part-time work.\"\n\n\"A is Assets. How is your money positioned, so a bad market year early in retirement doesn't derail your paycheck?\"\n\n\"T is Taxes. That's today. Our tax team reviews last year's return and maps the years ahead. Roth conversions, required withdrawals, RSUs, rental and business income.\"\n\n\"H is Heirs. Your trust, your wills, your powers of attorney, and every beneficiary form, so if one of you dies, the other one is okay.\"\n\n\"And then we walk the PATH again every year, because your life changes and the tax law changes.\"\n\n\"Clients tell me the relief is having a path to run on. Today we're going deep on T. Three big ideas.\"\n\nTiming: about one minute.",
+      "timing_seconds": 65,
       "number": 18,
       "claims_used": []
     },
@@ -329,8 +329,8 @@
       "angle": "method",
       "headline": "Big Idea 1: Not all dollars are equal.",
       "subhead": "The mix matters more than the total.",
-      "speaker_script": "\"Big Idea number one. Not all dollars are equal.\"\n\n[PAUSE.]\n\n\"When you look at your statement, you see one number. Two million, three million. But to the IRS, those dollars are not the same. A dollar in your 401(k), a dollar in a Roth, and a dollar in your brokerage account are taxed three completely different ways when they come out.\"\n\n\"So the mix matters more than the total. Let me show you the three buckets.\"\n\nTiming: about forty-five seconds.",
-      "timing_seconds": 45,
+      "speaker_script": "\"Big Idea number one. Not all dollars are equal.\"\n\n[PAUSE.]\n\n\"When you look at your statement, you see one number. Two million, three million. But to the IRS, those dollars are not the same. A dollar in your 401(k), a dollar in a Roth, and a dollar in your brokerage account are taxed three completely different ways when they come out.\"\n\n\"So the mix matters more than the total. Let me show you the three buckets.\"\n\nTiming: about thirty seconds.",
+      "timing_seconds": 35,
       "number": 19,
       "claims_used": []
     },
@@ -341,24 +341,24 @@
       "headline": "The Three Tax Buckets (Plus Your RSUs)",
       "cards": [
         {
-          "title": "Pre-tax: 401(k), 403(b), IRA",
-          "text": "Every dollar out is ordinary income. RMDs from 73 or 75."
+          "title": "Pre-tax",
+          "text": "Ordinary income out. RMDs at 73 or 75."
         },
         {
           "title": "Roth",
-          "text": "No RMDs in your lifetime. Qualified withdrawals not counted as income."
+          "text": "No lifetime RMDs. Qualified: 59½ plus 5 years."
         },
         {
-          "title": "Taxable: brokerage, savings",
-          "text": "Long-term gains taxed at 0%, 15%, or 20%."
+          "title": "Taxable",
+          "text": "Long-term gains: 0%, 15%, or 20%."
         },
         {
           "title": "RSUs",
-          "text": "Taxed as wages when shares are delivered, usually at vesting."
+          "text": "Wages when shares are delivered."
         }
       ],
-      "speaker_script": "\"Grab your workbook, page two. We're filling in the three buckets.\"\n\n[Wait five seconds.]\n\n\"Bucket one, pre-tax. Your 401(k), 403(b), traditional IRA. You got a deduction going in. So every dollar coming out is taxed as ordinary income, at your bracket, in the year you take it. And starting at seventy-three or seventy-five, the IRS tells you a minimum you have to take.\"\n\n\"Bucket two, Roth. You paid the tax going in, or when you converted. Roth IRAs have no required withdrawals during your lifetime. And under current law, a qualified withdrawal isn't counted as income at all. Qualified has two conditions. You're at least fifty-nine and a half, and it's been five years since the first year you put money into a Roth. Both conditions. I want you to write both down, because people skip the second one.\"\n\n\"Bucket three, taxable. A regular brokerage account. You already paid tax on the money you put in. When you sell something you've held more than a year, the gain is taxed at long-term capital gains rates. In 2026, for a married couple, that's zero percent on taxable income up to ninety-eight thousand nine hundred dollars, fifteen percent above that, and twenty percent at the very top.\"\n\n\"And then a fourth card for a lot of you: RSUs. Restricted stock units are taxed as wages when the shares are delivered to you, which for most people is the day they vest. The value that day is income, just like salary. Only the change in price after that is a capital gain or loss.\"\n\n\"Write one sentence at the bottom of page two: the mix matters more than the total.\"\n\n[Stay quiet for fifteen seconds.]\n\n\"Type in the chat: do you have RSUs, yes or no?\"\n\n[Read a few back.]\n\nTiming: about three minutes.",
-      "timing_seconds": 180,
+      "speaker_script": "\"Grab your workbook, page two. We're filling in the three buckets.\"\n\n[Wait five seconds.]\n\n\"Bucket one, pre-tax. Your 401(k), 403(b), traditional IRA. Every dollar coming out is ordinary income, at your bracket, in the year you take it. And from seventy-three or seventy-five, the IRS sets a minimum.\"\n\n\"Bucket two, Roth. You paid the tax going in, or when you converted. Roth IRAs have no required withdrawals during your lifetime. And under current law, a qualified withdrawal isn't counted as income at all. Qualified has two conditions. You're at least fifty-nine and a half, and your first Roth IRA contribution was at least five tax years ago. Write both down. People skip the second one.\"\n\n\"Bucket three, taxable. A regular brokerage account. Sell something you've held more than a year, and the gain gets long-term rates. In 2026, for a married couple, zero percent on taxable income up to ninety-eight thousand nine hundred dollars, then fifteen, and twenty at the very top.\"\n\n\"And then a fourth card for a lot of you: RSUs. Restricted stock units are taxed as wages when the shares are delivered to you, which for most people is the day they vest. The value that day is income, just like salary. Only the change in price after that is a capital gain or loss.\"\n\n\"Write one sentence at the bottom of page two: the mix matters more than the total.\"\n\n[Stay quiet for fifteen seconds.]\n\n\"Type in the chat: do you have RSUs, yes or no?\"\n\n[Read a few back.]\n\nTiming: about two minutes.",
+      "timing_seconds": 135,
       "chat_prompt": "Do you have RSUs? Type YES or NO",
       "workbook_cue": {
         "page": 2,
@@ -383,8 +383,8 @@
       "angle": "comparison",
       "headline": "Same $2 million. Different control.",
       "subhead": "A hypothetical illustration",
-      "speaker_script": "\"Here's why the mix matters. Another hypothetical. Two couples, both retired, both with two million dollars. Not real people.\"\n\n[Keep this slow. One couple, then the other.]\n\n\"Couple A has all two million in pre-tax IRAs. Every dollar they spend comes out as ordinary income. Need a new roof? That's taxable income. Want to help a grandchild with college? Taxable income. Every withdrawal pushes their tax return up. They have one dial, and it only turns one way.\"\n\n\"Couple B has the same two million, but it's mixed. Most of it is still pre-tax. But some of it is in Roth accounts, and some is in a brokerage account they've already paid tax on.\"\n\n\"Now watch what happens when Couple B needs that roof. They can look at their tax return for the year and ask a question Couple A can't ask. Which bucket should this come from? If they're close to a bracket line, or close to that Medicare line at two hundred eighteen thousand, they can take it from the Roth or the brokerage account and stay under it.\"\n\n\"Same total. Same roof. Very different control.\"\n\n\"That's Big Idea one. The total is the scoreboard. The mix is what lets you choose. And for most people with big pre-tax balances, building some mix takes years, which is why we start early.\"\n\nTiming: about two minutes.",
-      "timing_seconds": 120,
+      "speaker_script": "\"Here's why the mix matters. Another hypothetical. Two couples, both retired, both with two million dollars. Not real people.\"\n\n[Keep this slow. One couple, then the other.]\n\n\"Couple A has all two million in pre-tax IRAs. Every dollar they spend is ordinary income. Need a new roof? Taxable income. They have one dial, and it only turns one way.\"\n\n\"Couple B has the same two million, but it's mixed. Most of it is still pre-tax. But some of it is in Roth accounts, and some is in a brokerage account they've already paid tax on.\"\n\n\"Now watch what happens when Couple B needs that roof. They can look at their tax return for the year and ask a question Couple A can't ask. Which bucket should this come from? If they're close to a bracket line, or close to that Medicare line at two hundred eighteen thousand, they can take it from the Roth, or from money they've already paid tax on, and may stay under it.\"\n\n\"Same total. Same roof. Very different control.\"\n\n\"That's Big Idea one. The total is the scoreboard. The mix is what lets you choose. And for most people with big pre-tax balances, building some mix takes years, which is why we start early.\"\n\nTiming: about ninety seconds.",
+      "timing_seconds": 85,
       "claims_used": [
         "F-021",
         "F-102"
@@ -397,8 +397,8 @@
       "angle": "method",
       "headline": "Big Idea 2: The stack you can see coming.",
       "subhead": "You don't have to be rich for this to hit you.",
-      "speaker_script": "\"Big Idea number two. The stack you can see coming.\"\n\n\"Now, some of you are thinking, Greg, this is a rich person's problem. I'm not rich. I'm an engineer with a good 401(k).\"\n\n[PAUSE.]\n\n\"I hear that a lot. And I understand it. But this isn't about being rich. It's about four things that land on the same tax return at the same time. And none of them is complicated on its own. It's the stacking that gets you. The good news is you can see every one of them coming, years in advance.\"\n\nTiming: about forty-five seconds.",
-      "timing_seconds": 45,
+      "speaker_script": "\"Big Idea number two. The stack you can see coming.\"\n\n\"Now, some of you are thinking, Greg, this is a rich person's problem. I'm not rich. I'm an engineer with a good 401(k).\"\n\n[PAUSE.]\n\n\"I understand that. But this isn't about being rich. It's about four things that land on the same tax return at the same time. And none of them is complicated on its own. It's the stacking that gets you. The good news is you can see every one of them coming, years in advance.\"\n\nTiming: about thirty seconds.",
+      "timing_seconds": 40,
       "number": 22,
       "claims_used": []
     },
@@ -409,24 +409,24 @@
       "headline": "Four Things That Stack",
       "cards": [
         {
-          "title": "Required withdrawals",
-          "text": "From 75 if born 1960 or later. Balance divided by 24.6 the first year."
+          "title": "RMDs",
+          "text": "At 75: balance divided by 24.6."
         },
         {
           "title": "Social Security",
           "text": "Up to 85% taxable."
         },
         {
-          "title": "Medicare surcharges",
-          "text": "2026 Part B: $202.90 up to $689.90 a month, each. Two-year look-back."
+          "title": "Medicare IRMAA",
+          "text": "$202.90 to $689.90 a month, each."
         },
         {
-          "title": "The surviving spouse",
-          "text": "Single brackets, on income that doesn't fall by half."
+          "title": "The survivor",
+          "text": "Single brackets, similar income."
         }
       ],
-      "speaker_script": "\"Workbook, page three. This is your stack self-check.\"\n\n\"One. Required withdrawals. If you were born in 1960 or later, they start at seventy-five. Your first one is your year-end balance divided by twenty-four point six. Here's a quick way to estimate it: take your pre-tax balance and divide by twenty-five. That's roughly four percent. On a two million dollar IRA, about eighty thousand dollars. On four million, about one hundred sixty thousand. Every year, and the percentage goes up as you get older.\"\n\n\"Two. Social Security. Up to eighty-five percent of it can be taxable, and with required withdrawals on top, a lot of you will be at that eighty-five percent level.\"\n\n\"Three. Medicare surcharges. In 2026, the standard Part B premium is two hundred two dollars and ninety cents a month. For a married couple with income above two hundred eighteen thousand dollars, it starts climbing, in steps. At the top tier it's six hundred eighty-nine dollars and ninety cents a month. Each. Plus Part D surcharges on top. About eight percent of people on Medicare pay some surcharge. And remember, it uses your income from two years earlier.\"\n\n\"Four. The one nobody talks about. The surviving spouse.\"\n\n\"Write your estimated first RMD on page three. Balance divided by twenty-five.\"\n\n[Stay quiet for twenty seconds.]\n\n\"Type in the chat: has anyone ever shown you a multi-year tax projection? YES or NO.\"\n\n[Read the results back. Expect mostly NO.]\n\nTiming: about three minutes.",
-      "timing_seconds": 180,
+      "speaker_script": "\"Workbook, page three. This is your stack self-check.\"\n\n\"One. Required withdrawals. If you were born in 1960 or later, they start at seventy-five. Your first one is your year-end balance divided by twenty-four point six. Here's a quick way to estimate it: take your pre-tax balance and divide by twenty-five. That's roughly four percent. On a two million dollar IRA, about eighty thousand dollars. On four million, about one hundred sixty thousand. Every year, and the percentage goes up as you get older.\"\n\n\"Two. Social Security. With required withdrawals on top, many of you will have eighty-five percent of it taxable.\"\n\n\"Three. Medicare surcharges. In 2026, the standard Part B premium is two hundred two dollars and ninety cents a month. For a married couple with income above two hundred eighteen thousand dollars, it starts climbing, in steps. At the top tier it's six hundred eighty-nine dollars and ninety cents a month. Each. Plus Part D surcharges on top. About eight percent of people on Medicare pay some surcharge. And remember, it uses your income from two years earlier.\"\n\n\"Four. The one nobody talks about. The surviving spouse.\"\n\n\"Write your estimated first RMD on page three. Balance divided by twenty-five.\"\n\n[Stay quiet for twenty seconds.]\n\n\"Type in the chat: has anyone ever shown you a multi-year tax projection? YES or NO.\"\n\n[Read the results back. Expect mostly NO.]\n\nTiming: about two minutes.",
+      "timing_seconds": 125,
       "chat_prompt": "Has anyone ever shown you a multi-year tax projection? Type YES or NO",
       "workbook_cue": {
         "page": 3,
@@ -450,8 +450,8 @@
       "angle": "story",
       "headline": "When the Millers become one.",
       "subhead": "A hypothetical illustration",
-      "speaker_script": "\"Let's go back to our hypothetical Millers. Remember, not real people. And this part is hard to talk about, but it matters.\"\n\n[Slow down. Gentle tone. Leave the numbers off the slide.]\n\n\"A few years into retirement, Mr. Miller passes away. Mrs. Miller is now on her own. For the year he died, she can still file a joint return. After that, unless she has a dependent child living with her, she files as single.\"\n\n\"Now look at what happens. Her income doesn't fall by half. She still has the IRA, so the required withdrawals keep coming. The brokerage account still pays dividends. Her household got smaller. Her tax return didn't get much smaller.\"\n\n\"But her brackets did. In 2026, the twenty-four percent bracket for a married couple starts at two hundred eleven thousand four hundred dollars of taxable income. For a single filer, it starts at one hundred five thousand seven hundred. About half.\"\n\n\"And Medicare. The first surcharge for a couple starts above two hundred eighteen thousand. For a single person, above one hundred nine thousand. Also about half.\"\n\n[PAUSE. Count to three.]\n\n\"So the person who's grieving is also the person who gets the bigger tax bill and the higher Medicare premium. On roughly the same income.\"\n\n\"This is why I say a tax plan has to work for both of you. Not just while you're both here.\"\n\n[BOOKING CALLOUT]\n\n\"If that one hit home, you're not alone. It's one of the first things we look at in a PATH Review. The link is in the chat, and I'll talk more about it at the end. Let's keep going.\"\n\nTiming: about two and a half minutes.",
-      "timing_seconds": 150,
+      "speaker_script": "\"Back to our hypothetical Millers. Not real people. This part is hard, but it matters.\"\n\n[Slow down. Gentle tone. Leave the numbers off the slide.]\n\n\"A few years into retirement, Mr. Miller passes away. Mrs. Miller is now on her own. For the year he died, she can still file a joint return. After that, unless she has a dependent child living with her, she files as single.\"\n\n\"Her income doesn't fall by half. She still has the IRA, and the dividends. Her household got smaller. Her tax return didn't shrink much.\"\n\n\"But her brackets did. In 2026, the twenty-four percent bracket for a married couple starts at two hundred eleven thousand four hundred dollars of taxable income. For a single filer, it starts at one hundred five thousand seven hundred. About half.\"\n\n\"And Medicare. The first surcharge for a couple starts above two hundred eighteen thousand. For a single person, above one hundred nine thousand. Also about half.\"\n\n[PAUSE. Count to three.]\n\n\"So the person who's grieving can land in higher brackets and a higher Medicare tier, on roughly the same income.\"\n\n\"This is why I say a tax plan has to work for both of you. Not just while you're both here.\"\n\n[BOOKING CALLOUT]\n\n\"If that one hit home, you're not alone. It's one of the first things we look at in a PATH Review. The link is in the chat, and I'll talk more about it at the end. Let's keep going.\"\n\nTiming: about ninety seconds.",
+      "timing_seconds": 100,
       "claims_used": [
         "F-104",
         "F-002",
@@ -465,8 +465,8 @@
       "layout": "statement",
       "angle": "method",
       "headline": "Big Idea 3: You can't control Congress. You can control timing.",
-      "speaker_script": "\"Big Idea number three. You can't control Congress. You can control timing.\"\n\n\"Some of you are thinking, Greg, what's the point? Tax law changes every few years. Whatever we plan, Washington will change it.\"\n\n\"Believe me, I know. My career started because Congress changed the rules. And they'll change them again.\"\n\n\"But here's what I learned from that. You can't control the rules. You can control when your income shows up. Which year. Which bucket. And there's a specific stretch of years when you have more control than you'll ever have again. I call it the window.\"\n\nTiming: about one minute.",
-      "timing_seconds": 60,
+      "speaker_script": "\"Big Idea number three. You can't control Congress. You can control timing.\"\n\n\"Some of you are thinking, Greg, what's the point? Tax law changes every few years. Whatever we plan, Washington will change it.\"\n\n\"Believe me, I know. My career started because Congress changed the rules. And they'll change them again.\"\n\n\"But here's what I learned from that. You can't control the rules. You can control when your income shows up. Which year. Which bucket. And there's a specific stretch of years when you have more control than you'll ever have again. I call it the window.\"\n\nTiming: about thirty seconds.",
+      "timing_seconds": 40,
       "claims_used": [
         "F-092"
       ],
@@ -480,23 +480,23 @@
       "cards": [
         {
           "title": "Roth conversions",
-          "text": "Taxed in the year you convert. Can't be undone. No income cap."
+          "text": "Taxed that year. Can't be undone."
         },
         {
-          "title": "RSU vests and sales",
-          "text": "Withholding is often a flat 22%. Your bracket may be higher."
+          "title": "RSUs",
+          "text": "22% withheld is not your bracket."
         },
         {
-          "title": "The Medicare look-back",
-          "text": "The year you turn 63 sets your premium at 65."
+          "title": "Medicare look-back",
+          "text": "Age 63 income sets age 65 premiums."
         },
         {
-          "title": "Colorado at 65 and QCDs at 70½",
-          "text": "State subtraction changes; charitable gifts from an IRA."
+          "title": "Colorado at 65, QCDs at 70½",
+          "text": "State subtraction; IRA gifts to charity."
         }
       ],
-      "speaker_script": "\"Workbook, page four. Four things you can time.\"\n\n\"One. Roth conversions. You move money from a pre-tax IRA to a Roth. The amount you convert is taxed as ordinary income that year. Since 2018, you can't undo a conversion. And there's no income cap on conversions; the income limits you may have heard about apply to Roth contributions, not conversions. Each conversion also starts its own five-year clock for one of the penalty rules. So a conversion is a real decision with a real tax bill. The question is whether paying some tax now, at a rate you can see, beats paying it later at a rate you can't.\"\n\n\"Two. RSUs. Many employers withhold a flat twenty-two percent on supplemental pay. But twenty-two percent withheld isn't your tax. In 2026, a married couple's twenty-four percent bracket starts at two hundred eleven thousand four hundred dollars, and thirty-two percent at four hundred three thousand five hundred fifty. If your vests land in those brackets, the difference shows up in April. Look at what was withheld on your last vest.\"\n\n\"Three. The Medicare look-back. Most people go on Medicare at sixty-five. Because of the two-year look-back, your income in the year you turn sixty-three can set your premium at sixty-five. If you have a life-changing event, like retiring or losing a spouse, you can ask Social Security to use more recent income. But it's better to plan it than to appeal it.\"\n\n\"Four. For Colorado folks, the state return changes at sixty-five. At sixty-five and over, all of your taxable Social Security can be subtracted on your Colorado return, plus up to twenty-four thousand dollars a year per person of pension and IRA income. Between fifty-five and sixty-four, it's up to twenty thousand, and the full Social Security break only applies if a joint return's income is ninety-five thousand or less. And for everybody, at seventy and a half you can give directly from an IRA to a charity. That's a qualified charitable distribution. Up to one hundred eleven thousand dollars per person in 2026, and it can count toward your required withdrawal.\"\n\n\"Circle the one that applies to you on page four.\"\n\n[Stay quiet for fifteen seconds.]\n\nTiming: about three and a half minutes.",
-      "timing_seconds": 210,
+      "speaker_script": "\"Workbook, page four. Four things you can time.\"\n\n\"One. Roth conversions. You move money from a pre-tax IRA to a Roth, and the amount is taxed as ordinary income that year. You can't undo it. The Roth income limits apply to contributions, not conversions. And each conversion starts its own five-year clock for a penalty rule. The question is whether paying some tax now, at a rate you can see, beats paying it later at a rate you can't.\"\n\n\"Two. RSUs. The IRS lets employers withhold a flat twenty-two percent on supplemental pay. Check whether that's what you see on your vests. Twenty-two percent withheld isn't your tax. In 2026, a married couple's twenty-four percent bracket starts at two hundred eleven thousand four hundred dollars, and thirty-two percent at four hundred three thousand five hundred fifty. If your vests land in those brackets, the difference shows up in April.\"\n\n\"Three. Medicare usually starts at sixty-five. Because of the two-year look-back, your income the year you turn sixty-three can set that premium. You can appeal after a life-changing event, like retiring. Better to plan it than appeal it.\"\n\n\"Four. For Colorado folks, the state return changes at sixty-five. From then on, all your taxable Social Security can be subtracted, plus up to twenty-four thousand dollars a year per person of pension and IRA income. From fifty-five to sixty-four, it's up to twenty thousand, and many of you will be over the income test for the full Social Security break. And for everybody: at seventy and a half, you can give straight from an IRA to charity, up to one hundred eleven thousand dollars per person in 2026. That's a QCD, and it can count toward your required withdrawal.\"\n\n\"Circle the one that applies to you on page four.\"\n\n[Stay quiet for fifteen seconds.]\n\nTiming: about two and a half minutes.",
+      "timing_seconds": 140,
       "workbook_cue": {
         "page": 4,
         "instruction": "Circle the window moves that apply to you (15 seconds)"
@@ -524,8 +524,9 @@
       "angle": "method",
       "headline": "One window, year by year.",
       "subhead": "A hypothetical timeline",
-      "speaker_script": "\"Let me put that on a timeline. Hypothetical again. An engineer born in 1963, married, retiring at the end of 2026, at sixty-three.\"\n\n[Count the years on your fingers as you go. Keep the slide clean.]\n\n\"2026 is the last working year. Full salary, plus RSU vests, maybe a final bonus. That's probably the highest-income year of their life. It's also the year they turn sixty-three, which sets their Medicare premiums in 2028. So that's usually not the year to add a big Roth conversion on top. That year, the question is withholding and timing the RSU sales.\"\n\n\"Then 2027. No paycheck. Their income drops. Maybe they're living on savings in the taxable account and haven't started Social Security. Their taxable income could be lower than it's been in thirty years. That's a window year.\"\n\n\"In 2026 numbers, a married couple's twelve percent bracket goes up to one hundred thousand eight hundred dollars of taxable income, and the twenty-two percent bracket goes up to two hundred eleven thousand four hundred. So in a low-income year, there can be a lot of room before the next bracket. Room you can fill on purpose, with conversions, at a rate you choose, while watching that Medicare line.\"\n\n\"The new senior deduction, six thousand dollars per person sixty-five and over, runs only through 2028, and it phases out at higher incomes. That's part of the math in those years too.\"\n\n\"Then the window narrows. Social Security starts. Medicare starts. And in 2038, at seventy-five, the required withdrawals start, and the IRS starts choosing for them.\"\n\n\"Twelve years. That's the window for this couple. Some years will be good conversion years, some won't. The point is, they get to decide, year by year, instead of finding out in April.\"\n\n\"And if there's a rental or a consulting business in the picture, that income lands on the same return, inside the same window. It belongs in the same plan.\"\n\nTiming: about three minutes.",
-      "timing_seconds": 180,
+      "speaker_script": "\"Let me put that on a timeline. Hypothetical again. An engineer born in 1963, married, retiring at the end of 2026, at sixty-three.\"\n\n[Count the years on your fingers as you go. Keep the slide clean.]\n\n\"2026 is the last working year. Salary plus RSU vests. Probably their highest-income year ever, and it's the year they turn sixty-three, which sets their 2028 Medicare premiums. Usually not the year to stack a big conversion on top.\"\n\n\"Then 2027. No paycheck. They live on the taxable account and haven't started Social Security. Their income could be the lowest in thirty years. That's a window year.\"\n\n\"In 2026 numbers, a married couple's twelve percent bracket goes up to one hundred thousand eight hundred dollars of taxable income, and the twenty-two percent bracket goes up to two hundred eleven thousand four hundred. So in a low-income year, there can be a lot of room before the next bracket. Room you can fill on purpose, with conversions, at a rate you choose, while watching that Medicare line.\"\n\n\"The new senior deduction, six thousand dollars per person sixty-five and over, runs only through 2028, and it phases out at higher incomes. That's part of the math in those years too.\"\n\n\"Then the window narrows. Social Security starts. Medicare starts. And in 2038, at seventy-five, the required withdrawals start, and the IRS starts choosing for them.\"\n\n\"Twelve years. Some will be good conversion years, some won't. The point is, they decide, year by year.\"\n\n\"And a rental or consulting business lands on the same return, in the same window.\"\n\n\"Quick one. Type in the chat: do you have a rental or a side business? YES or NO.\"\n\n[Read a few back.]\n\nTiming: about two minutes.",
+      "timing_seconds": 130,
+      "chat_prompt": "Do you have a rental or a side business? Type YES or NO",
       "claims_used": [
         "F-014",
         "F-024",
@@ -542,8 +543,8 @@
       "angle": "story",
       "headline": "What a CPA What-If looks like.",
       "subhead": "A hypothetical illustration",
-      "speaker_script": "\"Now, you might be wondering what this actually looks like in practice. So let me walk you through what our tax team does with a return. This is a hypothetical, but it's exactly the kind of thing we look at.\"\n\n[Keep it practical. No results or savings figures. This slide is about the process.]\n\n\"Say a couple brings in last year's return. He's retired from one of the big technology employers here in Northern Colorado. She does some consulting through a small business. They have RSU shares he's held since they vested.\"\n\n\"The first thing we do is find the lines that matter. Wages, including the RSU income. IRA distributions. Taxable Social Security, if they've started. Capital gains. The business income.\"\n\n\"Then we ask the What-If questions. What if those RSU shares had been sold in a lower-income year? What if part of that IRA withdrawal had come from a different bucket? Where was the bracket line, and how close were they? How close were they to that Medicare line at two hundred eighteen thousand? Does the way her business is set up still make sense now that he's retired?\"\n\n\"The result isn't a promise of savings. Nobody can promise you that. The result is a short list. Here are the three decisions that matter most for you in the next few years, and here's the calendar for when to make them.\"\n\n\"That's what turns head trash into a plan. Two plus two equals four. Just on your own numbers.\"\n\nTiming: about two minutes.",
-      "timing_seconds": 120,
+      "speaker_script": "\"Here's what our tax team does with a return. A hypothetical, but it's the kind of thing we look at.\"\n\n[Keep it practical. No results or savings figures. This slide is about the process.]\n\n\"Say a couple brings in last year's return. He's retired from one of the big technology employers here in Northern Colorado. She does some consulting through a small business. They have RSU shares he's held since they vested.\"\n\n\"First we find the lines that matter. Wages with the RSU income. IRA distributions. Capital gains. The business income.\"\n\n\"Then the What-If questions. What if those RSU shares had been sold in a lower-income year? What if part of that IRA withdrawal had come from a different bucket? How close were they to the next bracket, and to the Medicare line at two hundred eighteen thousand? Does the way her business is set up still make sense now that he's retired?\"\n\n\"The result isn't a promise of savings. Nobody can promise you that. The result is a short list. Here are the three decisions that matter most for you in the next few years, and here's the calendar for when to make them.\"\n\n\"That's what turns head trash into a plan. Two plus two equals four. Just on your own numbers.\"\n\nTiming: about ninety seconds.",
+      "timing_seconds": 85,
       "claims_used": [
         "F-025",
         "F-021"
@@ -583,8 +584,8 @@
           ]
         ]
       },
-      "speaker_script": "\"Here's the difference on one page.\"\n\n[Read the left column, then the right, one row at a time.]\n\n\"The usual way, taxes get figured each April. Our way, a tax timeline that runs years ahead.\"\n\n\"The usual way, you withdraw from whatever account is handy. Our way, a deliberate order, so you choose which bucket each year.\"\n\n\"The usual way, you sell RSU shares when you happen to think of it. Our way, the vests and sales are timed with the rest of the plan.\"\n\n\"The usual way, your advisor and your CPA have never spoken. Our way, the tax team is in the same meeting.\"\n\n\"And the usual way plans for the two of you together. Our way plans for both filing statuses, joint and single, so the one who's left isn't surprised.\"\n\n\"None of that is fancy. It's just doing the arithmetic before the year instead of after.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Here's the difference on one page.\"\n\n[Read the left column, then the right, one row at a time.]\n\n\"The usual way, taxes get figured each April. Our way, a tax timeline that runs years ahead.\"\n\n\"The usual way, you withdraw from whatever account is handy. Our way, a deliberate order, so you choose which bucket each year.\"\n\n\"The usual way, you sell RSU shares when you happen to think of it. Our way, the vests and sales are timed with the rest of the plan.\"\n\n\"The usual way, your advisor and your CPA have never spoken. Our way, the tax team is in the same meeting.\"\n\n\"And the usual way plans for the two of you together. Our way plans for both filing statuses, joint and single, so the one who's left isn't surprised.\"\n\n\"None of that is fancy. It's just doing the arithmetic before the year instead of after.\"\n\nTiming: about one minute.",
+      "timing_seconds": 60,
       "number": 29,
       "claims_used": []
     },
@@ -594,7 +595,7 @@
       "angle": "analogy",
       "headline": "Release the water on purpose, or wait for the flood.",
       "speaker_script": "\"Let me give you a picture, since a lot of you are engineers.\"\n\n\"Think of your pre-tax accounts as a reservoir behind a dam. For thirty years you've been filling it. That's good. That's what it's for.\"\n\n\"Now, every reservoir gets released eventually. The only question is how. You can open the gates a little at a time, on purpose, in the years when the river below can handle it. Or you can wait until the rules open the gates for you, at seventy-five, and every year after, whether the river's ready or not.\"\n\n[PAUSE.]\n\n\"The water comes out either way. Planning just decides whether it comes out on your schedule or theirs.\"\n\nTiming: about one minute.",
-      "timing_seconds": 60,
+      "timing_seconds": 50,
       "claims_used": [
         "F-014"
       ],
@@ -610,8 +611,8 @@
         "'Why pay tax now?' Sometimes you shouldn't. The numbers decide.",
         "'The law will change anyway.' That's why the mix matters."
       ],
-      "speaker_script": "\"Let me answer three things I hear every time, before you have to type them.\"\n\n\"My CPA handles this. Great. Keep them. A good CPA reports the past accurately, and that's important. A tax plan shapes the future. The two should work together. If you have a CPA you love, we'll coordinate with them. If you want, our team can do it in-house. Either way, your CPA gets something forward-looking to work with.\"\n\n\"Why would I pay tax now on a Roth conversion? Fair question. Sometimes you shouldn't. If your rate now is higher than it's likely to be later, converting can be a mistake. That's not a sales answer. That's what the analysis is for. The numbers decide, not a rule of thumb, and not me.\"\n\n\"The tax law will change anyway. Yes, it will. That's exactly why the mix matters. If everything is in one bucket, you have no options when the rules change. If you have three buckets, you can adjust.\"\n\n\"If you have another objection, put it in the chat. I'll answer it in Q and A.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Let me answer three things people often ask, before you have to type them.\"\n\n\"My CPA handles this. Great. Keep them. A good CPA reports the past accurately. A tax plan shapes the future. The two should work together, and we'll coordinate with your CPA, or our team can do it in-house.\"\n\n\"Why pay tax now on a Roth conversion? Sometimes you shouldn't. If your rate now is higher than it's likely to be later, converting can be a mistake. The numbers decide, not a rule of thumb, and not me.\"\n\n\"The tax law will change anyway. Yes, it will. That's exactly why the mix matters. If everything is in one bucket, you have no options when the rules change. If you have three buckets, you can adjust.\"\n\n\"If you have another objection, put it in the chat. I'll answer it in Q and A.\"\n\nTiming: about one minute.",
+      "timing_seconds": 60,
       "number": 31,
       "claims_used": []
     },
@@ -627,7 +628,7 @@
         "Every year before RMDs is one less window year"
       ],
       "speaker_script": "\"So why now, and not next year?\"\n\n\"One. This year's income sets your Medicare premiums two years from now. Whatever lands on your 2026 return shows up in 2028. If you're turning sixty-three this year or next, that clock is already running.\"\n\n\"Two. The new senior deduction is temporary. It's in place for 2025 through 2028. After that, unless Congress extends it, it goes away. If you're over sixty-five, those years have their own math.\"\n\n\"Three. If you're still working, your last working year is usually your highest-income year. RSU vests, bonuses, maybe a payout. That year needs a plan before it happens, not after.\"\n\n\"And four. Every year that passes before your required withdrawals begin is one less window year. You can't get them back.\"\n\n\"Type in the chat: what year do you plan to retire, or what year did you retire? Just the year.\"\n\n[Read several back. Comment on the spread.]\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "timing_seconds": 80,
       "chat_prompt": "What year do you plan to retire, or did you retire? Type the year",
       "claims_used": [
         "F-024",
@@ -647,8 +648,8 @@
         "The stack you can see coming",
         "You can't control Congress. You can control timing."
       ],
-      "speaker_script": "\"Let's pull it together. Three big ideas.\"\n\n\"One. Not all dollars are equal. Pre-tax, Roth, and taxable are taxed three different ways, and RSUs are wages. The mix matters more than the total.\"\n\n\"Two. The stack you can see coming. Required withdrawals, Social Security, Medicare surcharges, and the surviving spouse. Each one is simple. Stacked together, they can keep your retirement taxes at working-year levels.\"\n\n\"Three. You can't control Congress. You can control timing. The years between your last paycheck and your first required withdrawal are the window.\"\n\n\"That's the T in the PATH Plan.\"\n\n[BOOKING CALLOUT]\n\n\"If you'd like our tax team to look at your actual return through those three ideas, that's the PATH Review. It's free, the link is in the chat, and I'll explain exactly what happens in it in just a minute.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Let's pull it together. Three big ideas.\"\n\n\"One. Not all dollars are equal. Pre-tax, Roth, and taxable are taxed three different ways, and RSUs are wages. The mix matters more than the total.\"\n\n\"Two. The stack you can see coming. Required withdrawals, Social Security, Medicare surcharges, and the surviving spouse. Each one is simple. Stacked together, they can keep your retirement taxes at working-year levels.\"\n\n\"Three. You can't control Congress. You can control timing. The years between your last paycheck and your first required withdrawal are the window.\"\n\n\"That's the T in the PATH Plan.\"\n\n[BOOKING CALLOUT]\n\n\"If you'd like our tax team to look at your actual return through those three ideas, that's the PATH Review. It's free, the link is in the chat, and I'll explain exactly what happens in it in just a minute.\"\n\nTiming: about one minute.",
+      "timing_seconds": 60,
       "number": 33,
       "claims_used": []
     },
@@ -661,8 +662,8 @@
         "The stack is visible, which means you can plan for it",
         "Timing is yours, which means the window is worth using"
       ],
-      "speaker_script": "\"Let me tell you what those three ideas mean for you.\"\n\n\"The mix matters more than the total, which means building some mix, Roth and taxable alongside the pre-tax, is a multi-year project, and the best time to start is before the required withdrawals do.\"\n\n\"The stack is something you can see coming, which means you can put real numbers on it for your household. Your RMD, your Social Security, your Medicare tier, and your spouse's single-filer picture. No more guessing.\"\n\n\"And timing is the part you control, which means the window years are worth using on purpose.\"\n\n\"I promised you three things at the start. Why the lower-bracket idea can backfire. How the stack works. And the window, with questions to bring to your advisor and CPA. I hope I delivered.\"\n\n\"And I want to say this plainly. If you've gotten what you came for, you're free to go. Thank you for spending the time. Take your workbook and use it. If you'd like to stay, I'll tell you how we can help, and then I'll answer questions.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Let me tell you what those three ideas mean for you.\"\n\n\"The mix matters more than the total, which means building some mix, Roth and taxable alongside the pre-tax, is a multi-year project, and the best time to start is before the required withdrawals do.\"\n\n\"The stack is something you can see coming, which means you can put real numbers on it for your household. Your RMD, your Social Security, your Medicare tier, and your spouse's single-filer picture. No more guessing.\"\n\n\"And timing is the part you control, which means the window years are worth using on purpose.\"\n\n\"I promised you three things at the start, and I hope I delivered.\"\n\n\"And I want to say this plainly. If you've gotten what you came for, you're free to go. Thank you for spending the time. Take your workbook and use it. If you'd like to stay, I'll tell you how we can help, and then I'll answer questions.\"\n\nTiming: about one minute.",
+      "timing_seconds": 70,
       "number": 34,
       "claims_used": []
     },
@@ -672,7 +673,7 @@
       "headline": "Three paths from here.",
       "subhead": "Do nothing. Do it yourself. Get help.",
       "speaker_script": "\"From here, you have three paths.\"\n\n\"One. Do nothing. Keep doing what you're doing. File every April. For some people, that works out fine. I'm not going to tell you it can't.\"\n\n\"Two. Do it yourself. You're engineers. You can learn the brackets, build a spreadsheet, model the conversions, watch the Medicare tiers. Some of you will, and some of you will do a good job. Take the workbook. It's yours.\"\n\n\"Three. Get help. Sit down with someone who does this every day, with your actual tax return on the table, and get a second set of eyes on it.\"\n\n\"There's no wrong answer. I just want you to choose on purpose.\"\n\nTiming: about one minute.",
-      "timing_seconds": 70,
+      "timing_seconds": 50,
       "number": 35,
       "claims_used": []
     },
@@ -681,8 +682,8 @@
       "layout": "statement",
       "headline": "Work with me, or someone like me.",
       "subhead": "Just don't do it alone in April.",
-      "speaker_script": "\"If you choose to get help, here's my honest advice. Work with me, or someone like me.\"\n\n\"Here's what's hard to do alone. It's not the math. You can do the math. It's having the tax return, the income plan, and the estate documents looked at together, by people who talk to each other, every year. That's the part a spreadsheet can't do.\"\n\n\"So look for someone who will sit down with your actual tax return. Someone who looks more than one year ahead. Someone who coordinates with your CPA, or has one in the room. And someone who plans for both of you, joint and single.\"\n\n\"If that's me, great. If it's somebody else who does those things, that's fine too. Just don't leave it until April.\"\n\nTiming: about one minute.",
-      "timing_seconds": 70,
+      "speaker_script": "\"If you choose to get help, here's my honest advice. Work with me, or someone like me.\"\n\n\"Here's what's hard to do alone. It's not the math. You can do the math. It's having the tax return, the income plan, and the estate documents looked at together, by people who talk to each other, every year. That's the part a spreadsheet can't do.\"\n\n\"Look for someone who sits down with your actual return, looks more than one year ahead, works with a CPA, and plans for both of you.\"\n\n\"If that's me, great. If it's somebody else who does those things, that's fine too. Just don't leave it until April.\"\n\nTiming: about one minute.",
+      "timing_seconds": 45,
       "number": 36,
       "claims_used": []
     },
@@ -696,8 +697,8 @@
         "Bring last year's tax return",
         "You keep your PATH Map either way"
       ],
-      "speaker_script": "\"Here's how I can help. It's called the PATH Review.\"\n\n[Read the box slowly.]\n\n\"It's a sixty-minute meeting, in my office in Fort Collins or on Zoom, wherever you are.\"\n\n\"You'll walk away with two things. First, a one-page PATH Map. Where you stand on Paycheck, Assets, Taxes, and Heirs, and your top three gaps. Second, for this tax edition, a CPA What-If review of last year's tax return. That review is done by our in-house tax team at Fort Collins Tax Advisory Group, which is an affiliated company. It's a tax service, separate from any investment advice.\"\n\n\"It's free. No cost, and no obligation. You keep the PATH Map and your What-If notes whether you ever work with us or not.\"\n\n\"The one thing I ask: bring last year's tax return. That's what makes the What-If real.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Here's how I can help. It's called the PATH Review.\"\n\n[Read the box slowly.]\n\n\"It's a sixty-minute meeting, in my office in Fort Collins or on Zoom, wherever you are.\"\n\n\"You'll walk away with two things. First, a one-page PATH Map. Where you stand on Paycheck, Assets, Taxes, and Heirs, and your top three gaps. Second, for this tax edition, a CPA What-If review of last year's tax return. That review is done by our in-house tax team at Fort Collins Tax Advisory Group, which is an affiliated company. It's a tax service, separate from any investment advice.\"\n\n\"It's free. No cost, and no obligation. You keep the PATH Map and your What-If notes whether you ever work with us or not.\"\n\n\"The one thing I ask: bring last year's tax return. That's what makes the What-If real.\"\n\nTiming: about one minute.",
+      "timing_seconds": 55,
       "number": 37,
       "claims_used": []
     },
@@ -713,7 +714,7 @@
         "Your PATH Map: your top three gaps"
       ],
       "speaker_script": "\"Here's what happens in the hour. It follows the PATH.\"\n\n\"We start with your paycheck. What you need each year, and where it will come from.\"\n\n\"Then your assets. What a bad market year early in retirement would do to that paycheck.\"\n\n\"Then taxes, which is the part we went deep on today. We go through your return line by line with the What-If questions. Your buckets, your RMD estimate, your Medicare line, your RSUs, any rental or business income.\"\n\n\"Then heirs. Your documents and beneficiaries, and who's protected if one of you dies.\"\n\n\"And we finish with your PATH Map and your top three gaps. If you want to keep going after that, we'll talk about what that looks like. If you don't, you leave with the map.\"\n\nTiming: about one minute.",
-      "timing_seconds": 70,
+      "timing_seconds": 55,
       "number": 38,
       "claims_used": []
     },
@@ -729,7 +730,7 @@
         "Not for: a second opinion to keep doing it alone"
       ],
       "speaker_script": "\"Let me be clear about who this is for.\"\n\n\"It's for you if most of your savings is in pre-tax accounts. If you're retiring in the next five years, or you just did. And especially if you have RSUs, a side business, or a rental, because that's where the timing gets interesting.\"\n\n\"It's not for you if you're looking for stock tips. And honestly, it's not a fit if you just want a free second opinion so you can keep doing it all yourself. That's okay. Use the workbook. I mean that.\"\n\n\"One quick poll before we go on. Type in the chat which PATH step feels most urgent for you right now. P for Paycheck, A for Assets, T for Taxes, or H for Heirs.\"\n\n[Read the results back. Note the most common letter.]\n\nTiming: about one minute.",
-      "timing_seconds": 75,
+      "timing_seconds": 70,
       "chat_prompt": "Which PATH step feels most urgent? Type P, A, T, or H",
       "number": 39,
       "claims_used": []
@@ -764,7 +765,7 @@
         "Bring last year's tax return"
       ],
       "speaker_script": "[Confirm the monthly number with Greg before every airing. Say only the true number.]\n\n\"Here's the link again, and a QR code. Point your phone's camera at the screen, or click the link in the chat.\"\n\n\"I'll be honest about capacity. I hold eight PATH Reviews a month. That's what I can do well, with our tax team preparing each What-If ahead of time. When they're full, the next openings are the following month.\"\n\n\"Booking takes about a minute. I'll be quiet for a few seconds so you can do it now while we're together.\"\n\n[Stay quiet for fifteen seconds. Watch the chat for anyone who has trouble with the link.]\n\nTiming: about one minute.",
-      "timing_seconds": 60,
+      "timing_seconds": 50,
       "number": 41,
       "claims_used": []
     },
@@ -772,8 +773,8 @@
       "act": 3,
       "layout": "story",
       "headline": "Why I do this.",
-      "speaker_script": "\"Before questions, let me tell you why I do this.\"\n\n[Slow down. Camera, not slides.]\n\n\"I started my career watching a tax law take a plan apart. I didn't have anyone to run the numbers for me ahead of time. I made lemonade out of lemons, and it turned into the work I've done ever since.\"\n\n\"What I love about this work is the moment when a couple sees their whole picture on one page for the first time. Their paycheck, their taxes, their documents. The head trash goes away. They tell me they finally have a path to run on. That never gets old.\"\n\n\"That's also why I built the office the way I did. Tax, estate, and investments, at one table, so nothing falls between three different offices.\"\n\n\"And it's why I spend time outside the office too, with the Downtown Club of Fort Collins, the Larimer County Food Bank, and helping veterans apply for their benefits. This community has been good to my family. I want to be useful to it.\"\n\nTiming: about ninety seconds.",
-      "timing_seconds": 90,
+      "speaker_script": "\"Before questions, let me tell you why I do this.\"\n\n[Slow down. Camera, not slides.]\n\n\"I started my career watching a tax law take my plan apart. I made lemonade out of lemons, and it turned into the work I've done ever since.\"\n\n\"What I love about this work is the moment when a couple sees their whole picture on one page for the first time. Their paycheck, their taxes, their documents. The head trash goes away. They tell me they finally have a path to run on. That never gets old.\"\n\n\"That's why I built one office, so nothing falls between three.\"\n\n\"And it's why I spend time outside the office too, with the Downtown Club of Fort Collins, the Larimer County Food Bank, and helping veterans apply for their benefits.\"\n\nTiming: about one minute.",
+      "timing_seconds": 55,
       "number": 42,
       "claims_used": []
     },
@@ -786,8 +787,8 @@
         "It's the most honest picture of your money",
         "No return? Come anyway. We'll start with the map."
       ],
-      "speaker_script": "\"Two quick objections I hear about the PATH Review itself.\"\n\n\"The first one is, I'm not sure I want to hand my tax return to someone I just met. That's a healthy instinct. Here's how it works. Your return goes to our tax team at Fort Collins Tax Advisory Group. They prepare returns for a living. They handle returns every day, and they treat yours that way.\"\n\n\"And here's why I ask for it. Your tax return is the most honest picture of your money you have. Statements show balances. Your return shows what the IRS actually saw. Without it, we're guessing. With it, we can do the What-If.\"\n\n\"If you're just not comfortable yet, come anyway. We'll start with the PATH Map, and you can bring the return later.\"\n\nTiming: about one minute.",
-      "timing_seconds": 60,
+      "speaker_script": "\"Two questions people ask about the PATH Review itself.\"\n\n\"The first one is, I'm not sure I want to hand my tax return to someone I just met. That's a healthy instinct. Here's how it works. Your return goes to our tax team at Fort Collins Tax Advisory Group. They handle tax returns every day.\"\n\n\"And here's why I ask for it. Your tax return is the most honest picture of your money you have. Statements show balances. Your return shows what the IRS actually saw. Without it, we're guessing. With it, we can do the What-If.\"\n\n\"If you're just not comfortable yet, come anyway. We'll start with the PATH Map, and you can bring the return later.\"\n\nTiming: about one minute.",
+      "timing_seconds": 50,
       "number": 43,
       "claims_used": []
     },
@@ -801,7 +802,7 @@
         "Federal rules apply everywhere; Zoom works"
       ],
       "speaker_script": "\"The second one comes in two versions.\"\n\n\"Version one: I already have an advisor. Great. Keep them if they're doing a good job. Bring what they've given you. If they've already built you a multi-year tax timeline, you'll leave knowing you're in good hands. If they haven't, you'll leave knowing what to ask them for.\"\n\n\"Version two: I'm not in Colorado. That's fine. Most of what we covered today is federal. Required withdrawals, Social Security, Medicare, Roth conversions, RSUs. Those are the same rules everywhere. Your state has its own rules, and we'll treat them as their own question. And Zoom works just as well as my office.\"\n\n\"Okay. Let's get to your questions.\"\n\nTiming: about one minute.",
-      "timing_seconds": 60,
+      "timing_seconds": 50,
       "number": 44,
       "claims_used": []
     },
@@ -816,8 +817,8 @@
         "Booking link stays on screen",
         "Replay for 72 hours"
       ],
-      "speaker_script": "[Leave this slide up for all of Q and A. Pin the booking link in the chat. Answer in general, educational terms only; never give a specific recommendation for an attendee's own situation in public. If the room is quiet, use the seeded questions below, with the approved answers.]\n\n\"Go ahead and type your questions in the chat. I'll take as many as I can.\"\n\n[Seeded question 1: Should I do a Roth conversion?] A question I get every time is, should I do a Roth conversion? The honest answer is, it depends on your rate now compared to your likely rate later, your Medicare line, and where the money for the tax would come from. That's exactly what the What-If is built to answer for you.\n\n[Seeded question 2: How is my Social Security taxed?] Take half your benefit, add your other income, including tax-exempt interest. For a married couple, above thirty-two thousand, up to half can be taxable. Above forty-four thousand, up to eighty-five percent.\n\n[Seeded question 3: What is IRMAA, and can I appeal it?] It's the Medicare income surcharge, set by your income from two years earlier. If you had a life-changing event, like retiring or losing a spouse, you can ask Social Security to use more recent income.\n\n[Seeded question 4: What's a QCD?] A qualified charitable distribution. From seventy and a half, you can give directly from an IRA to a qualified charity, up to one hundred eleven thousand dollars per person in 2026, and it can count toward your required withdrawal.\n\n[Seeded question 5: Do you work with my CPA?] Yes. If you love your CPA, keep them. We'll coordinate. If you'd rather have it all in one place, our tax team can do it in-house.\n\n[After the last question, deliver the repeat close.]\n\n\"Thank you for spending this hour with me. Remember, retirement taxes are planned in decades, not filed in April. If you'd like our tax team to run the What-If on your own return, click Reserve My PATH Review, and bring last year's return. Either way, use the workbook, and use your window. Take care.\"\n\nTiming: about ten minutes, including live questions.",
-      "timing_seconds": 600,
+      "speaker_script": "[Leave this slide up for all of Q and A. Pin the booking link in the chat. Answer in general, educational terms only; never give a specific recommendation for an attendee's own situation in public. If the room is quiet, use the seeded questions below, with the approved answers.]\n\n\"Go ahead and type your questions in the chat. I'll take as many as I can.\"\n\n[Seeded question 1: Should I do a Roth conversion?]\n\n\"Should I do a Roth conversion? The honest answer is, it depends on your rate now compared to your likely rate later, your Medicare line, and where the money for the tax would come from. That's exactly what the What-If is built to answer for you.\"\n\n[Seeded question 2: How is my Social Security taxed?]\n\n\"Take half your benefit, add your other income, including tax-exempt interest. For a married couple, above thirty-two thousand, up to half can be taxable. Above forty-four thousand, up to eighty-five percent.\"\n\n[Seeded question 3: What is IRMAA, and can I appeal it?]\n\n\"It's the Medicare income surcharge, set by your income from two years earlier. If you had a life-changing event, like retiring or losing a spouse, you can ask Social Security to use more recent income.\"\n\n[Seeded question 4: What's a QCD?]\n\n\"A qualified charitable distribution. From seventy and a half, you can give directly from an IRA to a qualified charity, up to one hundred eleven thousand dollars per person in 2026, and it can count toward your required withdrawal.\"\n\n[Seeded question 5: Do you work with my CPA?]\n\n\"Yes. If you love your CPA, keep them. We'll coordinate. If you'd rather have it all in one place, our tax team can do it in-house.\"\n\n[After the last question, deliver the repeat close.]\n\n\"Thank you for spending this hour with me. Remember, retirement taxes are planned in decades, not filed in April. If you'd like our tax team to run the What-If on your own return, click Reserve My PATH Review, and bring last year's return. Either way, use the workbook, and use your window. Take care.\"\n\nTiming: about ten minutes, including live questions.",
+      "timing_seconds": 540,
       "claims_used": [
         "F-016",
         "F-019",

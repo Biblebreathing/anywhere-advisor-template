@@ -1,0 +1,83 @@
+{
+  "_note": "Greg Anderson funnel. Title and promises are word for word from 06-webinars/estate-planning/foundation.md. Session dates, Zoom link, workbook URL and booking URL are placeholders.",
+  "site": {
+    "firm": "Balanced Financial, Inc.",
+    "logo": "logo.jpg",
+    "advisor": {
+      "name": "Greg W. Anderson",
+      "title": "RICP\u00ae, Founder, Balanced Financial",
+      "photo": "headshot-1.jpg",
+      "phone": "(970) 204-1500"
+    },
+    "appointment": {
+      "name": "PATH Review",
+      "headline": "Get a path to run on.",
+      "text": "In a complimentary 60-minute PATH Review, in our Fort Collins office or by Zoom, Greg walks through your Paycheck, Assets, Taxes and Heirs with you.",
+      "deliverable": "Your one-page PATH Map: where you stand on all four steps and your top three gaps. It's yours to keep.",
+      "deliverable_short": "your one-page PATH Map",
+      "button": "Reserve My PATH Review",
+      "url": "https://balancedfinancialinc.com/path-review"
+    },
+    "disclosure": "Balanced Financial, Inc. (insurance and legacy services), Fort Collins Tax Advisory Group, LLC (tax services) and Balanced Wealth Partners (investment advisory services) are affiliated companies owned by Greg W. Anderson. [COMPLIANCE: replace with the exact registration, affiliation and insurance disclosures approved by Greg's compliance approver(s); his current site carries only an insurance disclosure.] Content is educational and is not tax, legal or investment advice.",
+    "privacy_url": "https://balancedfinancialinc.com/privacy.html"
+  },
+  "webinar": {
+    "track": "estate-planning",
+    "eyebrow": "Free online class \u00b7 Thursdays",
+    "title": "Who Decides When You Can't?",
+    "subtitle": "A free class on keeping your spouse and kids out of court in Colorado",
+    "promises": [
+      "What really happens in Colorado if you die or can't make decisions, and how to keep your family out of court",
+      "The overlooked pieces that undo good plans: beneficiaries, titles, and a trust with nothing in it",
+      "A simple checklist to know exactly where your plan stands today"
+    ],
+    "who": [
+      "You have an old will, or none at all",
+      "You've meant to get to it for years",
+      "You have a trust and aren't sure it's set up right",
+      "Someone in your family needs extra care, or you're a blended family"
+    ],
+    "credibility": "Retirement income, tax and estate planner in Fort Collins, Colorado \u00b7 RICP\u00ae",
+    "question": "What's your biggest question about protecting your family?",
+    "sessions": [
+      "2026-10-29T11:00:00-06:00",
+      "2026-11-05T11:00:00-07:00",
+      "2026-11-12T11:00:00-07:00",
+      "2026-11-19T11:00:00-07:00",
+      "2026-12-03T11:00:00-07:00",
+      "2026-12-10T11:00:00-07:00"
+    ],
+    "duration_minutes": 60,
+    "join_link": "https://zoom.us/j/0000000000",
+    "dial_in": "[PLACEHOLDER dial-in]",
+    "workbook_url": "https://balancedfinancialinc.com/estate-workbook.pdf",
+    "assessment_url": "https://score.balancedfinancialinc.com",
+    "button": "Save My Seat",
+    "note": "Educational class. Includes an invitation to meet one-on-one. Insurance and investment products may be discussed.",
+    "replay": {
+      "video_embed_url": "",
+      "expires_text": "Replay available for 72 hours"
+    }
+  },
+  "booked": {
+    "what_happens": [
+      "We'll talk about what matters most to the two of you",
+      "We'll walk your Paycheck, Assets, Taxes and Heirs, starting with your biggest gap",
+      "You'll leave with your one-page PATH Map, whether or not we ever work together"
+    ],
+    "bring": [
+      "Last year's tax return (our tax team will run a CPA What-If review)",
+      "Recent statements for your retirement and investment accounts",
+      "Your Social Security estimates (ssa.gov/myaccount), if you have them",
+      "Your will, trust and powers of attorney, if you have them"
+    ],
+    "questionnaire_url": "https://balancedfinancialinc.com/path-questionnaire",
+    "video_embed_url": "",
+    "reschedule_text": "Need to change the time? Use the link in your confirmation email, or call (970) 204-1500. Rescheduling is always better than missing it."
+  },
+  "sms_consent": "Yes, Balanced Financial may text me reminders about this class and my appointments. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.",
+  "thanks": {
+    "video_embed_url": ""
+  },
+  "webhookUrl": ""
+}

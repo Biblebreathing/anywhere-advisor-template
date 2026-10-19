@@ -6,7 +6,7 @@
     "firm": "Balanced Financial, Inc. · Fort Collins, Colorado",
     "headshot": "../../02-knowledge-base/assets/headshot-1.jpg"
   },
-  "disclosure_short": "Educational only. Not legal, tax, or investment advice. Estate documents are prepared by a licensed attorney. Insurance or investment products may be discussed in a private meeting. [PLACEHOLDER: Greg's required RIA and insurance disclosure, pending his approver.]",
+  "disclosure_short": "Educational only. Not legal, tax, or investment advice. A licensed attorney prepares estate documents. [PLACEHOLDER: required RIA/insurance disclosure]",
   "through_line": {
     "wrong_belief": "We're not rich, and we have a will (or we'll get one), so we're fine.",
     "true_belief": "An estate plan isn't about how much you have or what you'll owe. It's about who decides when you can't, and keeping your family out of court."
@@ -127,15 +127,15 @@
       "headline": "Three Promises for This Hour",
       "cards": [
         {
-          "title": "1. What really happens",
+          "title": "What really happens",
           "text": "What really happens in Colorado if you die or can't make decisions, and how to keep your family out of court"
         },
         {
-          "title": "2. The overlooked pieces",
+          "title": "The overlooked pieces",
           "text": "The overlooked pieces that undo good plans: beneficiaries, titles, and a trust with nothing in it"
         },
         {
-          "title": "3. A simple checklist",
+          "title": "A simple checklist",
           "text": "A simple checklist to know exactly where your plan stands today"
         }
       ],
@@ -443,11 +443,11 @@
         },
         {
           "title": "Trust funding",
-          "text": "Retitle accounts and the house, or the trust sits empty"
+          "text": "Retitle accounts and home, or it sits empty"
         },
         {
           "title": "Special needs",
-          "text": "An outright inheritance can upset needs-based benefits"
+          "text": "Money left outright can upset benefits"
         },
         {
           "title": "Blended families",

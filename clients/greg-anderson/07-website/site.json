@@ -420,12 +420,12 @@
         "button": "Save My Seat"
       },
       {
-        "when": "Monthly \u00b7 Online [PLACEHOLDER: day and time]",
-        "title": "If Something Happened to You Tomorrow [working title]",
+        "when": "Thursdays \u00b7 11:00am Mountain \u00b7 Online [PLACEHOLDER: confirm schedule]",
+        "title": "Who Decides When You Can't?",
         "promises": [
-          "What actually happens to your home and accounts if you die or can't decide for yourself",
-          "Why a will alone doesn't keep your family out of court",
-          "The documents and beneficiary checks that protect your spouse and kids"
+          "What really happens in Colorado if you die or can't make decisions, and how to keep your family out of court",
+          "The overlooked pieces that undo good plans: beneficiaries, titles, and a trust with nothing in it",
+          "A simple checklist to know exactly where your plan stands today"
         ],
         "url": "https://balancedfinancialinc.com/estate-class",
         "button": "Save My Seat"
