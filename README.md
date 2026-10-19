@@ -39,6 +39,13 @@ Every asset points to one place: **a booked appointment on the advisor's calenda
 | 10 | Book website, bonus hub + funnel generator | ✅ Built |
 | 11 | KDP publishing: interior, cover, ebook, listing tools | ✅ Built |
 
+## Setup (once per computer or cloud session)
+```
+pip install -r requirements.txt
+# plus system tools: pandoc and poppler-utils (pdftoppm, pdffonts)
+#   macOS: brew install pandoc poppler     Ubuntu/Debian: apt-get install pandoc poppler-utils
+```
+
 ## Starting a new advisor
 
 1. `cp -r clients/_example clients/jane-smith`

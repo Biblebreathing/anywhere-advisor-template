@@ -1,0 +1,8 @@
+# Python packages used by tools/ (install: pip install -r requirements.txt)
+# Also needed on the system: pandoc, poppler-utils (pdftoppm, pdffonts), and Chromium/Playwright only for browser tests.
+Pillow
+qrcode[pil]
+python-pptx
+python-docx
+Jinja2
+weasyprint
