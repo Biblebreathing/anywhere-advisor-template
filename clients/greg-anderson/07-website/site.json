@@ -1,0 +1,447 @@
+{
+  "_note": "Greg Anderson site prototype. Mechanism name 'The PATH Plan' is a placeholder. Items marked [PLACEHOLDER] or [VERIFY] must be resolved before launch (see launch-checklist.md). His current site is built by the GPS vendor; confirm whether his firm requires an approved vendor.",
+  "site": {
+    "domain": "balancedfinancialinc.com",
+    "firm": "Balanced Financial, Inc.",
+    "tagline": "Retirement Income, Tax and Estate Planning in Fort Collins",
+    "logo": "assets/logo.jpg",
+    "advisor": {
+      "name": "Greg W. Anderson",
+      "title": "Founder \u00b7 RICP\u00ae",
+      "photo": "assets/headshot-1.jpg",
+      "phone": "(970) 204-1500",
+      "email": "greg@balancedfinancialinc.com",
+      "address": {
+        "street": "3711 John F Kennedy Parkway, Suite 230",
+        "city": "Fort Collins",
+        "state": "CO",
+        "zip": "80525"
+      },
+      "hours": "Monday\u2013Thursday, by appointment [VERIFY]"
+    },
+    "mechanism": {
+      "name": "The PATH Plan",
+      "diagram": "assets/mechanism-row.svg",
+      "steps": [
+        {
+          "name": "Paycheck",
+          "text": "Know what the two of you need each year, and where every dollar will come from.",
+          "deliverable": "Retirement Paycheck Map",
+          "detail": "Social Security timing for both of you, pensions, savings, rentals and part-time work, laid out by source and by year on one page."
+        },
+        {
+          "name": "Assets",
+          "text": "Give your money jobs, so a bad year early in retirement doesn't derail the paycheck.",
+          "deliverable": "Risk & Reserve Report",
+          "detail": "Your risk score, plus your money sorted by purpose: income for the next few years, growth for later, reserves for long-term care and surprises."
+        },
+        {
+          "name": "Taxes",
+          "text": "Our tax team reviews your actual return and maps the years ahead.",
+          "deliverable": "CPA What-If Tax Timeline",
+          "detail": "Roth conversions, required minimum distributions, Medicare surcharges, restricted stock, and the tax on selling rentals or a business, planned year by year."
+        },
+        {
+          "name": "Heirs",
+          "text": "Protect your spouse and your kids on paper, and keep your family out of court.",
+          "deliverable": "Family Legacy Binder",
+          "detail": "Living trust, wills, powers of attorney and every beneficiary checked, then stored where your family can find them."
+        }
+      ]
+    },
+    "appointment": {
+      "name": "PATH Review",
+      "headline": "Get a path to run on.",
+      "text": "In a complimentary 60-minute PATH Review, in our Fort Collins office or by Zoom, Greg walks through your Paycheck, Assets, Taxes and Heirs with you.",
+      "deliverable": "Your one-page PATH Map: where you stand on all four steps and your top three gaps. Bring last year's tax return and our tax team will run a CPA What-If review. It's yours to keep.",
+      "button": "Reserve My PATH Review",
+      "button_short": "Book a PATH Review",
+      "scarcity": "Greg holds a limited number of PATH Reviews each month. No cost, no obligation.",
+      "url": "https://balancedfinancialinc.com/path-review"
+    },
+    "assessment": {
+      "title": "What's your PATH Score?",
+      "text": "Fourteen quick questions. See where you stand on your Paycheck, Assets, Taxes and Heirs.",
+      "button": "Get my PATH Score",
+      "url": "https://score.balancedfinancialinc.com"
+    },
+    "webinar": {
+      "title": "Free online classes",
+      "text": "The Tax Trap, and what happens to your family if something happens to you. Learn from home."
+    },
+    "legal_links": [
+      {
+        "label": "Important Disclosures",
+        "url": "disclosures.html"
+      },
+      {
+        "label": "Form CRS and Form ADV (SEC Investment Adviser Public Disclosure)",
+        "url": "https://adviserinfo.sec.gov/"
+      },
+      {
+        "label": "Check the background of this financial professional on FINRA's BrokerCheck",
+        "url": "https://brokercheck.finra.org/"
+      }
+    ],
+    "disclosure": "Balanced Financial, Inc. (insurance and legacy services), Fort Collins Tax Advisory Group, LLC (tax services) and Balanced Wealth Partners (investment advisory services) are affiliated companies owned by Greg W. Anderson. [COMPLIANCE: replace with the exact registration, affiliation and insurance disclosures approved by Greg's compliance approver(s); his current site carries only an insurance disclosure.] Content is educational and is not tax, legal or investment advice."
+  },
+  "seo": {
+    "home_title": "Retirement Income & Tax Planning | Fort Collins, CO",
+    "description": "Greg Anderson helps Northern Colorado engineers and long-time employees turn savings into a retirement paycheck, with tax and estate planning in the same office.",
+    "area_served": "Fort Collins, Loveland, Windsor, Greeley and Northern Colorado; nationwide by Zoom"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Retirement income \u00b7 tax \u00b7 estate planning \u00b7 Fort Collins",
+      "headline": "Your savings were built to grow. Now they have to pay you.",
+      "subhead": "The PATH Plan turns what you've saved into a retirement paycheck for both of you, with your taxes and your family's documents handled in the same office. A path to run on."
+    },
+    "problem": {
+      "headline": "Does this sound familiar?",
+      "bullets": [
+        "You've saved well, but you couldn't say what your paycheck will be the year after you retire",
+        "Your advisor, your tax preparer and your attorney have never talked to each other",
+        "Most of your money is in a 401(k) or IRA, and you're not sure how much of it is really yours after taxes",
+        "Your will or trust is old, or you don't have one, and you know it"
+      ],
+      "not_your_fault": "It's not your fault. You were taught to save a number. Almost nobody was taught to turn it into a paycheck, and the three people who could help usually work in three different offices."
+    },
+    "mechanism_intro": "Four steps, the same for every family we serve, so nothing falls between the cracks. And every year we walk your PATH again.",
+    "proof": [
+      {
+        "value": "RICP\u00ae",
+        "label": "Retirement Income Certified Professional\u00ae, The American College"
+      },
+      {
+        "value": "3 companies",
+        "label": "tax, estate and investment services under one roof"
+      },
+      {
+        "value": "Fort Collins",
+        "label": "independent, locally owned, serving clients nationwide by Zoom"
+      }
+    ],
+    "guide_text": "Greg trained to be a commercial real estate developer. Then a new tax law turned development into \"a ghost town,\" and he moved into the new field of financial planning. He's planned around tax changes ever since, and decided early that \"no one could put a logo on my business card.\"",
+    "faq": [
+      {
+        "q": "Is the PATH Review really free?",
+        "a": "Yes. There's no cost and no obligation, and you keep your PATH Map either way."
+      },
+      {
+        "q": "Is this a sales pitch?",
+        "a": "No. The hour is about your situation. If we can help, Greg will tell you exactly how. If not, he'll tell you that too."
+      },
+      {
+        "q": "Who do you work with?",
+        "a": "Mostly engineers, technical professionals and long-time employees of industry and government, in their late 50s and 60s, who want a clear income plan. Many also own rentals or a business."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "Last year's tax return, your latest account statements, and your Social Security estimates if you have them. We'll send a short checklist."
+      },
+      {
+        "q": "Do I have to come to Fort Collins?",
+        "a": "No. We meet clients across the country by Zoom."
+      }
+    ]
+  },
+  "about": {
+    "headline": "No one could put a logo on my business card",
+    "lead": "I became a planner because a tax law changed my career before it started.",
+    "story": [
+      "I studied construction and finance. I was going to build commercial real estate. Then, right as I graduated, a new tax law made construction and development \"a ghost town.\" Plans that looked solid one year were gone the next.",
+      "So I moved into a field that was brand new at the time: financial planning. I've spent my career since then helping people plan around the things that change: tax laws, markets, and life.",
+      "Early on I made one decision that shaped everything: no one could put a logo on my business card. I wanted to work for my clients, not for a company's products. Over the years I've also been a landlord and bought and sold businesses, so I know \"tenants and toilets\" firsthand, and I treat your rentals and your business as part of your plan, not competition for it.",
+      "Today my office is three companies working together: Balanced Financial for insurance and legacy planning, Fort Collins Tax Advisory Group for tax preparation and advice, and Balanced Wealth Partners for investments. Your tax return, your documents and your investments sit at one table."
+    ],
+    "calling": "What I love most is the moment a couple realizes the worry is gone, because they finally have a path to run on.",
+    "different": [
+      "Tax, estate and investment services in one locally owned office, with our own tax practice reviewing your actual return",
+      "Comfortable with rental real estate and business ownership, from personal experience as a landlord and owner",
+      "Trained in retirement income design (RICP\u00ae): sequence-of-returns risk, Social Security, and turning savings into income"
+    ],
+    "credentials": [
+      "RICP\u00ae, Retirement Income Certified Professional\u00ae, The American College of Financial Services",
+      "Founder, Balanced Financial, Inc. [VERIFY: years in practice: 27, 33, or since 1987]",
+      "President, Downtown Club of Fort Collins [VERIFY: current]",
+      "Teaches Social Security strategies; speaker and radio guest"
+    ]
+  },
+  "how": {
+    "headline": "The PATH Plan",
+    "lead": "Paycheck, Assets, Taxes, Heirs. Four steps that turn your savings into a retirement paycheck, protect it, and protect your family. Then we walk it again every year.",
+    "meetings": [
+      {
+        "name": "1. PATH Review (60 minutes)",
+        "text": "We learn what matters to you, look at all four steps, and you leave with your one-page PATH Map. Bring last year's tax return."
+      },
+      {
+        "name": "2. Your PATH Plan",
+        "text": "We present your Retirement Paycheck Map, Risk & Reserve Report, CPA What-If Tax Timeline and legacy checklist, with clear recommendations and every cost explained."
+      },
+      {
+        "name": "3. Put it in place",
+        "text": "If you move forward, we handle the accounts, applications and documents, and set your tax calendar."
+      },
+      {
+        "name": "Every year: walk the PATH",
+        "text": "Your annual review covers all four steps, with your tax return in hand."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does it take?",
+        "a": "Most families go from the PATH Review to a finished plan in two to four weeks [VERIFY]."
+      },
+      {
+        "q": "Do you prepare my taxes too?",
+        "a": "If you'd like. Our affiliated firm, Fort Collins Tax Advisory Group, prepares returns, so your tax plan and your return come from the same office."
+      }
+    ]
+  },
+  "planning": [
+    {
+      "slug": "retirement-income",
+      "title": "Retirement Income Planning",
+      "card_title": "Paycheck",
+      "card_text": "Turn your savings into income that lasts for both of you.",
+      "seo_title": "Retirement Income Planning in Fort Collins, CO",
+      "h1": "Retirement Income Planning in Fort Collins",
+      "lead": "You don't need a bigger number. You need a paycheck plan.",
+      "webinar_url": "../webinars.html",
+      "belief": [
+        "Most people approach retirement asking, \"Have we saved enough?\" It's a fair question, and it's the wrong one.",
+        "The question that matters is, \"Where does our paycheck come from every month, for both of us, for as long as we live?\""
+      ],
+      "familiar": [
+        "You don't know how much you can take out each year",
+        "You haven't decided when each of you will claim Social Security",
+        "You've never seen your retirement income on one page"
+      ],
+      "ideas": [
+        {
+          "title": "Your paycheck, not your pile",
+          "text": "Start with what you'll spend and the income you can count on. The gap is what your savings must cover."
+        },
+        {
+          "title": "The first years matter most",
+          "text": "A market drop right after you retire hurts more than the same drop ten years later, because you're withdrawing at the same time."
+        },
+        {
+          "title": "Plan for two people",
+          "text": "Social Security choices and survivor income decide what the surviving spouse lives on."
+        }
+      ],
+      "how": "Step 1 of the PATH Plan, Paycheck, puts your whole retirement income on one page: your Retirement Paycheck Map.",
+      "faq": [
+        {
+          "q": "When should we take Social Security?",
+          "a": "It depends on your health, your spouse and your other income. Greg teaches Social Security strategy, and we'll run your options in your PATH Review."
+        }
+      ]
+    },
+    {
+      "slug": "risk-and-long-term-care",
+      "title": "Investments, Risk & Long-Term Care",
+      "card_title": "Assets",
+      "card_text": "Give your money jobs, and plan for long-term care.",
+      "seo_title": "Retirement Risk & Long-Term Care Planning | Fort Collins",
+      "h1": "Investment Risk and Long-Term Care Planning",
+      "lead": "The stock market helps you build savings. In retirement it can hurt you, if the wrong money is in the wrong place.",
+      "belief": [
+        "Most retirement portfolios are still built the way they were at 45: for growth.",
+        "Once you're taking income, the money you'll live on in the next few years needs a different job than the money you won't touch for fifteen."
+      ],
+      "familiar": [
+        "All your money is invested the same way",
+        "You don't know your risk score",
+        "You have no plan for long-term care"
+      ],
+      "ideas": [
+        {
+          "title": "Money by purpose",
+          "text": "Income money, growth money and reserve money, each positioned for its job."
+        },
+        {
+          "title": "Know your number",
+          "text": "Your risk score shows how much a market drop could move your plan."
+        },
+        {
+          "title": "Long-term care is a plan, not a policy",
+          "text": "Home care, assisted living and nursing care can be planned for in several ways, including from your own assets."
+        }
+      ],
+      "how": "Step 2 of the PATH Plan, Assets, gives you a Risk & Reserve Report.",
+      "note": "Investment advisory services through Balanced Wealth Partners. Insurance products through Balanced Financial, Inc. Guarantees in insurance products are based on the claims-paying ability of the issuing company and have conditions and limitations. [COMPLIANCE: confirm wording]",
+      "faq": [
+        {
+          "q": "Do you only sell annuities?",
+          "a": "No. Some clients use them as part of the income plan and many don't. The plan decides the products, not the other way around."
+        }
+      ]
+    },
+    {
+      "slug": "tax-planning",
+      "title": "Retirement Tax Planning",
+      "card_title": "Taxes",
+      "card_text": "Your 401(k) isn't all yours. Plan when the IRS collects.",
+      "seo_title": "Retirement Tax Planning in Fort Collins, CO",
+      "h1": "Retirement Tax Planning in Fort Collins",
+      "lead": "Part of your 401(k) belongs to the IRS. The rules decide when they collect, unless you plan first.",
+      "webinar_url": "../webinars.html",
+      "belief": [
+        "Most people assume taxes go down in retirement. For good savers, they often don't.",
+        "Required withdrawals, Social Security taxation and Medicare surcharges can stack up in the same years. Planning the years before that is where the opportunity is."
+      ],
+      "familiar": [
+        "Most of your savings is pre-tax",
+        "You've heard about Roth conversions but no one has run your numbers",
+        "Your tax preparer and your advisor never talk",
+        "You have restricted stock and you're not sure when to sell"
+      ],
+      "ideas": [
+        {
+          "title": "Required withdrawals start later now, and get bigger",
+          "text": "Required minimum distributions now start at 73, or 75 for anyone born in 1960 or later, so balances can keep growing pre-tax until then."
+        },
+        {
+          "title": "Medicare looks back two years",
+          "text": "Medicare Part B and D surcharges are based on your income from two years earlier, so a big conversion or sale this year can raise your premiums later."
+        },
+        {
+          "title": "Your return is the map",
+          "text": "Our tax team starts with your actual return and runs \"what if\" scenarios: conversions, withdrawals, RSU sales, rental or business sales."
+        }
+      ],
+      "how": "Step 3 of the PATH Plan, Taxes, gives you a CPA What-If Tax Timeline built from your own return.",
+      "note": "Tax services are provided by Fort Collins Tax Advisory Group, LLC. Tax rules change; the figures here are current as of 2026 and are educational, not tax advice for your situation.",
+      "faq": [
+        {
+          "q": "Should I do a Roth conversion?",
+          "a": "Sometimes yes, sometimes no. It depends on your bracket now and later, your Medicare premiums and your heirs. That's what the CPA What-If review is for."
+        }
+      ]
+    },
+    {
+      "slug": "estate-planning",
+      "title": "Estate Planning",
+      "card_title": "Heirs",
+      "card_text": "Protect your spouse and kids on paper, and keep your family out of court.",
+      "seo_title": "Estate Planning Help in Fort Collins, CO",
+      "h1": "Estate Planning Coordination in Fort Collins",
+      "lead": "A plan isn't about how much you have. It's about who decides when you can't, and whether your family ends up in court.",
+      "webinar_url": "../webinars.html",
+      "belief": [
+        "Many families think estate planning is about estate tax. In Colorado, for most families, it isn't: Colorado has no estate or inheritance tax, and the federal exemption is very high.",
+        "It's about incapacity, court time, and getting money to the right people without a fight. That's the part most people miss."
+      ],
+      "familiar": [
+        "Your will was signed years ago, or you don't have one",
+        "You're not sure who your beneficiaries are",
+        "You have a family member who needs special care or protection",
+        "You own rentals or property in another state"
+      ],
+      "ideas": [
+        {
+          "title": "A will doesn't keep you out of probate court",
+          "text": "Some assets pass by beneficiary form or title. Others, like a home in your name alone, may go through the court [ATTORNEY REVIEW]."
+        },
+        {
+          "title": "Incapacity is the part most people miss",
+          "text": "Durable powers of attorney and medical directives let the right people act for you without a court."
+        },
+        {
+          "title": "Beneficiary forms usually win",
+          "text": "An old beneficiary form can override what your will says. Check them every time life changes."
+        }
+      ],
+      "how": "Step 4 of the PATH Plan, Heirs, reviews your documents and every beneficiary, and builds your Family Legacy Binder.",
+      "note": "We are not attorneys and do not provide legal advice. Legal documents are prepared by or with a licensed attorney [VERIFY: Greg's process]. [COMPLIANCE: Anywhere Advisor estate program line: advisors are paid to fund trusts, never to sell or create them. Reconcile with the current site's free wills and POAs offer.]",
+      "faq": [
+        {
+          "q": "Do you write wills and trusts?",
+          "a": "[VERIFY with Greg and his approver before launch.]"
+        }
+      ]
+    },
+    {
+      "slug": "rentals-and-business-exits",
+      "title": "Rental Property & Business Exit Planning",
+      "card_title": "Rentals & Business",
+      "card_text": "Tired of tenants and toilets, or thinking about selling the business?",
+      "seo_title": "Rental Property & Business Exit Planning | Fort Collins",
+      "h1": "Rental Property and Business Exit Planning",
+      "lead": "Your rentals and your business aren't competition for your retirement plan. They're part of it.",
+      "belief": [
+        "Many advisors see your rentals or your business as money they don't manage.",
+        "Greg has been a landlord and has bought and sold businesses himself. He treats them as part of your paycheck plan, including the tax bill when you sell."
+      ],
+      "familiar": [
+        "You're tired of \"tenants and toilets\"",
+        "You'd sell the rentals, but the tax bill stops you",
+        "You're thinking about selling your business in the next three to five years"
+      ],
+      "ideas": [
+        {
+          "title": "Selling rentals to fund your paycheck",
+          "text": "A sale, an exchange or an installment sale each change the tax and the income. Plan before you list."
+        },
+        {
+          "title": "A three-to-five-year business exit plan",
+          "text": "Succession, marketing the business confidentially, transition risk and the tax impact, planned in advance."
+        },
+        {
+          "title": "From property to paycheck",
+          "text": "Turn the sale proceeds into part of your Retirement Paycheck Map."
+        }
+      ],
+      "how": "Rental and business sales run through the Assets and Taxes steps of the PATH Plan.",
+      "faq": [
+        {
+          "q": "Should I sell my rentals before I retire?",
+          "a": "It depends on the tax, the income they produce and how much work they are. We'll run the numbers with you."
+        }
+      ]
+    }
+  ],
+  "webinars": {
+    "headline": "Free classes for people planning retirement",
+    "lead": "Learn one step of the PATH Plan at a time, from home.",
+    "events": [
+      {
+        "when": "Weekly \u00b7 Online [PLACEHOLDER: day and time]",
+        "title": "The Tax Trap [working title]",
+        "promises": [
+          "Why your 401(k) and IRA aren't all yours, and when the IRS collects",
+          "How required withdrawals and Medicare's two-year look-back can raise your taxes later",
+          "How a CPA What-If review of your own return shows your options"
+        ],
+        "url": "https://balancedfinancialinc.com/tax-trap",
+        "button": "Save My Seat"
+      },
+      {
+        "when": "Monthly \u00b7 Online [PLACEHOLDER: day and time]",
+        "title": "If Something Happened to You Tomorrow [working title]",
+        "promises": [
+          "What actually happens to your home and accounts if you die or can't decide for yourself",
+          "Why a will alone doesn't keep your family out of court",
+          "The documents and beneficiary checks that protect your spouse and kids"
+        ],
+        "url": "https://balancedfinancialinc.com/estate-class",
+        "button": "Save My Seat"
+      }
+    ],
+    "note": "Classes are educational. Insurance and investment products may be discussed."
+  },
+  "contact": {
+    "headline": "Let's talk about your path",
+    "lead": "Book a PATH Review online, or call the office at (970) 204-1500.",
+    "note": "Please don't send account numbers or personal financial details by email."
+  },
+  "privacy": [
+    "[COMPLIANCE: paste the approved privacy policy.]"
+  ],
+  "disclosures": [
+    "[COMPLIANCE: paste the approved registration, affiliation, insurance, tax and testimonial disclosures.]"
+  ]
+}
