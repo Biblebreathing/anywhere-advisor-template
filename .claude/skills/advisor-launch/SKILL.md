@@ -26,4 +26,5 @@ Builds an advisor's marketing assets one stage at a time, from their interview t
 11. **Funnel:** every sales sequence stops the moment someone books, and the show-rate sequence starts. SMS only with consent. Build funnel pages with `python3 tools/build_funnel.py`; use the CRM blueprint in `stages/08-funnel-and-upsells/automation-map.md`.
 12. **Book:** follow `stages/09-book/quill-method.md` (Quill pipeline edition): draft Steps 1–5 from earlier stages, never rename the mechanism, run the gap interview only for real gaps, get blueprint sign-off before drafting, write one chapter per session, and keep `python3 tools/book_lint.py` at zero errors. No em dashes, no banned vocabulary, no flags left in prose.
 13. **Book funnel:** every QR destination must land on a real hub anchor (`python3 tools/build_book_funnel.py` checks this). Publish the hub and the Stage 09 redirects before the book is printed.
-14. Finish by stating what was produced, what's open (`gaps.md`), and the next stage.
+14. **KDP:** always build in this order: interior → cover (from `interior-report.json`, never a guessed page count) → ebook → listing. Re-run the cover whenever the page count changes. Never publish before the advisor approves a printed proof.
+15. Finish by stating what was produced, what's open (`gaps.md`), and the next stage.

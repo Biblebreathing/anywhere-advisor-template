@@ -1,0 +1,33 @@
+{
+  "_note": "FICTIONAL EXAMPLE, matching stages/09-book/examples/sample-book. Keywords and categories must be researched for each real book (see kdp-guide.md).",
+  "title": "The Paycheck Gap",
+  "subtitle": "How to Turn Your Savings Into a Retirement Paycheck You Can Count On",
+  "author": "Jordan Ellis",
+  "imprint": "Ellis Retirement Partners Press",
+  "isbn": "KDP free ISBN (or the advisor's own Bowker ISBN for an imprint name)",
+  "language": "English",
+  "description_html": "<p><b>You saved for thirty years. Nobody showed you how to turn it into a paycheck.</b></p><p>Most good savers reach retirement with a number, not a plan. They check the balance, feel a knot in their stomach, and still can't answer the only question that matters: <i>how much can we actually spend?</i></p><p>The space between the number you saved and the paycheck you need has a name: the Paycheck Gap. In this short, practical book, retirement income planner Jordan Ellis shows you how to see your own gap on one page and what to do about it.</p><p><b>Inside, you'll discover:</b></p><ul><li>Why a big savings number isn't the same as a retirement paycheck</li><li>The three risks that can quietly shrink your income, and how planners address them</li><li>A simple worksheet to find your own Paycheck Gap in about twenty minutes</li><li>The five steps of the Retirement Paycheck Blueprint, explained in plain English</li><li>The questions to ask any advisor before you hire them</li></ul><p>Every chapter ends with one worksheet and one small action, with printable copies online.</p><p>This book is educational and is not individualized financial, tax, or legal advice.</p><p><b>If you are within ten years of retirement, start here.</b></p>",
+  "keywords": [
+    "income planning after you stop working",
+    "how much can I spend after I stop working",
+    "social security claiming strategy",
+    "financial planning for couples over 55",
+    "pension and 401k withdrawal plan",
+    "sequence of returns risk explained",
+    "money plan for pre retirees"
+  ],
+  "categories": [
+    "Business & Money > Personal Finance > Retirement Planning",
+    "Business & Money > Personal Finance > Budgeting & Money Management",
+    "Business & Money > Personal Finance > Financial Planning (verify current category names in KDP)"
+  ],
+  "pricing": {
+    "paperback_usd": 14.99,
+    "ebook_usd": 4.99
+  },
+  "paper": "white",
+  "finish": "Matte",
+  "reading_age": "Adult",
+  "large_print": "No",
+  "kdp_select": "No (keep the ebook available everywhere for the funnel)"
+}

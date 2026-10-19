@@ -1,0 +1,18 @@
+{
+  "_note": "FICTIONAL EXAMPLE. Typographic cover in the brand palette. Add front_art (a 2:3 image, no text in it) for an illustrated cover.",
+  "title": "The Paycheck Gap",
+  "subtitle": "How to Turn Your Savings Into a Retirement Paycheck You Can Count On",
+  "author": "Jordan Ellis",
+  "author_credential": "Retirement Income Planner",
+  "front_art": "",
+  "spine_text": true,
+  "back": {
+    "headline": "You saved for thirty years. Nobody showed you how to turn it into a paycheck.",
+    "blurb": ["Most good savers reach retirement with a number, not a plan. The space between the two has a name: the Paycheck Gap. In this short, practical book, retirement income planner Jordan Ellis shows you how to see your own gap on one page, and what to do about it."],
+    "bullets": ["Why a big savings number isn't the same as a retirement paycheck", "The three risks that can quietly shrink your income", "The five steps of the Retirement Paycheck Blueprint", "A worksheet in every chapter, with printable copies online"],
+    "bio": "Jordan Ellis is a fictional retirement income planner used to demonstrate this template.",
+    "author_photo": "headshot-placeholder.jpg",
+    "qr_caption": "Scan for every worksheet in this book",
+    "category_line": "PERSONAL FINANCE / RETIREMENT PLANNING"
+  }
+}
