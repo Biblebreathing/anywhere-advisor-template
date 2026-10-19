@@ -29,8 +29,8 @@ Every asset points to one place: **a booked appointment on the advisor's calenda
 |---|---|---|
 | 01 | Intake + Interview → Knowledge Base | ✅ Built |
 | 02 | Knowledge Base Review, Gap-Fill + Brand Kit | ✅ Built |
-| 03 | Deep Research (optional) | ⏳ Next |
-| 04 | Offer + Unique Mechanism | ⏳ |
+| 03 | Deep Research (Core always; Extended optional) | ✅ Built |
+| 04 | Offer + Unique Mechanism | ⏳ Next |
 | 05 | Assessments | ⏳ |
 | 06 | Webinars (5 tracks) | ⏳ |
 | 07 | Website | ⏳ |

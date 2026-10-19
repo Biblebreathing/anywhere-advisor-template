@@ -11,4 +11,5 @@ Not legal advice. The advisor's compliance department, broker-dealer, or IMO has
 - [ ] Registration and firm disclosure in the footer of every page, email, and the book's copyright page.
 - [ ] The book is treated as a marketing communication: submit the full manuscript for approval.
 - [ ] Assessments/calculators: inputs and assumptions are disclosed, and results are labeled educational, not a recommendation.
+- [ ] Every number and statistic cites a current fact in `03-deep-research/fact-registry.md`. State legal facts marked `[ATTORNEY REVIEW]` have been confirmed by the advisor's attorney.
 - [ ] Data capture: privacy policy linked, SMS consent language (TCPA) for text follow-up.
