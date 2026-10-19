@@ -1,0 +1,230 @@
+{
+  "_note": "Greg Anderson book funnel. Title and PATH Plan are placeholders; the book is at blueprint stage (no manuscript yet). Cover comes from Stage 11.",
+  "site": {
+    "firm": "Balanced Financial, Inc.",
+    "logo": "logo.jpg",
+    "advisor": {
+      "name": "Greg W. Anderson",
+      "photo": "headshot-1.jpg",
+      "phone": "(970) 204-1500"
+    },
+    "appointment": {
+      "name": "PATH Review",
+      "deliverable": "Your one-page PATH Map: where you stand on your Paycheck, Assets, Taxes and Heirs, plus a CPA What-If review of last year's tax return.",
+      "deliverable_short": "your one-page PATH Map",
+      "button": "Reserve My PATH Review",
+      "url": "https://balancedfinancialinc.com/path-review"
+    },
+    "disclosure": "Balanced Financial, Inc. (insurance and legacy services), Fort Collins Tax Advisory Group, LLC (tax services) and Balanced Wealth Partners (investment advisory services) are affiliated companies owned by Greg W. Anderson. [COMPLIANCE: replace with the exact registration, affiliation and insurance disclosures approved by Greg's compliance approver(s); his current site carries only an insurance disclosure.] Content is educational and is not tax, legal or investment advice.",
+    "privacy_url": "https://balancedfinancialinc.com/privacy.html"
+  },
+  "book": {
+    "title": "A Path to Run On",
+    "subtitle": "The PATH Plan for Turning Your Savings into a Retirement Paycheck, Planning Your Taxes, and Protecting Your Family",
+    "cover": ""
+  },
+  "hub_url": "https://balancedfinancialinc.com/book-bonus",
+  "offer": {
+    "type": "mailed",
+    "eyebrow": "Free signed copy for Colorado families",
+    "headline": "A Path to Run On",
+    "bullets": [
+      "Why your savings were built to grow, not to pay you, and what to change before you retire",
+      "The Three-Office Problem: what falls between your advisor, your CPA and your attorney",
+      "When the IRS collects on your 401(k): required withdrawals and Medicare's two-year look-back",
+      "Why a will doesn't keep your family out of court, and the documents that do",
+      "Twelve worksheets, including your own one-page PATH Map"
+    ],
+    "who": [
+      "You're within 10 years of retiring, or recently retired",
+      "Most of what you've saved is in a 401(k) or IRA",
+      "You own rentals or a business, or you have restricted stock"
+    ],
+    "author_line": "Retirement income, tax and estate planner in Fort Collins, Colorado \u00b7 RICP\u00ae",
+    "form_headline": "Get your free signed copy",
+    "form_text": "Greg will sign it and mail it to you. No cost, no obligation.",
+    "button": "Send Me My Free Copy",
+    "states": [
+      "CO"
+    ],
+    "out_of_area_message": "Signed copies are mailed to Colorado residents. You can still find the book on Amazon below.",
+    "limit_note": "Limit one per household. Available to Colorado residents.",
+    "done_headline": "Your signed copy is on its way.",
+    "done_text": "Look for it in your mailbox within about a week. While you wait, the reader bonus page has every worksheet from the book.",
+    "amazon_url": "https://www.amazon.com/",
+    "faq": [
+      {
+        "q": "Is it really free?",
+        "a": "Yes. There's no cost and no obligation. Greg wrote it to help families plan."
+      },
+      {
+        "q": "Will someone call me?",
+        "a": "Only if you ask us to. You may receive a few emails with the book's worksheets, and you can unsubscribe anytime."
+      },
+      {
+        "q": "I don't live in Colorado.",
+        "a": "The paperback and Kindle editions are on Amazon, and Greg meets with clients nationwide by Zoom."
+      }
+    ]
+  },
+  "hub": {
+    "gate": true,
+    "headline": "A Path to Run On: Reader Resources",
+    "lead": "Every worksheet from the book, ready to print, plus a short video from Greg for each chapter.",
+    "chapters": [
+      {
+        "anchor": "intro",
+        "label": "Introduction",
+        "title": "A Ghost Town and a Business Card",
+        "text": "Start here: a short welcome from Greg, and how to use the worksheets.",
+        "video_embed_url": ""
+      },
+      {
+        "anchor": "ch1",
+        "label": "Chapter 1",
+        "title": "Built to Grow, Not to Pay",
+        "text": "The One Thing: Write down the number you think you can spend next year, and where it comes from.",
+        "worksheet": "paycheck-question",
+        "video_embed_url": "",
+        "next": {
+          "label": "Get your PATH Score",
+          "url": "https://score.balancedfinancialinc.com"
+        }
+      },
+      {
+        "anchor": "ch2",
+        "label": "Chapter 2",
+        "title": "Three Offices, No Table",
+        "text": "The One Thing: List your advisor, CPA and attorney, and the last time any two of them spoke.",
+        "worksheet": "who-is-at-my-table",
+        "video_embed_url": "",
+        "next": {
+          "label": "Get your PATH Score",
+          "url": "https://score.balancedfinancialinc.com"
+        }
+      },
+      {
+        "anchor": "ch3",
+        "label": "Chapter 3",
+        "title": "Head Trash",
+        "text": "The One Thing: Circle the excuse you've used most, and write what it's costing you.",
+        "worksheet": "excuse-inventory",
+        "video_embed_url": "",
+        "next": {
+          "label": "Get your PATH Score",
+          "url": "https://score.balancedfinancialinc.com"
+        }
+      },
+      {
+        "anchor": "ch4",
+        "label": "Chapter 4",
+        "title": "P Is for Paycheck",
+        "text": "The One Thing: Fill in your Paycheck Map, even roughly.",
+        "worksheet": "retirement-paycheck-map",
+        "video_embed_url": "",
+        "next": {
+          "label": "Get your PATH Score",
+          "url": "https://score.balancedfinancialinc.com"
+        }
+      },
+      {
+        "anchor": "ch5",
+        "label": "Chapter 5",
+        "title": "Social Security Is a Two-Person Decision",
+        "text": "The One Thing: Get both of your Social Security estimates this week.",
+        "worksheet": "social-security-decision",
+        "video_embed_url": "",
+        "next": {
+          "label": "Get your PATH Score",
+          "url": "https://score.balancedfinancialinc.com"
+        }
+      },
+      {
+        "anchor": "ch6",
+        "label": "Chapter 6",
+        "title": "A Is for Assets: The First Years Matter Most",
+        "text": "The One Thing: Sort your accounts into income, growth and reserve money.",
+        "worksheet": "money-by-purpose",
+        "video_embed_url": "",
+        "next": {
+          "label": "Get your PATH Score",
+          "url": "https://score.balancedfinancialinc.com"
+        }
+      },
+      {
+        "anchor": "ch7",
+        "label": "Chapter 7",
+        "title": "The Care Question",
+        "text": "The One Thing: Talk with your spouse about where you'd want care, and how you'd pay for it.",
+        "worksheet": "care-plan",
+        "video_embed_url": "",
+        "next": {
+          "label": "Get your PATH Score",
+          "url": "https://score.balancedfinancialinc.com"
+        }
+      },
+      {
+        "anchor": "ch8",
+        "label": "Chapter 8",
+        "title": "T Is for Taxes: The Tax Trap",
+        "text": "The One Thing: Find last year's return and circle your taxable income.",
+        "worksheet": "tax-trap-check",
+        "video_embed_url": "",
+        "next": {
+          "label": "Join the free Tax Trap class",
+          "url": "https://balancedfinancialinc.com/tax-trap"
+        }
+      },
+      {
+        "anchor": "ch9",
+        "label": "Chapter 9",
+        "title": "Your Tax Return Is the Map",
+        "text": "The One Thing: Write three \"what if\" questions for your return.",
+        "worksheet": "what-if-questions",
+        "video_embed_url": "",
+        "next": {
+          "label": "Reserve your PATH Review",
+          "url": "https://balancedfinancialinc.com/path-review"
+        }
+      },
+      {
+        "anchor": "ch10",
+        "label": "Chapter 10",
+        "title": "H Is for Heirs: One Year and One Day",
+        "text": "The One Thing: Pull every beneficiary form you have this week.",
+        "worksheet": "legacy-checklist",
+        "video_embed_url": "",
+        "next": {
+          "label": "Reserve your PATH Review",
+          "url": "https://balancedfinancialinc.com/path-review"
+        }
+      },
+      {
+        "anchor": "ch11",
+        "label": "Chapter 11",
+        "title": "Tenants, Toilets, and the Business",
+        "text": "The One Thing: Write down what you'd do with the rentals or business if you had to decide this year.",
+        "worksheet": "exit-plan",
+        "video_embed_url": "",
+        "next": {
+          "label": "Reserve your PATH Review",
+          "url": "https://balancedfinancialinc.com/path-review"
+        }
+      },
+      {
+        "anchor": "ch12",
+        "label": "Chapter 12",
+        "title": "Walking the PATH",
+        "text": "The One Thing: Book your PATH Review, or ask your advisor these five questions.",
+        "worksheet": "path-map",
+        "video_embed_url": "",
+        "next": {
+          "label": "Reserve your PATH Review",
+          "url": "https://balancedfinancialinc.com/path-review"
+        }
+      }
+    ]
+  },
+  "sms_consent": "Yes, Balanced Financial may text me about my book and appointments. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.",
+  "webhookUrl": ""
+}

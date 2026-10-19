@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Path to Run On | Greg W. Anderson</title>
+<meta name="description" content="The PATH Plan for Turning Your Savings into a Retirement Paycheck, Planning Your Taxes, and Protecting Your Family">
+<meta name="robots" content="index,follow">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+.funnel-top{background:#fff;border-bottom:1px solid var(--primary-tint)} .funnel-top .bar{min-height:68px}
+.reg-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:start}
+.formcard{background:#fff;border-radius:18px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.08);border-top:6px solid var(--accent)}
+.formcard label{display:block;font-weight:700;color:var(--ink);margin:14px 0 6px;font-size:17px}
+.formcard input[type=text],.formcard input[type=email],.formcard input[type=tel],.formcard select{width:100%;font:inherit;padding:13px 14px;border:2px solid var(--primary-tint);border-radius:10px;background:#fff}
+.formcard input:focus,.formcard select:focus{outline:none;border-color:var(--primary-strong)}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:14px;font-weight:400!important;color:var(--body-text)!important}
+.consent input{margin-top:5px;flex:none}
+.when{background:var(--primary-tint);border-radius:12px;padding:14px 16px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.err{color:#B42318;font-size:15px;min-height:22px;margin-top:8px}
+.advisor-mini{display:flex;gap:16px;align-items:center;margin-top:26px}
+.advisor-mini img{width:84px;height:84px;border-radius:50%;object-fit:cover;border:3px solid var(--accent)}
+.steps-list{counter-reset:n;list-style:none;padding:0}
+.steps-list li{counter-increment:n;position:relative;padding:18px 18px 18px 70px;background:#fff;border-radius:14px;margin:14px 0;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.steps-list li:before{content:counter(n);position:absolute;left:18px;top:18px;width:38px;height:38px;border-radius:50%;background:var(--primary-strong);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.video{position:relative;padding-top:56.25%;border-radius:14px;overflow:hidden;background:#000;margin:20px 0}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
+@media (max-width:900px){.reg-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="funnel-top"><div class="wrap bar"><span class="brand"><img src="logo.jpg" alt="Balanced Financial, Inc."></span><a class="phone" href="tel:(970) 204-1500" style="font-weight:700;text-decoration:none">(970) 204-1500</a></div></header>
+<main id="main">
+<section class="hero" style="padding-top:56px"><div class="wrap reg-grid">
+  <div>
+    <p class="eyebrow">Free signed copy for Colorado families</p>
+    <h1>A Path to Run On</h1>
+    <p class="lead">The PATH Plan for Turning Your Savings into a Retirement Paycheck, Planning Your Taxes, and Protecting Your Family</p>
+    
+    <h2 style="font-size:24px;margin-top:20px">Inside, you'll discover:</h2>
+    <ul class="checks"><li>Why your savings were built to grow, not to pay you, and what to change before you retire</li><li>The Three-Office Problem: what falls between your advisor, your CPA and your attorney</li><li>When the IRS collects on your 401(k): required withdrawals and Medicare&#39;s two-year look-back</li><li>Why a will doesn&#39;t keep your family out of court, and the documents that do</li><li>Twelve worksheets, including your own one-page PATH Map</li></ul>
+    <h2 style="font-size:24px">This book is for you if:</h2><ul class="checks"><li>You&#39;re within 10 years of retiring, or recently retired</li><li>Most of what you&#39;ve saved is in a 401(k) or IRA</li><li>You own rentals or a business, or you have restricted stock</li></ul>
+    <div class="advisor-mini"><img src="headshot-1.jpg" alt="Greg W. Anderson"><div><strong style="color:var(--ink)">About the author: Greg W. Anderson</strong><br><span class="small">Retirement income, tax and estate planner in Fort Collins, Colorado · RICP®</span></div></div>
+  </div>
+  <div class="formcard" id="offer">
+    <div id="formwrap">
+      <h2 style="font-size:26px">Get your free signed copy</h2>
+      <p class="small">Greg will sign it and mail it to you. No cost, no obligation.</p>
+      <form id="f" novalidate>
+        <label for="fn">First name</label><input id="fn" type="text" autocomplete="given-name">
+        <label for="ln">Last name</label><input id="ln" type="text" autocomplete="family-name">
+        <label for="em">Email</label><input id="em" type="email" autocomplete="email">
+        
+        <label for="st">Street address</label><input id="st" type="text" autocomplete="street-address">
+        <div style="display:grid;grid-template-columns:2fr 1fr 1.2fr;gap:10px">
+          <div><label for="ci">City</label><input id="ci" type="text" autocomplete="address-level2"></div>
+          <div><label for="sa">State</label><input id="sa" type="text" autocomplete="address-level1" maxlength="2" style="text-transform:uppercase"></div>
+          <div><label for="zp">ZIP</label><input id="zp" type="text" autocomplete="postal-code" inputmode="numeric"></div>
+        </div>
+        
+        <label for="ph">Mobile phone <span class="small" style="font-weight:400">(optional)</span></label><input id="ph" type="tel" autocomplete="tel">
+        <label class="consent"><input type="checkbox" id="sms"> <span>Yes, Balanced Financial may text me about my book and appointments. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.</span></label>
+        <button class="btn big" style="width:100%;margin-top:16px" type="submit">Send Me My Free Copy</button>
+        <div class="err" id="err"></div>
+        <p class="small" style="margin:0">Limit one per household. Available to Colorado residents.</p>
+      </form>
+    </div>
+    <div id="done" class="hidden" style="display:none">
+      <h2 style="font-size:26px">Your signed copy is on its way.</h2>
+      <p>Look for it in your mailbox within about a week. While you wait, the reader bonus page has every worksheet from the book.</p>
+      
+      <p><a class="link" href="https://balancedfinancialinc.com/book-bonus">Visit the reader bonus page →</a></p>
+      <hr style="border:0;border-top:1px solid var(--primary-tint);margin:20px 0">
+      <p><strong style="color:var(--ink)">Want to talk it through?</strong> Book your free PATH Review.</p>
+      <a class="btn secondary" href="https://balancedfinancialinc.com/path-review">Reserve My PATH Review</a>
+    </div>
+  </div>
+</div></section>
+<section class="faq"><div class="wrap narrow"><h2>Questions</h2><details><summary>Is it really free?</summary><p>Yes. There&#39;s no cost and no obligation. Greg wrote it to help families plan.</p></details><details><summary>Will someone call me?</summary><p>Only if you ask us to. You may receive a few emails with the book&#39;s worksheets, and you can unsubscribe anytime.</p></details><details><summary>I don&#39;t live in Colorado.</summary><p>The paperback and Kindle editions are on Amazon, and Greg meets with clients nationwide by Zoom.</p></details></div></section>
+<section style="padding:30px 0"><div class="wrap center"><p>Prefer to buy it? <a class="link" href="https://www.amazon.com/">Get it on Amazon →</a></p></div></section>
+</main>
+<footer class="site-footer"><div class="wrap disclosure" style="border:0;margin-top:0"><p>Balanced Financial, Inc. (insurance and legacy services), Fort Collins Tax Advisory Group, LLC (tax services) and Balanced Wealth Partners (investment advisory services) are affiliated companies owned by Greg W. Anderson. [COMPLIANCE: replace with the exact registration, affiliation and insurance disclosures approved by Greg&#39;s compliance approver(s); his current site carries only an insurance disclosure.] Content is educational and is not tax, legal or investment advice.</p><p><a href="https://balancedfinancialinc.com/privacy.html">Privacy Policy</a></p><p>© 2026 Balanced Financial, Inc.</p></div></footer>
+<script>
+const W = {"title": "A Path to Run On", "sessions": [], "webhookUrl": ""};
+const fmt = (iso) => { const d = new Date(iso); return d.toLocaleString(undefined, {weekday:'long', month:'long', day:'numeric', hour:'numeric', minute:'2-digit', timeZoneName:'short'}); };
+const nextSession = () => { const now = Date.now(); return (W.sessions || []).find(s => new Date(s).getTime() - now > -15 * 60000) || null; };
+const params = new URLSearchParams(location.search);
+</script>
+
+<script>
+const O = {"type": "mailed", "title": "A Path to Run On", "slug": "a-path-to-run-on", "states": ["CO"], "outOfAreaMessage": "Signed copies are mailed to Colorado residents. You can still find the book on Amazon below."};
+document.getElementById('f').onsubmit = (e) => {
+  e.preventDefault();
+  const v = id => (document.getElementById(id) || {}).value?.trim() || '';
+  const err = document.getElementById('err');
+  if (!v('fn')) return err.textContent = 'Please enter your first name.';
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('em'))) return err.textContent = 'Please enter a valid email address.';
+  let address = null;
+  if (O.type === 'mailed') {
+    if (!v('ln') || !v('st') || !v('ci') || !/^[A-Za-z]{2}$/.test(v('sa')) || !/^\d{5}(-\d{4})?$/.test(v('zp'))) return err.textContent = 'Please enter your full name and mailing address (2-letter state, 5-digit ZIP).';
+    if (O.states && O.states.length && !O.states.includes(v('sa').toUpperCase())) return err.textContent = O.outOfAreaMessage || 'Sorry, signed copies are only available in our service area. Try the free download instead.';
+    address = {street: v('st'), city: v('ci'), state: v('sa').toUpperCase(), zip: v('zp')};
+  }
+  const utm = {}; ['utm_source','utm_medium','utm_campaign','utm_content','src'].forEach(k => { if (params.get(k)) utm[k] = params.get(k); });
+  const payload = {event: 'book_requested', offer: O.type, book: O.title,
+    contact: {firstName: v('fn'), lastName: v('ln'), email: v('em'), phone: v('ph'), smsConsent: document.getElementById('sms').checked},
+    address, utm, page: location.href.split('?')[0], requestedAt: new Date().toISOString()};
+  window.__lastBookRequest = payload;
+  if (W.webhookUrl) fetch(W.webhookUrl, {method: 'POST', mode: 'no-cors', keepalive: true, headers: {'Content-Type': 'text/plain;charset=UTF-8'}, body: JSON.stringify(payload)}).catch(() => {});
+  try { localStorage.setItem('reader:' + O.slug, '1'); } catch (x) {}
+  document.getElementById('formwrap').style.display = 'none';
+  document.getElementById('done').style.display = 'block';
+  window.dataLayer && window.dataLayer.push({event: 'book_requested'});
+};
+</script>
+
+</body>
+</html>

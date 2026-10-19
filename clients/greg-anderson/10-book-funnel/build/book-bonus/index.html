@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reader Resources | A Path to Run On</title>
+<meta name="description" content="">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+.funnel-top{background:#fff;border-bottom:1px solid var(--primary-tint)} .funnel-top .bar{min-height:68px}
+.reg-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:start}
+.formcard{background:#fff;border-radius:18px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.08);border-top:6px solid var(--accent)}
+.formcard label{display:block;font-weight:700;color:var(--ink);margin:14px 0 6px;font-size:17px}
+.formcard input[type=text],.formcard input[type=email],.formcard input[type=tel],.formcard select{width:100%;font:inherit;padding:13px 14px;border:2px solid var(--primary-tint);border-radius:10px;background:#fff}
+.formcard input:focus,.formcard select:focus{outline:none;border-color:var(--primary-strong)}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:14px;font-weight:400!important;color:var(--body-text)!important}
+.consent input{margin-top:5px;flex:none}
+.when{background:var(--primary-tint);border-radius:12px;padding:14px 16px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.err{color:#B42318;font-size:15px;min-height:22px;margin-top:8px}
+.advisor-mini{display:flex;gap:16px;align-items:center;margin-top:26px}
+.advisor-mini img{width:84px;height:84px;border-radius:50%;object-fit:cover;border:3px solid var(--accent)}
+.steps-list{counter-reset:n;list-style:none;padding:0}
+.steps-list li{counter-increment:n;position:relative;padding:18px 18px 18px 70px;background:#fff;border-radius:14px;margin:14px 0;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.steps-list li:before{content:counter(n);position:absolute;left:18px;top:18px;width:38px;height:38px;border-radius:50%;background:var(--primary-strong);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.video{position:relative;padding-top:56.25%;border-radius:14px;overflow:hidden;background:#000;margin:20px 0}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
+@media (max-width:900px){.reg-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="funnel-top"><div class="wrap bar"><span class="brand"><img src="logo.jpg" alt="Balanced Financial, Inc."></span><a class="phone" href="tel:(970) 204-1500" style="font-weight:700;text-decoration:none">(970) 204-1500</a></div></header>
+<main id="main">
+<section class="page-hero" style="padding-bottom:30px"><div class="wrap narrow center">
+  <p class="eyebrow">Reader resources</p>
+  <h1>A Path to Run On: Reader Resources</h1>
+  <p class="lead">Every worksheet from the book, ready to print, plus a short video from Greg for each chapter.</p>
+</div></section>
+
+<section id="gate" style="padding:0 0 30px"><div class="wrap narrow"><div class="formcard">
+  <h2 style="font-size:24px" id="gate-title">Unlock your printable worksheets</h2>
+  <p class="small">Enter your name and email once. This device will remember you, so next time you scan a code you'll go straight to your worksheet.</p>
+  <form id="gf" novalidate>
+    <label for="gfn">First name</label><input id="gfn" type="text" autocomplete="given-name">
+    <label for="gem">Email</label><input id="gem" type="email" autocomplete="email">
+    <label for="gph">Mobile phone <span class="small" style="font-weight:400">(optional)</span></label><input id="gph" type="tel" autocomplete="tel">
+    <label class="consent"><input type="checkbox" id="gsms"> <span>Yes, Balanced Financial may text me about my book and appointments. Message and data rates may apply. Reply STOP to opt out. Consent is not a condition of any purchase.</span></label>
+    <button class="btn big" style="width:100%;margin-top:14px" type="submit">Unlock My Worksheets</button>
+    <div class="err" id="gerr"></div>
+  </form>
+</div></div></section>
+
+<section style="padding-top:10px"><div class="wrap narrow">
+
+  <article id="intro" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Introduction</p>
+    <h2 style="font-size:26px">A Ghost Town and a Business Card</h2>
+    <p>Start here: a short welcome from Greg, and how to use the worksheets.</p>
+    
+    <div class="btn-row">
+      
+      
+    </div>
+  </article>
+
+  <article id="ch1" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 1</p>
+    <h2 style="font-size:26px">Built to Grow, Not to Pay</h2>
+    <p>The One Thing: Write down the number you think you can spend next year, and where it comes from.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/paycheck-question.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://score.balancedfinancialinc.com">Get your PATH Score</a>
+    </div>
+  </article>
+
+  <article id="ch2" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 2</p>
+    <h2 style="font-size:26px">Three Offices, No Table</h2>
+    <p>The One Thing: List your advisor, CPA and attorney, and the last time any two of them spoke.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/who-is-at-my-table.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://score.balancedfinancialinc.com">Get your PATH Score</a>
+    </div>
+  </article>
+
+  <article id="ch3" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 3</p>
+    <h2 style="font-size:26px">Head Trash</h2>
+    <p>The One Thing: Circle the excuse you&#39;ve used most, and write what it&#39;s costing you.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/excuse-inventory.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://score.balancedfinancialinc.com">Get your PATH Score</a>
+    </div>
+  </article>
+
+  <article id="ch4" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 4</p>
+    <h2 style="font-size:26px">P Is for Paycheck</h2>
+    <p>The One Thing: Fill in your Paycheck Map, even roughly.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/retirement-paycheck-map.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://score.balancedfinancialinc.com">Get your PATH Score</a>
+    </div>
+  </article>
+
+  <article id="ch5" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 5</p>
+    <h2 style="font-size:26px">Social Security Is a Two-Person Decision</h2>
+    <p>The One Thing: Get both of your Social Security estimates this week.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/social-security-decision.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://score.balancedfinancialinc.com">Get your PATH Score</a>
+    </div>
+  </article>
+
+  <article id="ch6" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 6</p>
+    <h2 style="font-size:26px">A Is for Assets: The First Years Matter Most</h2>
+    <p>The One Thing: Sort your accounts into income, growth and reserve money.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/money-by-purpose.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://score.balancedfinancialinc.com">Get your PATH Score</a>
+    </div>
+  </article>
+
+  <article id="ch7" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 7</p>
+    <h2 style="font-size:26px">The Care Question</h2>
+    <p>The One Thing: Talk with your spouse about where you&#39;d want care, and how you&#39;d pay for it.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/care-plan.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://score.balancedfinancialinc.com">Get your PATH Score</a>
+    </div>
+  </article>
+
+  <article id="ch8" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 8</p>
+    <h2 style="font-size:26px">T Is for Taxes: The Tax Trap</h2>
+    <p>The One Thing: Find last year&#39;s return and circle your taxable income.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/tax-trap-check.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://balancedfinancialinc.com/tax-trap">Join the free Tax Trap class</a>
+    </div>
+  </article>
+
+  <article id="ch9" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 9</p>
+    <h2 style="font-size:26px">Your Tax Return Is the Map</h2>
+    <p>The One Thing: Write three &#34;what if&#34; questions for your return.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/what-if-questions.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://balancedfinancialinc.com/path-review">Reserve your PATH Review</a>
+    </div>
+  </article>
+
+  <article id="ch10" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 10</p>
+    <h2 style="font-size:26px">H Is for Heirs: One Year and One Day</h2>
+    <p>The One Thing: Pull every beneficiary form you have this week.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/legacy-checklist.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://balancedfinancialinc.com/path-review">Reserve your PATH Review</a>
+    </div>
+  </article>
+
+  <article id="ch11" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 11</p>
+    <h2 style="font-size:26px">Tenants, Toilets, and the Business</h2>
+    <p>The One Thing: Write down what you&#39;d do with the rentals or business if you had to decide this year.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/exit-plan.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://balancedfinancialinc.com/path-review">Reserve your PATH Review</a>
+    </div>
+  </article>
+
+  <article id="ch12" class="card" style="margin:18px 0;scroll-margin-top:90px">
+    <p class="eyebrow">Chapter 12</p>
+    <h2 style="font-size:26px">Walking the PATH</h2>
+    <p>The One Thing: Book your PATH Review, or ask your advisor these five questions.</p>
+    
+    <div class="btn-row">
+      <a class="btn small ws" href="worksheets/path-map.html" data-ws>Open the printable worksheet</a>
+      <a class="btn small secondary" href="https://balancedfinancialinc.com/path-review">Reserve your PATH Review</a>
+    </div>
+  </article>
+
+</div></section>
+<section class="cta-band"><div class="wrap narrow center">
+  <h2>Bring your book and worksheets to a conversation.</h2>
+  <p>In a free PATH Review, we'll turn what you've written down into your one-page PATH Map.</p>
+  <a class="btn big accent" href="https://balancedfinancialinc.com/path-review">Reserve My PATH Review</a>
+</div></section>
+</main>
+<footer class="site-footer"><div class="wrap disclosure" style="border:0;margin-top:0"><p>Balanced Financial, Inc. (insurance and legacy services), Fort Collins Tax Advisory Group, LLC (tax services) and Balanced Wealth Partners (investment advisory services) are affiliated companies owned by Greg W. Anderson. [COMPLIANCE: replace with the exact registration, affiliation and insurance disclosures approved by Greg&#39;s compliance approver(s); his current site carries only an insurance disclosure.] Content is educational and is not tax, legal or investment advice.</p><p><a href="https://balancedfinancialinc.com/privacy.html">Privacy Policy</a></p><p>© 2026 Balanced Financial, Inc.</p></div></footer>
+<script>
+const W = {"title": "A Path to Run On", "sessions": [], "webhookUrl": ""};
+const fmt = (iso) => { const d = new Date(iso); return d.toLocaleString(undefined, {weekday:'long', month:'long', day:'numeric', hour:'numeric', minute:'2-digit', timeZoneName:'short'}); };
+const nextSession = () => { const now = Date.now(); return (W.sessions || []).find(s => new Date(s).getTime() - now > -15 * 60000) || null; };
+const params = new URLSearchParams(location.search);
+</script>
+
+<script>
+const H = {"title": "A Path to Run On", "slug": "a-path-to-run-on", "gate": true};
+const key = 'reader:' + H.slug;
+const unlocked = () => { if (!H.gate) return true; try { return localStorage.getItem(key) === '1'; } catch (x) { return false; } };
+const gate = document.getElementById('gate');
+const sync = () => {
+  const u = unlocked();
+  if (gate) gate.style.display = u ? 'none' : 'block';
+  document.querySelectorAll('[data-ws]').forEach(a => a.classList.toggle('secondary', !u));
+};
+sync();
+if (!unlocked() && location.hash) {
+  const t = document.querySelector(location.hash + ' h2');
+  if (t) document.getElementById('gate-title').textContent = 'Unlock your worksheet for: ' + t.textContent;
+  const top = () => window.scrollTo(0, 0);
+  top(); window.addEventListener('load', () => setTimeout(top, 0));
+}
+document.querySelectorAll('[data-ws]').forEach(a => a.addEventListener('click', (e) => {
+  if (!unlocked()) { e.preventDefault(); gate.scrollIntoView({behavior: 'smooth'}); document.getElementById('gfn').focus(); }
+}));
+const gf = document.getElementById('gf');
+if (gf) gf.onsubmit = (e) => {
+  e.preventDefault();
+  const v = id => document.getElementById(id).value.trim();
+  const err = document.getElementById('gerr');
+  if (!v('gfn')) return err.textContent = 'Please enter your first name.';
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('gem'))) return err.textContent = 'Please enter a valid email address.';
+  const utm = {}; ['utm_source','utm_medium','utm_campaign','utm_content'].forEach(k => { if (params.get(k)) utm[k] = params.get(k); });
+  const payload = {event: 'book_reader_registered', book: H.title, chapter: location.hash.replace('#', ''),
+    contact: {firstName: v('gfn'), email: v('gem'), phone: v('gph'), smsConsent: document.getElementById('gsms').checked},
+    utm, page: location.href.split('?')[0], registeredAt: new Date().toISOString()};
+  window.__lastReader = payload;
+  if (W.webhookUrl) fetch(W.webhookUrl, {method: 'POST', mode: 'no-cors', keepalive: true, headers: {'Content-Type': 'text/plain;charset=UTF-8'}, body: JSON.stringify(payload)}).catch(() => {});
+  try { localStorage.setItem(key, '1'); } catch (x) { H.gate = false; }
+  sync();
+  const target = location.hash && document.querySelector(location.hash);
+  if (target) target.scrollIntoView({behavior: 'smooth'});
+};
+</script>
+
+</body>
+</html>

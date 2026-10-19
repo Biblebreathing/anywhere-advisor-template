@@ -1,0 +1,72 @@
+{
+  "domain": "balancedfinancialinc.com",
+  "book_slug": "path-to-run-on",
+  "codes": [
+    {
+      "id": "hub",
+      "path": "go/book",
+      "destination": "https://balancedfinancialinc.com/book-bonus",
+      "caption": "Scan for all the worksheets and bonus videos"
+    },
+    {
+      "id": "appointment",
+      "path": "go/path",
+      "destination": "https://balancedfinancialinc.com/path-review",
+      "caption": "Scan to reserve your PATH Review"
+    },
+    {
+      "id": "assessment",
+      "path": "go/score",
+      "destination": "https://score.balancedfinancialinc.com",
+      "caption": "Scan to get your PATH Score"
+    },
+    {
+      "id": "webinar",
+      "path": "go/class",
+      "destination": "https://balancedfinancialinc.com/tax-trap",
+      "caption": "Scan to join the free Tax Trap class"
+    },
+    {
+      "id": "ch01-paycheck-question",
+      "path": "go/ch1",
+      "destination": "https://balancedfinancialinc.com/book-bonus#ch1",
+      "caption": "Scan to download The Paycheck Question"
+    },
+    {
+      "id": "ch02-who-is-at-my-table",
+      "path": "go/ch2",
+      "destination": "https://balancedfinancialinc.com/book-bonus#ch2",
+      "caption": "Scan to download Who's at My Table?"
+    },
+    {
+      "id": "ch04-retirement-paycheck-map",
+      "path": "go/ch4",
+      "destination": "https://balancedfinancialinc.com/book-bonus#ch4",
+      "caption": "Scan to download My Retirement Paycheck Map"
+    },
+    {
+      "id": "ch05-social-security-decision",
+      "path": "go/ch5",
+      "destination": "https://balancedfinancialinc.com/book-bonus#ch5",
+      "caption": "Scan to download Our Social Security Decision"
+    },
+    {
+      "id": "ch07-care-plan",
+      "path": "go/ch7",
+      "destination": "https://balancedfinancialinc.com/book-bonus#ch7",
+      "caption": "Scan to download Our Care Plan"
+    },
+    {
+      "id": "ch10-legacy-checklist",
+      "path": "go/ch10",
+      "destination": "https://balancedfinancialinc.com/book-bonus#ch10",
+      "caption": "Scan to download My Legacy Document Checklist"
+    },
+    {
+      "id": "ch11-exit-plan",
+      "path": "go/ch11",
+      "destination": "https://balancedfinancialinc.com/book-bonus#ch11",
+      "caption": "Scan to download My Exit Plan"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "A Path to Run On",
+  "subtitle": "The PATH Plan for Turning Your Savings into a Retirement Paycheck, Planning Your Taxes, and Protecting Your Family",
+  "author": "Greg W. Anderson, RICP\u00ae",
+  "model": "C. Mechanism Field Guide",
+  "mechanism": "PATH Plan",
+  "villain": "the Three-Office Problem",
+  "compliance_line": "This book provides general educational information only. It is not individualized legal, tax, investment, insurance, or financial advice.",
+  "front_matter": "front-matter.md",
+  "back_matter": "back-matter.md",
+  "chapters": [
+    "00-introduction.md",
+    "01-built-to-grow-not-to-pay.md",
+    "02-three-offices-no-table.md",
+    "03-head-trash.md",
+    "04-paycheck.md",
+    "05-social-security-for-two.md",
+    "06-assets-the-first-years.md",
+    "07-long-term-care.md",
+    "08-the-tax-trap.md",
+    "09-your-return-is-the-map.md",
+    "10-one-year-and-one-day.md",
+    "11-tenants-toilets-and-the-business.md",
+    "12-walking-the-path.md",
+    "13-closing.md"
+  ],
+  "targets": {
+    "chapter": [
+      1800,
+      2400
+    ],
+    "intro": [
+      1500,
+      2500
+    ],
+    "closing": [
+      1500,
+      2500
+    ]
+  },
+  "_status": "Blueprint stage. Chapters are not drafted until Greg signs off blueprint.md. Title and mechanism are placeholders."
+}

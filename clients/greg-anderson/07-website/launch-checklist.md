@@ -25,7 +25,7 @@
 - [ ] Assets page: insurance guarantee wording approved
 - [ ] Credentials: years in practice (27 / 33 / since 1987); Downtown Club role current; no CEA/CSA until confirmed
 - [ ] Office hours (set to "Monday–Thursday, by appointment" to fit the three-day week; confirm)
-- [ ] Tax page facts are 2026 figures (F-013, F-014, F-024; Colorado estate tax F-0xx in the registry): re-check each January
+- [ ] Tax page facts are 2026 figures (F-013, F-014, F-024; Colorado estate tax F-040): re-check each January
 - [ ] Reviews/testimonials (Google, Paul and Rhonda video, ThreeBestRated) are **not** on this prototype; add only with Marketing Rule disclosures and consent
 - [ ] Compliance approval date: ______ · approved copy archived
 - [ ] Domain pointed · sitemap.xml submitted to Search Console · Google Business Profile matches name, address, phone
