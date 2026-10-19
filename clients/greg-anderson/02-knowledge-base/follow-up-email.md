@@ -6,8 +6,8 @@ Hi Greg,
 Thanks for doing the interview. You gave us great material ("tenants and toilets" is going to work hard for you). We've turned it into your **Knowledge Base**, the foundation for the estate funnel, the Tax Trap webinar, your website, and your book.
 
 **1. Ten quick questions.** Two or three sentences each is perfect, or send a voice memo.
-1. **Your numbers:** the interview says 33 years and three companies; the website says "over 27 years" and five businesses. Which should we use?
-2. **Compliance:** Who approves your marketing for Balanced Wealth Partners (CCO) and for the insurance side (FIG)? Are you also registered with a broker-dealer (the website shows a BrokerCheck badge)? Is your CSA designation current, and may we use it?
+1. **Your numbers:** the interview says 33 years and three companies; the website says "over 27 years" and five businesses; a ThreeBestRated listing says "since 1987." Which should we use?
+2. **Compliance:** Who approves your marketing for Balanced Wealth Partners (CCO) and for the insurance side (FIG)? Are you also registered with a broker-dealer (the website shows a BrokerCheck badge)? Is your CSA designation current, and may we use it? Who issues your CEA (Certified Estate Advisor)? We couldn't find it in FINRA's designation list, so we'll lead with your RICP until compliance confirms it.
 3. **Your own story:** Has planning (or the lack of it) ever hit your own family? Your parents, a relative, a friend? Who, what happened, and what it taught you.
 4. **Your process:** Walk us through your first two meetings with a new couple, step by step, in the order you do them.
 5. **A family that waited:** a client who came in too late, or put off the documents or the income plan, and paid for it (no names).

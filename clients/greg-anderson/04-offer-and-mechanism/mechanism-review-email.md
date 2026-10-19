@@ -14,7 +14,7 @@ Here's the most important piece of your marketing: the name and the steps of **y
 
 …and every year, we "walk the PATH" again.
 
-**The problem it solves** (what we'll say in ads and webinars): *"Most good savers don't have a plan, not because they didn't save enough, but because their money was built to grow, not to pay them, and their advisor, their CPA and their attorney have never sat at the same table."* You're the one office that puts all three at one table.
+**The problem it solves** (what we'll say in ads and webinars): *"Most good savers don't have a plan, not because they didn't save enough, but because their money was built to grow, not to pay them, and their advisor, their CPA and their attorney have never sat at the same table."* Your office puts all three at one table, and you own it.
 
 **The other two options:** *The Balanced Retirement Blueprint* (uses your firm name; "Retirement Blueprint" is already trademarked by another firm, so it's the riskiest) and *The One-Office Retirement Plan* (the clearest, but the least memorable).
 

@@ -11,7 +11,7 @@
   - **Fort Collins Tax Advisory Group, LLC**: tax preparation and tax advice
   - **Balanced Wealth Partners**: RIA (investments)
 - **Background:** Double major in construction and finance. Trained to be a commercial developer. Lifelong business owner who has "bought and sold several businesses." Long-time landlord.
-- **Years:** **[CONFLICT]** interview: 33 years in financial services · website: "over 27 years ago." **[CONFLICT]** interview: three companies · website team page: five businesses. Ask which is current.
+- **Years:** **[CONFLICT]** interview: 33 years in financial services · website: "over 27 years ago" · ThreeBestRated: "Since 1987" (F-101). **[CONFLICT]** interview: three companies · website team page: five businesses. Ask which is current.
 - **Registration:** Hybrid, insurance plus RIA **[INFERRED]**. **[MISSING]** his IAR registration, the RIA's registration, and who approves marketing. Wants to "run the business through FIG" (email, Sept 17).
 - **Focus:** Retirement income planning, backed by in-house tax and estate work. Also Roth conversions, Social Security, LTC, business exits, restricted stock, rental real estate.
 - **Clients today:** Mostly engineers and science/technical professionals, 60 to 68, with $1M–$4M in IRAs and 401(k)s, who want $200K–$300K a year of income. Typical household today: $500K–$2M. About **$26M in new money a year**.
@@ -20,7 +20,7 @@
 
 ## 2. Origin & Personal Story
 
-- **How he became an advisor:** He trained for commercial real estate development. At graduation "a new tax law" made construction and development "a ghost town," so he moved into the new field of financial planning **[VERIFY: which law and which year; the Tax Reform Act of 1986 fits, but 33 years ago is about 1993]**. He then earned several planning degrees and certifications (not all named).
+- **How he became an advisor:** He trained for commercial real estate development. At graduation "a new tax law" made construction and development "a ghost town," so he moved into the new field of financial planning **[Research: the Tax Reform Act of 1986 did dampen commercial real estate (F-092 to F-094); overbuilding was a co-cause, so tell "ghost town" as Greg's memory. Year he started is still open: 27, 33, or "since 1987" (F-101)]**. He then earned several planning degrees and certifications (not all named).
 - **The turning point:** Tax law changed his life before his career started. That is the root of a tax-forward practice **[INFERRED]**.
 - **The rule that defined him:** "No one could put a logo on my business card." He chose independence early, so he serves clients rather than a brand-name firm.
 - **The anchor story:** **[MISSING]** The brief has no personal or family planning story (his own parents, a family loss, a mistake he saw at home). The strongest substitute is the client story of the estate plan finished "one year and one day" before a sudden death (Story 2). **Ask Greg in Stage 02** for a personal story: who, the situation, what was missing, what it cost, and the lesson.
@@ -89,7 +89,7 @@
 > **Problem:** Brand-name firms want advisors to sell their products. **Insight:** A logo on the card means a loyalty that isn't to the client. **Action:** He decided early, "No one could put a logo on my business card." **Result:** An independent office that can recommend anything, including real estate and business strategies. · `[COMPLIANCE: "independent" must match his actual affiliations (FIG, carriers, RIA)]`
 
 > **Repositioned Before the 2022 Drop (Story 1)** · *Best used for:* webinar (Retirement Paycheck), book, ads (with care)
-> **Problem:** A high-tech engineering couple near retirement in 2021, with 30 years of savings still positioned for growth. **Insight:** The market helps in accumulation but can hurt in distribution; retirement income money "shouldn't sit fully at risk." **Action:** Moved a substantial portion into principal-protected instruments and built an income plan. **Result:** Months later the market fell about 22% in 2022; the clients were protected and grateful. · `[VERIFY: 22% figure and index]` `[COMPLIANCE: performance-adjacent story; "protected"/"principal-protected" wording; no implication of predicting the market; past results]` `[ANONYMIZE]`
+> **Problem:** A high-tech engineering couple near retirement in 2021, with 30 years of savings still positioned for growth. **Insight:** The market helps in accumulation but can hurt in distribution; retirement income money "shouldn't sit fully at risk." **Action:** Moved a substantial portion into principal-protected instruments and built an income plan. **Result:** Months later the market fell about 22% in 2022; the clients were protected and grateful. · `[CORRECTED by research: the S&P 500 fell 19.44% in calendar 2022 (F-062) and 25.4% peak to trough (F-063); use one of those, named]` `[COMPLIANCE: performance-adjacent story; "protected"/"principal-protected" wording; no implication of predicting the market; past results]` `[ANONYMIZE]`
 
 > **One Year and One Day (Story 2)** · *Best used for:* estate appointment funnel (lead story), webinar (Estate), book (Estate chapter), website
 > **Problem:** A couple rolling over two 401(k)s with no wills or trusts, and adult sons with special needs. **Insight:** A complex family with no documents was exposed if either spouse died suddenly. **Action:** Completed the rollovers plus living trusts and powers of attorney. **Result:** One year and one day later, the husband died suddenly of an aneurysm. His wife could carry on with everything already in order. · `[ANONYMIZE]` `[CONSENT: death, health, special-needs family members; get the wife's written permission or change identifying details]` **Strongest story.**
@@ -175,7 +175,7 @@
   2. Landlords ready to exit rentals (a repeatable process few advisors offer)
   3. Business owners planning a sale (the fastest route to $5M–$10M households)
 - **Top 3 differentiators:**
-  1. A three-company office: tax prep, estate documents and investments coordinated in one place (rare among independents)
+  1. A three-company office: tax prep, estate documents and investments coordinated in one place. Not unique in town (Mercer Advisors' Fort Collins office also bundles them; see `03-deep-research/competitor-scan.md`), so the edge is **owner-run, local, with his own CPA practice**, not "the only one"
   2. Real-estate and business-owner friendly, backed by his own experience as a landlord and owner
   3. RICP distribution-phase training plus 33 years across market cycles
 - **Strongest story:** One Year and One Day (Story 2), pending consent.
@@ -211,7 +211,8 @@
 - "Principal-protected," "protected," "guaranteed" income wording (annuities)
 - Story 1, which is performance-adjacent (no market-timing implication)
 - Testimonials and reviews: the Paul and Rhonda video and the use of Google reviews (SEC Marketing Rule for RIA advertising)
-- The CSA senior designation (state rules on senior designations)
+- The CSA senior designation (state rules on senior designations; accreditation is the issuer's claim only, F-100)
+- **CEA ("Certified Estate Advisor") is not in FINRA's designation database (F-099).** Hold it out of new marketing until compliance confirms the issuer. Lead with the RICP (verified, F-098).
 - "Free" wills and POAs: who prepares them, and the unauthorized-practice-of-law risk
 - "Family office" as a term (make sure it doesn't overstate the services)
 - No RIA disclosure on the current website (only an insurance disclosure); the site shows a FINRA BrokerCheck badge, so confirm whether Greg is also a registered representative of a broker-dealer (that changes the approver and the rules)
