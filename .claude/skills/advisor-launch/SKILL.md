@@ -21,4 +21,5 @@ Builds an advisor's marketing assets one stage at a time, from their interview t
 6. **Compliance pass:** for public-facing assets, check against `compliance/checklist.md` and list any flags at the end of the output file. Remind the user the advisor's compliance approver must sign off.
 7. **Brand:** every visual asset (website, funnel, slides, book cover and interior, worksheets) uses `02-knowledge-base/brand-kit.md` and `brand-palette.json`. Never pick new colors or fonts in a later stage. Create or update palettes with `python3 tools/brand_kit.py`.
 8. **Facts:** every number or factual claim in any asset must come from `03-deep-research/fact-registry.md` and cite its ID in drafts. Never state tax limits, exemptions, costs, or statistics from memory. For Stage 03, use web search and run the research modules in parallel with subagents, following `stages/03-deep-research/README.md` and `source-guide.md`.
-9. Finish by stating what was produced, what's open (`gaps.md`), and the next stage.
+9. **Mechanism:** after Stage 04, every asset uses the approved Unique Mechanism name, steps, and appointment offer from `04-offer-and-mechanism/`. Webinars teach a step, assessments score the steps, and the book follows the steps. Never rename or reorder them in a later stage.
+10. Finish by stating what was produced, what's open (`gaps.md`), and the next stage.
