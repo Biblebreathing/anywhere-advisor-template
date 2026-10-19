@@ -25,13 +25,33 @@ Please complete this before your interview. It takes 5–10 minutes. Short answe
 15. Which webinar(s) interest you most?
     ☐ Estate Planning ☐ Tax ☐ Retirement Paycheck ☐ Asset Protection ☐ Long-Term Care
 
-## Tools & brand
+## Tools
 16. Calendar booking link:
 17. CRM and email platform:
 18. Website and social media links:
-19. Do you have a logo, brand colors, and professional headshots? ☐ Yes ☐ No
-20. Are you comfortable recording short videos (for the book's QR codes and your website)? ☐ Yes ☐ Maybe ☐ No
+
+## Brand: logo, colors & headshot
+*We use these to set the colors and look of your website, funnel, webinar slides, and book cover. Please attach the files when you send this form.*
+
+19. **Logo.** Please attach every version you have (full color, white/reversed, horizontal, icon only).
+    - Best: a vector file (`.svg`, `.ai`, `.eps`, or `.pdf`)
+    - Otherwise: a high-resolution `.png` with a transparent background, at least 1000 pixels wide
+    - ☐ Attached  ☐ I don't have a logo yet (answer question 22)
+20. **Brand colors.** Do you have official colors or a brand guide? If so, list the codes (e.g., `#1F3A5F`) or attach the guide. ☐ Attached  ☐ Not sure, use my logo
+21. **Headshot.** Please attach 1–3 recent professional photos.
+    - High resolution (at least 2000 pixels on the long side), well lit, face clearly visible, plain or softly blurred background
+    - A relaxed "lifestyle" photo (with clients, at your desk, outdoors) is a bonus
+    - ☐ Attached  ☐ I need a new headshot (we'll send you a short photo guide)
+22. **No logo yet, or starting a new company?** Tell us:
+    - Company name (or the names you're considering):
+    - Three words for how you want your brand to feel (e.g., *trusted, warm, modern*):
+    - One or two brands, from any industry, whose look you like:
+    - Colors you love, and colors you want to avoid:
+    *We'll send you 2–3 color and font options to choose from.*
+
+## Video
+23. Are you comfortable recording short videos (for the book's QR codes and your website)? ☐ Yes ☐ Maybe ☐ No
 
 ## Guardrails
-21. Words or phrases you **never** want used in your marketing:
-22. Anyone (family, clients) who must **not** be named in your book or marketing:
+24. Words or phrases you **never** want used in your marketing:
+25. Anyone (family, clients) who must **not** be named in your book or marketing:

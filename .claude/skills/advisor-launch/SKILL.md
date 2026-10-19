@@ -19,4 +19,5 @@ Builds an advisor's marketing assets one stage at a time, from their interview t
 4. If a stage's README says **Not built yet**, tell the user that its template still needs designing and offer to design it with them before producing client output.
 5. **Write in the advisor's voice**, using their verbatim phrases from the profile and knowledge base. Never invent credentials, numbers, client stories, or testimonials. Use the flags `[INFERRED]`, `[VERIFY]`, `[ANONYMIZE]`, and `[COMPLIANCE]`, as defined in `stages/01-interview/interview-prompt.md`.
 6. **Compliance pass:** for public-facing assets, check against `compliance/checklist.md` and list any flags at the end of the output file. Remind the user the advisor's compliance approver must sign off.
-7. Finish by stating what was produced, what's open (`gaps.md`), and the next stage.
+7. **Brand:** every visual asset (website, funnel, slides, book cover and interior, worksheets) uses `02-knowledge-base/brand-kit.md` and `brand-palette.json`. Never pick new colors or fonts in a later stage. Create or update palettes with `python3 tools/brand_kit.py`.
+8. Finish by stating what was produced, what's open (`gaps.md`), and the next stage.
