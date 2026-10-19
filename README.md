@@ -20,7 +20,7 @@ Every asset points to one place: **a booked appointment on the advisor's calenda
 | `stages/` | The **master template**: instructions, question banks, and frameworks for each stage. Write these once, reuse them for every advisor. |
 | `clients/<advisor-slug>/` | **One folder per advisor.** Each stage writes its outputs into the matching subfolder. Copy `clients/_example/` to start a new advisor. |
 | `compliance/` | Review checklist that every public-facing asset must pass. |
-| `tools/` | Helper scripts. `brand_kit.py` builds color palettes from a logo (or offers preset options for new firms) and checks color contrast. `mechanism_diagram.py` draws the Unique Mechanism as a branded diagram. `build_assessment.py` turns an assessment config into a finished, branded scorecard page. |
+| `tools/` | Helper scripts. `brand_kit.py` builds color palettes from a logo (or offers preset options for new firms) and checks color contrast. `mechanism_diagram.py` draws the Unique Mechanism as a branded diagram. `build_assessment.py` turns an assessment config into a finished, branded scorecard page. `build_deck.py` turns a webinar script file into a branded PowerPoint with the speaker script in the notes. |
 | `.claude/skills/advisor-launch/` | The Claude skill that runs the pipeline for a client, one stage at a time. |
 
 ## Stages
@@ -32,8 +32,8 @@ Every asset points to one place: **a booked appointment on the advisor's calenda
 | 03 | Deep Research (Core always; Extended optional) | ✅ Built |
 | 04 | Offer, Unique Mechanism + Client Journey | ✅ Built |
 | 05 | Assessments (working scorecard engine) | ✅ Built |
-| 06 | Webinars (5 tracks) | ⏳ Next |
-| 07 | Website | ⏳ |
+| 06 | Webinars: framework + 5 track templates + deck builder | ✅ Built |
+| 07 | Website | ⏳ Next |
 | 08 | Funnel + Upsells | ⏳ |
 | 09 | Book (manuscript, worksheets, QR codes) | ⏳ |
 | 10 | Book Website + Funnel | ⏳ |
