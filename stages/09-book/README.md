@@ -2,6 +2,8 @@
 
 **Purpose:** Write the advisor's book: the authority asset that pre-sells the mechanism, gets passed between friends and family, and brings readers back to the calendar through a tracked QR code in every chapter. Built on **Quill**, Terrence McMahon's One Hour Book / 24-Hour Publishing method, in a **pipeline edition** that reuses everything Stages 01–08 already produced.
 
+- **`quill-custom-instructions-pipeline-edition.md`**: paste-ready Quill Project instructions (v2), for running the book in Claude chat instead of the repo.
+
 ## Read first
 | File | What it is |
 |---|---|
