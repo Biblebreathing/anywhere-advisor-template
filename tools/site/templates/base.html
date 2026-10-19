@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_description }}">
+{% if s.domain %}<link rel="canonical" href="https://{{ s.domain }}/{{ path }}">{% endif %}
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_description }}">
+{% if s.advisor.photo %}<meta property="og:image" content="{{ s.advisor.photo }}">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="{{ fonts_url }}">
+<link rel="stylesheet" href="{{ root }}style.css">
+<script type="application/ld+json">{{ schema | safe }}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="{{ root }}index.html">{% if s.logo %}<img src="{{ root }}{{ s.logo }}" alt="{{ s.firm }}">{% else %}{{ s.firm }}{% endif %}</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+    <nav id="nav" aria-label="Main">
+      {% for item in nav %}<a href="{{ root }}{{ item.href }}"{% if item.href == path %} aria-current="page"{% endif %}>{{ item.label }}</a>{% endfor %}
+      {% if s.advisor.phone %}<a class="phone" href="tel:{{ s.advisor.phone | replace(' ', '') | replace('(', '') | replace(')', '') | replace('-', '') }}">{{ s.advisor.phone }}</a>{% endif %}
+      <a class="btn small" href="{{ s.appointment.url }}">{{ s.appointment.button_short or "Book a Session" }}</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap cols">
+    <div>
+      <p class="f-firm">{{ s.firm }}</p>
+      {% if s.advisor.address %}<p>{{ s.advisor.address.street }}<br>{{ s.advisor.address.city }}, {{ s.advisor.address.state }} {{ s.advisor.address.zip }}</p>{% endif %}
+      {% if s.advisor.phone %}<p><a href="tel:{{ s.advisor.phone }}">{{ s.advisor.phone }}</a></p>{% endif %}
+      {% if s.advisor.email %}<p><a href="mailto:{{ s.advisor.email }}">{{ s.advisor.email }}</a></p>{% endif %}
+    </div>
+    <div>
+      <p class="f-head">Explore</p>
+      {% for item in nav %}<p><a href="{{ root }}{{ item.href }}">{{ item.label }}</a></p>{% endfor %}
+    </div>
+    <div>
+      <p class="f-head">Important information</p>
+      {% for l in s.legal_links %}<p><a href="{{ l.url if l.url.startswith('http') else root ~ l.url }}">{{ l.label }}</a></p>{% endfor %}
+      <p><a href="{{ root }}privacy.html">Privacy Policy</a></p>
+    </div>
+  </div>
+  <div class="wrap disclosure"><p>{{ s.disclosure }}</p><p>© {{ year }} {{ s.firm }}</p></div>
+</footer>
+</body>
+</html>

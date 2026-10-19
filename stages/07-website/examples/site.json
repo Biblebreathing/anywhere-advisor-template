@@ -1,0 +1,137 @@
+{
+  "_note": "FICTIONAL EXAMPLE. Firm, advisor, links, and copy are made up to show the format. Replace every field from the client's Stage 01-06 files.",
+  "site": {
+    "domain": "ellisretirement.example",
+    "firm": "Ellis Retirement Partners",
+    "tagline": "Retirement Income Planning in Columbus, Ohio",
+    "logo": "",
+    "advisor": {
+      "name": "Jordan Ellis", "title": "Retirement Income Planner",
+      "photo": "assets/headshot-placeholder.jpg",
+      "phone": "(555) 555-0123", "email": "hello@ellisretirement.example",
+      "address": {"street": "100 Main Street, Suite 200", "city": "Columbus", "state": "OH", "zip": "43215"},
+      "hours": "Monday–Friday, 9am–5pm"
+    },
+    "mechanism": {
+      "name": "The Retirement Paycheck Blueprint",
+      "diagram": "assets/mechanism-row.svg",
+      "steps": [
+        {"name": "Income Map", "text": "See exactly where your monthly paycheck will come from.", "deliverable": "Retirement Paycheck Map", "detail": "We list what you'll spend, what's coming in from Social Security and any pension, and the gap your savings need to fill, on one page."},
+        {"name": "Tax Plan", "text": "Plan when and how to draw from each account.", "deliverable": "Tax Timeline", "detail": "A year-by-year view of how withdrawals, required distributions, and Social Security interact, coordinated with your CPA."},
+        {"name": "Protection Plan", "text": "Prepare for market drops, long-term care, and the loss of a spouse.", "deliverable": "Risk Checklist", "detail": "We review the big risks to your income and which ones are already covered."},
+        {"name": "Legacy Plan", "text": "Make sure what you leave goes where you want.", "deliverable": "Family Legacy Summary", "detail": "Beneficiaries, titling, and documents reviewed, with your estate attorney for anything legal."},
+        {"name": "Annual Review", "text": "Keep the plan working as life and laws change.", "deliverable": "Annual Review Agenda", "detail": "Each year we walk the Blueprint again and update what's changed."}
+      ]
+    },
+    "appointment": {
+      "name": "Retirement Paycheck Blueprint Session",
+      "headline": "Find out if your retirement paycheck will last.",
+      "text": "In a complimentary 45-minute Blueprint Session, Jordan will walk through your situation with you, step by step.",
+      "deliverable": "Your one-page Retirement Paycheck Map: your income, your gap, and your options. It's yours to keep.",
+      "button": "Reserve My Blueprint Session",
+      "button_short": "Book a Session",
+      "scarcity": "Jordan holds a limited number of Blueprint Sessions each month. No cost, no obligation.",
+      "url": "https://calendly.com/example/blueprint-session"
+    },
+    "assessment": {"title": "What's your Retirement Paycheck Score?", "text": "Answer a few quick questions and see where you stand on all five steps.", "button": "Get my free score", "url": "https://score.ellisretirement.example"},
+    "webinar": {"title": "Free online class", "text": "Will your retirement paycheck last as long as you do? Join Jordan's free class."},
+    "book": {"title": "The Paycheck Gap", "text": "Jordan's book on turning savings into a dependable retirement income."},
+    "legal_links": [
+      {"label": "Important Disclosures", "url": "disclosures.html"},
+      {"label": "Form CRS", "url": "https://example.com/form-crs.pdf"},
+      {"label": "Check the background of this financial professional on FINRA's BrokerCheck", "url": "https://brokercheck.finra.org/"}
+    ],
+    "disclosure": "Ellis Retirement Partners is a fictional firm used for demonstration. [Replace with the advisor's full registration, affiliation, and insurance disclosures as approved by their compliance department.] Content is educational and is not tax, legal, or investment advice."
+  },
+  "seo": {
+    "home_title": "Retirement Income Planning in Columbus, OH | Ellis Retirement Partners",
+    "description": "Jordan Ellis helps Columbus-area families turn their savings into a dependable retirement paycheck using the Retirement Paycheck Blueprint.",
+    "area_served": "Columbus, Ohio"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Retirement income planning · Columbus, Ohio",
+      "headline": "A dependable retirement paycheck, not just a savings number.",
+      "subhead": "Using the Retirement Paycheck Blueprint, we help you turn what you've saved into monthly income you can plan around, so you're not guessing whether the money will last."
+    },
+    "problem": {
+      "headline": "Does this sound familiar?",
+      "bullets": ["You've saved, but you're not sure how much you can safely spend", "You check your balance more often than you'd like to admit", "You haven't decided when to take Social Security", "A market drop makes you want to stop spending"],
+      "not_your_fault": "It's not your fault. Most people were taught to save a number. Almost nobody was taught to turn it into a paycheck."
+    },
+    "mechanism_intro": "Five steps. The same process for every family we serve, so nothing important gets missed.",
+    "proof": [{"value": "[X] years", "label": "helping families plan for retirement"}, {"value": "[Credential]", "label": "[designation, if any]"}, {"value": "Author", "label": "of The Paycheck Gap"}],
+    "guide_text": "Jordan started this practice after watching [origin story from the Knowledge Base, two sentences, in the advisor's words].",
+    "faq": [
+      {"q": "Is the Blueprint Session really free?", "a": "Yes. There's no cost and no obligation, and you keep your Retirement Paycheck Map either way."},
+      {"q": "Is this a sales pitch?", "a": "No. The session is about understanding your situation. If we can help, we'll explain how; if not, we'll tell you."},
+      {"q": "Who do you work with?", "a": "Mostly people within ten years of retirement, or recently retired, who want a clear income plan."},
+      {"q": "What should I bring?", "a": "Your most recent account statements and a Social Security estimate if you have one. We'll send a short checklist."}
+    ]
+  },
+  "about": {
+    "headline": "Why I do this work",
+    "lead": "[One sentence from the Knowledge Base on why the advisor became an advisor.]",
+    "story": ["[Origin story paragraph 1, from Knowledge Base section 2, in the advisor's voice.]", "[Paragraph 2: the turning point.]", "[Paragraph 3: what it taught them about how families should plan.]"],
+    "calling": "[The 'This Is My Calling' line from the webinar.]",
+    "different": ["[Differentiator 1 with evidence, from Knowledge Base section 11]", "[Differentiator 2]", "[Differentiator 3]"],
+    "credentials": ["[License / designation]", "[Years in practice]", "[Professional memberships]"]
+  },
+  "how": {
+    "headline": "The Retirement Paycheck Blueprint",
+    "lead": "A clear, five-step process that turns your savings into a retirement paycheck, and keeps it working.",
+    "meetings": [
+      {"name": "1. Blueprint Session (45 minutes)", "text": "We learn what matters to you and build your Retirement Paycheck Map together."},
+      {"name": "2. Plan Meeting", "text": "We walk through your plan, step by step, with clear recommendations and every cost explained."},
+      {"name": "3. Getting Started", "text": "If you decide to move forward, we handle the paperwork and coordinate with your CPA and attorney."}
+    ],
+    "faq": [{"q": "How long does the process take?", "a": "Most families go from the first session to a finished plan in two to four weeks."}]
+  },
+  "planning": [
+    {
+      "slug": "retirement-income", "title": "Retirement Income Planning",
+      "card_title": "Retirement Paycheck", "card_text": "Turn your savings into a dependable monthly income.",
+      "seo_title": "Retirement Income Planning in Columbus, OH",
+      "h1": "Retirement Income Planning in Columbus, Ohio",
+      "lead": "You don't need a bigger number. You need a paycheck plan.",
+      "webinar_url": "../webinars.html",
+      "belief": ["Most people approach retirement asking, \"Have we saved enough?\" It's a reasonable question, but it's the wrong one.", "The question that matters is, \"Where will our paycheck come from every month, for as long as we live?\""],
+      "familiar": ["You don't know how much you can withdraw each year", "You're unsure when to claim Social Security", "You've never seen your retirement income on one page"],
+      "ideas": [
+        {"title": "Your paycheck, not your pile", "text": "Start with your monthly needs and the income you can count on. The gap is what your savings must cover."},
+        {"title": "The three paycheck risks", "text": "Market drops early in retirement, living longer than planned, and rising costs can all shrink your income."},
+        {"title": "Building a paycheck that lasts", "text": "Cover essentials with dependable income, make a deliberate Social Security decision, and plan withdrawals for the rest."}
+      ],
+      "how": "Step 1 of the Blueprint, your Income Map, puts your whole retirement paycheck on one page.",
+      "faq": [{"q": "When should I take Social Security?", "a": "It depends on your health, your spouse, and your other income. We'll look at your options in your Blueprint Session."}]
+    },
+    {
+      "slug": "estate-planning", "title": "Estate Planning",
+      "card_title": "Legacy & Estate", "card_text": "Make sure what you leave goes where you want, without court delays.",
+      "seo_title": "Estate Planning Help in Columbus, OH",
+      "h1": "Estate Planning Coordination in Columbus, Ohio",
+      "lead": "A plan isn't about how much you have. It's about who decides when you can't.",
+      "belief": ["Many families believe a will means everything is handled.", "But a will doesn't keep your family out of probate court, and it doesn't cover what happens if you can't make decisions."],
+      "familiar": ["Your will was signed years ago", "You're not sure who your beneficiaries are", "You have a trust but aren't sure it's set up correctly"],
+      "ideas": [
+        {"title": "A will doesn't keep you out of probate court", "text": "Some assets pass by beneficiary designation or title; others go through the court."},
+        {"title": "Incapacity is the part most people miss", "text": "Powers of attorney and health care directives let the right people make decisions."},
+        {"title": "A plan nobody maintains is a plan that fails", "text": "Beneficiaries, titling, and documents need to stay current as life changes."}
+      ],
+      "how": "Step 4 of the Blueprint, your Legacy Plan, reviews what you have and coordinates with your estate attorney.",
+      "note": "We are not attorneys and do not provide legal advice. Legal documents are prepared by a licensed attorney.",
+      "faq": [{"q": "Do you write wills and trusts?", "a": "No. We coordinate with licensed estate planning attorneys, who prepare all legal documents."}]
+    }
+  ],
+  "webinars": {
+    "headline": "Free classes for people planning retirement",
+    "lead": "Learn the Blueprint, step by step, from home.",
+    "events": [
+      {"when": "Every Tuesday · 11:00am ET · Online", "title": "Will Your Retirement Paycheck Last as Long as You Do?", "promises": ["Why saving a big number isn't the same as having a paycheck", "The three risks that can shrink your income", "How to map your own monthly paycheck"], "url": "https://example.com/register", "button": "Save My Seat"}
+    ],
+    "note": "Classes are educational. Insurance and investment products may be discussed."
+  },
+  "contact": {"headline": "Let's talk about your retirement paycheck", "lead": "Book a Blueprint Session online, or call the office.", "note": "Please don't send account numbers or personal financial details by email."},
+  "privacy": [],
+  "disclosures": []
+}

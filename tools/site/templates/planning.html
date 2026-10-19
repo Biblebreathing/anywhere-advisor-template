@@ -1,0 +1,15 @@
+{% extends "base.html" %}{% from "_macros.html" import cta_band, faq %}
+{% block content %}
+<section class="page-hero"><div class="wrap narrow"><p class="eyebrow">{{ p.eyebrow or "Planning" }}</p><h1>{{ p.h1 }}</h1><p class="lead">{{ p.lead }}</p>
+<div class="actions"><a class="btn" href="{{ s.appointment.url }}">{{ s.appointment.button }}</a>{% if p.webinar_url %}<a class="link" href="{{ p.webinar_url }}">or join the free class →</a>{% endif %}</div></div></section>
+<section><div class="wrap narrow prose">
+  {% for para in p.belief %}<p>{{ para }}</p>{% endfor %}
+  {% if p.familiar %}<h2>Does this sound familiar?</h2><ul class="checks">{% for b in p.familiar %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
+  {% if p.ideas %}<h2>{{ p.ideas_headline or "What every family should know" }}</h2>
+  {% for i in p.ideas %}<h3>{{ loop.index }}. {{ i.title }}</h3><p>{{ i.text }}</p>{% endfor %}{% endif %}
+  {% if p.how %}<h2>How we help</h2><p>{{ p.how }}</p>{% endif %}
+  {% if p.note %}<p class="small note">{{ p.note }}</p>{% endif %}
+</div></section>
+{{ faq(p.faq) }}
+{{ cta_band(s) }}
+{% endblock %}

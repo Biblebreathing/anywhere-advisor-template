@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% from "_macros.html" import cta_band, faq %}
+{% block content %}{% set hw = c.how %}
+<section class="page-hero"><div class="wrap narrow center"><p class="eyebrow">How we work</p><h1>{{ hw.headline }}</h1><p class="lead">{{ hw.lead }}</p></div></section>
+<section class="mechanism"><div class="wrap">
+  {% if s.mechanism.diagram %}<img class="diagram" src="{{ root }}{{ s.mechanism.diagram }}" alt="{{ s.mechanism.name }} diagram">{% endif %}
+  <ol class="steps detailed">{% for st in s.mechanism.steps %}<li><h3>{{ st.name }}</h3><p>{{ st.detail or st.text }}</p>{% if st.deliverable %}<p class="small"><strong>You receive:</strong> {{ st.deliverable }}</p>{% endif %}</li>{% endfor %}</ol>
+</div></section>
+{% if hw.meetings %}<section class="problem"><div class="wrap narrow"><h2>What working together looks like</h2>
+<ol class="timeline">{% for m in hw.meetings %}<li><h3>{{ m.name }}</h3><p>{{ m.text }}</p></li>{% endfor %}</ol></div></section>{% endif %}
+{{ faq(hw.faq) }}
+{{ cta_band(s) }}
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}{% from "_macros.html" import cta_band %}
+{% block content %}{% set a = c.about %}
+<section class="page-hero"><div class="wrap guide-grid">
+  {% if s.advisor.photo %}<img src="{{ root }}{{ s.advisor.photo }}" alt="{{ s.advisor.name }}">{% endif %}
+  <div><p class="eyebrow">About</p><h1>{{ a.headline }}</h1><p class="lead">{{ a.lead }}</p></div>
+</div></section>
+<section><div class="wrap narrow prose">
+  {% for para in a.story %}<p>{{ para }}</p>{% endfor %}
+  {% if a.calling %}<blockquote>{{ a.calling }}</blockquote>{% endif %}
+  {% if a.different %}<h2>What makes this practice different</h2><ul class="checks">{% for d in a.different %}<li>{{ d }}</li>{% endfor %}</ul>{% endif %}
+  {% if a.credentials %}<h2>Credentials</h2><ul>{% for cr in a.credentials %}<li>{{ cr }}</li>{% endfor %}</ul>{% endif %}
+</div></section>
+{{ cta_band(s) }}
+{% endblock %}

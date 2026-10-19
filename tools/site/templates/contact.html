@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}{% set ct = c.contact %}
+<section class="page-hero"><div class="wrap narrow center"><p class="eyebrow">Contact</p><h1>{{ ct.headline }}</h1><p class="lead">{{ ct.lead }}</p></div></section>
+<section><div class="wrap grid2">
+  <div class="card"><h2>{{ s.appointment.name }}</h2><p>{{ s.appointment.text }}</p>{% if s.appointment.deliverable %}<p class="deliver"><strong>You'll walk away with:</strong> {{ s.appointment.deliverable }}</p>{% endif %}<a class="btn big" href="{{ s.appointment.url }}">{{ s.appointment.button }}</a></div>
+  <div class="card"><h2>Reach the office</h2>
+    {% if s.advisor.phone %}<p><strong>Phone:</strong> <a href="tel:{{ s.advisor.phone }}">{{ s.advisor.phone }}</a></p>{% endif %}
+    {% if s.advisor.email %}<p><strong>Email:</strong> <a href="mailto:{{ s.advisor.email }}">{{ s.advisor.email }}</a></p>{% endif %}
+    {% if s.advisor.address %}<p><strong>Office:</strong> {{ s.advisor.address.street }}, {{ s.advisor.address.city }}, {{ s.advisor.address.state }} {{ s.advisor.address.zip }}</p>{% endif %}
+    {% if s.advisor.hours %}<p><strong>Hours:</strong> {{ s.advisor.hours }}</p>{% endif %}
+    {% if ct.note %}<p class="small">{{ ct.note }}</p>{% endif %}
+  </div>
+</div></section>
+{% endblock %}

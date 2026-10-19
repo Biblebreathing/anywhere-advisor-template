@@ -1,0 +1,21 @@
+{% macro cta_band(s, headline, text) %}
+<section class="cta-band"><div class="wrap narrow center">
+  <h2>{{ headline or s.appointment.headline }}</h2>
+  <p>{{ text or s.appointment.text }}</p>
+  {% if s.appointment.deliverable %}<p class="deliver"><strong>You'll walk away with:</strong> {{ s.appointment.deliverable }}</p>{% endif %}
+  <a class="btn big accent" href="{{ s.appointment.url }}">{{ s.appointment.button }}</a>
+  {% if s.appointment.scarcity %}<p class="small">{{ s.appointment.scarcity }}</p>{% endif %}
+  {% if s.advisor.phone %}<p class="small">Prefer to talk? Call <a href="tel:{{ s.advisor.phone }}">{{ s.advisor.phone }}</a></p>{% endif %}
+</div></section>
+{% endmacro %}
+{% macro faq(items) %}{% if items %}
+<section class="faq"><div class="wrap narrow"><h2>Questions people ask</h2>
+{% for f in items %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}
+</div></section>{% endif %}{% endmacro %}
+{% macro learn_first(s, c, root) %}
+<section class="learn"><div class="wrap"><h2>Not ready to talk yet? Start here.</h2><div class="grid3">
+  {% if s.assessment %}<div class="card"><h3>{{ s.assessment.title }}</h3><p>{{ s.assessment.text }}</p><a class="link" href="{{ s.assessment.url }}">{{ s.assessment.button or "Take the free assessment" }} →</a></div>{% endif %}
+  {% if s.webinar and c.webinars %}<div class="card"><h3>{{ s.webinar.title }}</h3><p>{{ s.webinar.text }}</p><a class="link" href="{{ root }}webinars.html">See upcoming classes →</a></div>{% endif %}
+  {% if s.book and (c.book_page or s.book.url) %}<div class="card"><h3>{{ s.book.title }}</h3><p>{{ s.book.text }}</p><a class="link" href="{{ s.book.url if s.book.url else root ~ 'book.html' }}">Get the book →</a></div>{% endif %}
+</div></div></section>
+{% endmacro %}

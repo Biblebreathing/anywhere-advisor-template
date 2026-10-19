@@ -1,0 +1,43 @@
+{% extends "base.html" %}{% from "_macros.html" import cta_band, faq, learn_first %}
+{% block content %}{% set h = c.home %}
+<section class="hero"><div class="wrap hero-grid">
+  <div>
+    {% if h.hero.eyebrow %}<p class="eyebrow">{{ h.hero.eyebrow }}</p>{% endif %}
+    <h1>{{ h.hero.headline }}</h1>
+    <p class="lead">{{ h.hero.subhead }}</p>
+    <div class="actions"><a class="btn big" href="{{ s.appointment.url }}">{{ s.appointment.button }}</a>
+    {% if s.assessment %}<a class="link" href="{{ s.assessment.url }}">or {{ (s.assessment.button or "Take the free assessment") | lower }} →</a>{% endif %}</div>
+  </div>
+  {% if s.advisor.photo %}<img class="hero-photo" src="{{ root }}{{ s.advisor.photo }}" alt="{{ s.advisor.name }}, {{ s.advisor.title }}">{% endif %}
+</div></section>
+
+<section class="problem"><div class="wrap narrow">
+  <h2>{{ h.problem.headline }}</h2>
+  <ul class="checks">{% for b in h.problem.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+  <p class="callout">{{ h.problem.not_your_fault }}</p>
+</div></section>
+
+<section class="mechanism"><div class="wrap">
+  <h2 class="center">{{ s.mechanism.name }}</h2>
+  <p class="center lead narrow">{{ h.mechanism_intro }}</p>
+  <ol class="steps">{% for st in s.mechanism.steps %}<li><h3>{{ st.name }}</h3><p>{{ st.text }}</p>{% if st.deliverable %}<p class="small"><strong>You receive:</strong> {{ st.deliverable }}</p>{% endif %}</li>{% endfor %}</ol>
+  <p class="center"><a class="btn secondary" href="{{ root }}how-we-work.html">See how we work</a></p>
+</div></section>
+
+{% if c.planning %}<section class="tracks"><div class="wrap"><h2 class="center">How we can help</h2><div class="grid3">
+{% for p in c.planning %}<a class="card link-card" href="{{ root }}planning/{{ p.slug }}.html"><h3>{{ p.card_title or p.title }}</h3><p>{{ p.card_text }}</p><span class="link">Learn more →</span></a>{% endfor %}
+</div></div></section>{% endif %}
+
+{% if h.proof %}<section class="proof"><div class="wrap">
+  <div class="grid3">{% for p in h.proof %}<div class="stat"><span class="big">{{ p.value }}</span><span>{{ p.label }}</span></div>{% endfor %}</div>
+</div></section>{% endif %}
+
+<section class="guide"><div class="wrap guide-grid">
+  {% if s.advisor.photo2 or s.advisor.photo %}<img src="{{ root }}{{ s.advisor.photo2 or s.advisor.photo }}" alt="{{ s.advisor.name }}">{% endif %}
+  <div><p class="eyebrow">Meet your guide</p><h2>{{ s.advisor.name }}</h2><p>{{ h.guide_text }}</p><a class="link" href="{{ root }}about.html">Read {{ s.advisor.first_name or "my" }}'s story →</a></div>
+</div></section>
+
+{{ learn_first(s, c, root) }}
+{{ faq(h.faq) }}
+{{ cta_band(s) }}
+{% endblock %}

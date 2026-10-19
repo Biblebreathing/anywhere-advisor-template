@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% from "_macros.html" import cta_band %}
+{% block content %}{% set w = c.webinars %}
+<section class="page-hero"><div class="wrap narrow center"><p class="eyebrow">Free classes</p><h1>{{ w.headline }}</h1><p class="lead">{{ w.lead }}</p></div></section>
+<section><div class="wrap"><div class="grid2">
+{% for e in w.events %}<div class="card"><p class="eyebrow">{{ e.when }}</p><h2>{{ e.title }}</h2><ul class="checks">{% for b in e.promises %}<li>{{ b }}</li>{% endfor %}</ul><a class="btn" href="{{ e.url }}">{{ e.button or "Save My Seat" }}</a></div>{% endfor %}
+</div>{% if w.note %}<p class="small center">{{ w.note }}</p>{% endif %}</div></section>
+{{ cta_band(s) }}
+{% endblock %}

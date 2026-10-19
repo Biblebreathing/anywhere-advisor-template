@@ -78,7 +78,7 @@ Earn attention by naming *their* situation, not the advisor's résumé.
 |---|---|---|---|---|
 | 1 | title | **Title + Big Promise** | The webinar title as a promise; advisor name and photo. Warm welcome while people arrive. | Bk S1 |
 | 2 | bullets | **You're in the right place if…** | 4–5 call-outs in the audience's words, plus 1 "not for" line | Bk S2 |
-| 3 | bullets | **Housekeeping** | Length, replay policy, chat, the workbook, the compliance line said plainly, and a hint that there's an invitation at the end | Bk S4, P03 |
+| 3 | bullets | **Housekeeping** | Length, replay policy, chat, the workbook, the compliance line said plainly, and **name the appointment now** ("at the end I'll tell you about my [Named Appointment]"). Many viewers leave by minute 25 (§9). | Bk S4, P03 |
 | 4–5 | story | **The personal stake** | The advisor's own story (Knowledge Base anchor story). The real opening. | P03 |
 | 6 | statement | **The turn** | The one line the hour pivots on. Large type, almost no words. | P03 |
 | 7 | bullets | **Credentials, after the story** | Only usable credentials. "I share this not to impress you, but to impress upon you that I've sat where you're sitting." Name honest gaps. | Bk S10, P03 |
@@ -181,3 +181,22 @@ Score 1–10 on: **(1) clarity of the Through Line, (2) value that stands alone,
 3. **Angle:** every Act 2 slide names its angle.
 4. **Value:** if nobody booked, was the hour still worth it?
 5. **Voice:** same person as the Knowledge Base voice samples, or a marketer?
+
+---
+
+## 9. What the research changes (from `webinar-research.md`; R# = row in its fact table)
+
+| Finding | Rule for every advisor webinar |
+|---|---|
+| The average live viewer watches about **26–29 minutes** of a webinar, even though 60 minutes has the highest total attendance (R19, and Livestorm/Goldcast rows) | Keep the 60-minute script, but **front-load it:** name the appointment in Housekeeping (slide 3), make booking callout 1 **by minute 15**, and **pin the booking link in the chat from minute 20** onward. Someone who leaves at minute 25 should already have seen the invitation. |
+| Roughly **half of registrants attend live** (R1, R5–R8) | Plan **2 registrants per live seat** (goal math in Stage 04). |
+| About **half of registrations arrive in the final week**, and 15–17% on the day (R25–R26) | Keep promotion running through the day of the event; allow same-day registration. |
+| A reminder **within 24 hours** outperformed a 1-hour-only reminder (R29, method undisclosed); SMS raised appointment attendance in healthcare trials (R30) | Reminders: 24 hours, 1 hour, and "we're live," plus **SMS for registrants who opted in** (Stage 08). |
+| **On-demand viewing is 24–45%** of total viewing on most platforms (R33–R35) | Treat the replay as a second webinar with the **same booking call to action**; send it to no-shows. |
+| Smaller rooms converted better; the best results came at **50–100 attendees** (R3 dated, R40) | Don't chase huge rooms. Weekly, local, 50–100 people is the sweet spot. |
+| Frequent check-ins **halved mind-wandering** in a lab study (R44); polls were linked to higher completion (R41) | Chat prompt or poll every 5–7 minutes (already in §3 and §5). |
+| Financial-services webinars average about **15 questions**, and most attendees expect live Q&A (R10, R41) | Keep 5 seeded questions plus **pre-approved chat answers**. |
+| General data favors **Tue–Thu, late morning**; the only finance-specific data favors **Monday 6–9 PM** (R13–R17) | **Test two slots:** a mid-week late morning (retirees) and a weekday evening (working pre-retirees). Keep the one that books more appointments. |
+| Many 65+ adults have lower tech readiness (R51, R54–R55) | Offer a **phone dial-in** and a one-page "how to join" guide; open the room 10 minutes early. |
+| There's **no independent advisor benchmark** for webinar-to-appointment rates (R49) | Track the advisor's own registrant → attendee → booked → kept numbers from webinar 1, and replace the Stage 04 assumptions within 60–90 days. |
+| Regulators treat scripts, slides, handouts, replays, and chat as **communications/advertising**; the 2007 "free lunch" sweep found every seminar was a sales pitch (R57–R64) | Label it honestly as **"an educational session that includes an invitation to meet,"** get approval for every piece (including chat answers and the replay), and make recommendations only in a one-on-one meeting. |

@@ -1,0 +1,10 @@
+{% extends "base.html" %}{% from "_macros.html" import cta_band %}
+{% block content %}{% set b = c.book_page %}
+<section class="page-hero"><div class="wrap guide-grid">
+  {% if b.cover %}<img src="{{ root }}{{ b.cover }}" alt="Cover of {{ b.title }}">{% endif %}
+  <div><p class="eyebrow">The book</p><h1>{{ b.title }}</h1><p class="lead">{{ b.subtitle }}</p>
+  <ul class="checks">{% for x in b.bullets %}<li>{{ x }}</li>{% endfor %}</ul>
+  <a class="btn big" href="{{ b.url }}">{{ b.button or "Get the Book" }}</a></div>
+</div></section>
+{{ cta_band(s) }}
+{% endblock %}
